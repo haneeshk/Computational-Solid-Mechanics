@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     58831,       1500]
-NotebookOptionsPosition[     38837,       1066]
-NotebookOutlinePosition[     57121,       1479]
-CellTagsIndexPosition[     57078,       1476]
+NotebookDataLength[     58386,       1486]
+NotebookOptionsPosition[     38245,       1050]
+NotebookOutlinePosition[     56529,       1463]
+CellTagsIndexPosition[     56486,       1460]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -27,35 +27,27 @@ Cell[TextData[StyleBox["Elastica solution",
 
 Cell[CellGroupData[{
 
-Cell["Initialization", "Text",
+Cell["Clearing Definitions", "Text",
  Editable->True,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  FontSize->18,
  FontWeight->"Regular",ExpressionUUID->"6bfff38c-a572-440d-a93c-e8db99d3ed72"],
 
 Cell[BoxData[
- RowBox[{"\[IndentingNewLine]", 
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", 
   RowBox[{
-   RowBox[{
-    RowBox[{"Quiet", "@", 
-     RowBox[{"Unprotect", "[", "\"\<Notation`*\>\"", "]"}]}], ";"}], 
-   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{
      RowBox[{
       RowBox[{"Quiet", "[", 
        RowBox[{"ClearAll", "[", "#", "]"}], " ", "]"}], "&"}], " ", "/@", " ", 
-     RowBox[{"{", 
-      RowBox[{"\"\<Global`*\>\"", ",", "\"\<Notation`*\>\""}], "}"}]}], ";"}],
-    "\[IndentingNewLine]", 
+     RowBox[{"{", "\"\<Global`*\>\"", "}"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{
      RowBox[{
       RowBox[{"Quiet", "[", 
        RowBox[{"Remove", "[", "#", "]"}], " ", "]"}], "&"}], " ", "/@", " ", 
-     RowBox[{"{", 
-      RowBox[{"\"\<Global`*\>\"", ",", " ", "\"\<Notation`*\>\""}], "}"}]}], 
-    ";"}], "\[IndentingNewLine]", 
+     RowBox[{"{", "\"\<Global`*\>\"", "}"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{"<<", "MaTeX`"}], "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{"<<", "Notation`"}], "*)"}]}]}]], "Input",
@@ -64,6 +56,22 @@ Cell[BoxData[
  FontFamily->"Source Sans Pro",
  FontSize->18,
  FontWeight->"Regular",ExpressionUUID->"252dcb2d-61f8-4f65-b4e0-14cef6010747"],
+
+Cell[BoxData[{
+ RowBox[{"If", "[", 
+  RowBox[{
+   RowBox[{"ValueQ", "[", "Love`sympaltte", "]"}], ",", 
+   RowBox[{"NotebookClose", "[", "Love`sympaltte", "]"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"Quiet", "[", 
+     RowBox[{"Remove", "[", "#", "]"}], " ", "]"}], "&"}], " ", "/@", " ", 
+   RowBox[{"{", "\"\<Love`*\>\"", "}"}]}], ";"}]}], "Input",
+ CellGroupingRules->{
+  "GroupTogetherGrouping", 
+   10000.},ExpressionUUID->"3fbe2f6b-bc69-4f8d-8012-96914cf33156"],
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", 
@@ -80,15 +88,8 @@ Cell[BoxData[
     RowBox[{
      RowBox[{
       RowBox[{"Quiet", "[", 
-       RowBox[{"Remove", "[", "#", "]"}], " ", "]"}], "&"}], " ", "/@", " ", 
+       RowBox[{"ClearAll", "[", "#", "]"}], " ", "]"}], "&"}], " ", "/@", " ", 
      RowBox[{"{", "\"\<Love`*\>\"", "}"}]}], ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{
-     RowBox[{
-      RowBox[{"Quiet", "[", 
-       RowBox[{"Remove", "[", "#", "]"}], " ", "]"}], "&"}], " ", "/@", " ", 
-     RowBox[{"{", "\"\<ComplexSymbols`*\>\"", "}"}]}], ";"}], 
-   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"Get", "[", 
      RowBox[{"URLDownload", "[", 
@@ -191,34 +192,30 @@ sin[\[Theta][s]]=0\nx\[CloseCurlyQuote][s]=cos[\[Theta][s]]\ny\
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", 
-  RowBox[{
-   RowBox[{"ClearAll", "[", 
-    RowBox[{
-     TemplateBox[{
-      "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
-Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
-      "complexSymbols",
-      Editable->False,
-      Selectable->False], ",", 
-     TemplateBox[{
-      "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
-Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
-FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
-      "complexSymbols",
-      Editable->False,
-      Selectable->False]}], "]"}], "\[IndentingNewLine]", 
-   RowBox[{"(*", 
+  RowBox[{"(*", 
+   RowBox[{
     RowBox[{
      RowBox[{
-      RowBox[{
-       TemplateBox[{
-        "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+      TemplateBox[{
+       "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
-        "complexSymbols",
-        Editable->False,
-        Selectable->False], "[", 
-       RowBox[{"s_", ",", "p_", ",", 
-        RowBox[{
+       "complexSymbols",
+       Editable->False,
+       Selectable->False], "[", 
+      RowBox[{"s_", ",", "p_", ",", 
+       RowBox[{
+        TemplateBox[{
+         "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+         "complexSymbols",
+         Editable->False,
+         Selectable->False], ":", "_"}]}], "]"}], "=", 
+     RowBox[{"2", " ", 
+      RowBox[{"ArcSin", "[", 
+       RowBox[{
+        RowBox[{"Sqrt", "[", 
          TemplateBox[{
           "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
@@ -226,11 +223,22 @@ StyleBox[\"n\",FontFamily->\"Times New \
 Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
           "complexSymbols",
           Editable->False,
-          Selectable->False], ":", "_"}]}], "]"}], "=", 
-      RowBox[{"2", " ", 
-       RowBox[{"ArcSin", "[", 
-        RowBox[{
-         RowBox[{"Sqrt", "[", 
+          Selectable->False], "]"}], " ", 
+        RowBox[{"JacobiSN", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"s", " ", 
+            RowBox[{"Sqrt", "[", "p", "]"}]}], "+", 
+           RowBox[{"EllipticK", "[", 
+            
+            TemplateBox[{
+             "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+             "complexSymbols",
+             Editable->False,
+             Selectable->False], "]"}]}], ",", 
           
           TemplateBox[{
            "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New Roman\
@@ -239,36 +247,13 @@ StyleBox[\"n\",FontFamily->\"Times New \
 Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
            "complexSymbols",
            Editable->False,
-           Selectable->False], "]"}], " ", 
-         RowBox[{"JacobiSN", "[", 
-          RowBox[{
-           RowBox[{
-            RowBox[{"s", " ", 
-             RowBox[{"Sqrt", "[", "p", "]"}]}], "+", 
-            RowBox[{"EllipticK", "[", 
-             
-             TemplateBox[{
-              "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
-Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
-StyleBox[\"n\",FontFamily->\"Times New \
-Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
-              "complexSymbols",
-              Editable->False,
-              Selectable->False], "]"}]}], ",", 
-           
-           TemplateBox[{
-            "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
-Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
-StyleBox[\"n\",FontFamily->\"Times New \
-Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
-            "complexSymbols",
-            Editable->False,
-            Selectable->False]}], "]"}]}], "]"}]}]}], " ", ";"}], "      ", 
-    "*)"}], 
-   RowBox[{"(*", 
-    RowBox[{"From", " ", 
-     RowBox[{"Love", "'"}], "s", " ", "book"}], "*)"}], "\[IndentingNewLine]",
-    "\[IndentingNewLine]", 
+           Selectable->False]}], "]"}]}], "]"}]}]}], " ", ";"}], "      ", 
+   "*)"}], 
+  RowBox[{"(*", 
+   RowBox[{"From", " ", 
+    RowBox[{"Love", "'"}], "s", " ", "book"}], "*)"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
+  RowBox[{
    RowBox[{
     RowBox[{
      RowBox[{
@@ -514,7 +499,6 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
               "complexSymbols",
               Editable->False,
               Selectable->False]}], "]"}], ",", 
-           
            TemplateBox[{
             "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
@@ -1481,26 +1465,28 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 163, 3, 129, "Title",ExpressionUUID->"46f6054d-de5a-4ab6-a6ec-2929e1927f7e"],
 Cell[CellGroupData[{
-Cell[768, 29, 196, 4, 58, "Text",ExpressionUUID->"6bfff38c-a572-440d-a93c-e8db99d3ed72",
+Cell[768, 29, 202, 4, 58, "Text",ExpressionUUID->"6bfff38c-a572-440d-a93c-e8db99d3ed72",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[967, 35, 1069, 30, 276, "Input",ExpressionUUID->"252dcb2d-61f8-4f65-b4e0-14cef6010747",
+Cell[973, 35, 854, 22, 274, "Input",ExpressionUUID->"252dcb2d-61f8-4f65-b4e0-14cef6010747",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[2039, 67, 2873, 71, 581, "Input",ExpressionUUID->"5e623d39-21f3-4145-b16b-807e6dbd4c00",
+Cell[1830, 59, 511, 14, 67, "Input",ExpressionUUID->"3fbe2f6b-bc69-4f8d-8012-96914cf33156",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[2344, 75, 2639, 64, 536, "Input",ExpressionUUID->"5e623d39-21f3-4145-b16b-807e6dbd4c00",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]],
-Cell[4927, 141, 1426, 48, 283, "Text",ExpressionUUID->"2775962a-7eab-4a2f-9463-9ee1a0f390a6"],
-Cell[6356, 191, 15001, 388, 789, "Input",ExpressionUUID->"06b046e0-4064-4164-9724-4821b7b41253"],
-Cell[21360, 581, 1339, 36, 184, "Input",ExpressionUUID->"99125f90-cf86-4dc4-8fa7-751c2a9cf474"],
-Cell[22702, 619, 2990, 76, 189, "Input",ExpressionUUID->"be5030a6-f2b2-453a-85d6-3269cad8d0b6"],
-Cell[25695, 697, 4647, 124, 446, "Input",ExpressionUUID->"1319a9b2-614e-4ebf-9c65-9601c6ad315d"],
-Cell[30345, 823, 1299, 36, 102, "Input",ExpressionUUID->"6347902f-36d0-4802-9150-f29f8d8bf9b3"],
-Cell[31647, 861, 169, 4, 54, "Input",ExpressionUUID->"be8e509e-efcb-47a8-9d52-f16b45faab2f"],
-Cell[31819, 867, 1965, 51, 236, "Input",ExpressionUUID->"53c57faa-7361-4aa9-8602-e3020cebd8b4"],
-Cell[33787, 920, 218, 5, 54, "Input",ExpressionUUID->"8175582d-05b8-403d-930e-2fad441a10f2"],
-Cell[34008, 927, 169, 4, 54, "Input",ExpressionUUID->"d844674e-9174-4fa5-8373-888a3156b615"],
-Cell[34180, 933, 4039, 113, 571, "Input",ExpressionUUID->"95d78800-c73d-4019-9ece-36e42112ea01"],
-Cell[38222, 1048, 386, 9, 98, "Input",ExpressionUUID->"488630b2-a50c-4016-9778-ad862b80de56"],
-Cell[38611, 1059, 210, 4, 122, "Text",ExpressionUUID->"ddd6a263-1c42-4c9a-858f-dfc9af5176b8"]
+Cell[4998, 142, 1426, 48, 283, "Text",ExpressionUUID->"2775962a-7eab-4a2f-9463-9ee1a0f390a6"],
+Cell[6427, 192, 14338, 371, 746, "Input",ExpressionUUID->"06b046e0-4064-4164-9724-4821b7b41253"],
+Cell[20768, 565, 1339, 36, 184, "Input",ExpressionUUID->"99125f90-cf86-4dc4-8fa7-751c2a9cf474"],
+Cell[22110, 603, 2990, 76, 189, "Input",ExpressionUUID->"be5030a6-f2b2-453a-85d6-3269cad8d0b6"],
+Cell[25103, 681, 4647, 124, 446, "Input",ExpressionUUID->"1319a9b2-614e-4ebf-9c65-9601c6ad315d"],
+Cell[29753, 807, 1299, 36, 102, "Input",ExpressionUUID->"6347902f-36d0-4802-9150-f29f8d8bf9b3"],
+Cell[31055, 845, 169, 4, 54, "Input",ExpressionUUID->"be8e509e-efcb-47a8-9d52-f16b45faab2f"],
+Cell[31227, 851, 1965, 51, 236, "Input",ExpressionUUID->"53c57faa-7361-4aa9-8602-e3020cebd8b4"],
+Cell[33195, 904, 218, 5, 54, "Input",ExpressionUUID->"8175582d-05b8-403d-930e-2fad441a10f2"],
+Cell[33416, 911, 169, 4, 54, "Input",ExpressionUUID->"d844674e-9174-4fa5-8373-888a3156b615"],
+Cell[33588, 917, 4039, 113, 571, "Input",ExpressionUUID->"95d78800-c73d-4019-9ece-36e42112ea01"],
+Cell[37630, 1032, 386, 9, 98, "Input",ExpressionUUID->"488630b2-a50c-4016-9778-ad862b80de56"],
+Cell[38019, 1043, 210, 4, 122, "Text",ExpressionUUID->"ddd6a263-1c42-4c9a-858f-dfc9af5176b8"]
 }, Open  ]]
 }
 ]

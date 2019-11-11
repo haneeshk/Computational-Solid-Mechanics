@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     98293,       2336]
-NotebookOptionsPosition[     96119,       2287]
-NotebookOutlinePosition[     96503,       2304]
-CellTagsIndexPosition[     96460,       2301]
+NotebookDataLength[    168234,       3964]
+NotebookOptionsPosition[    165296,       3903]
+NotebookOutlinePosition[    165663,       3919]
+CellTagsIndexPosition[    165620,       3916]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2282,14 +2282,1629 @@ Cell[BoxData["49797"], "Output",
    3.7773394671212273`*^9, 3.7773394706743727`*^9}, 3.777393478167927*^9, 
    3.7774855843949747`*^9, {3.777552191470354*^9, 3.777552198260892*^9}},
  CellLabel->"Out[91]=",ExpressionUUID->"dae7e4be-adec-4045-b2b6-95adcc30f31a"]
-}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudObjects", "[", 
+  "\"\<https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.78223463977287*^9, 3.78223466665731*^9}},
+ CellLabel->
+  "In[114]:=",ExpressionUUID->"acb6c838-ad1f-4194-a415-9c56c0993af3"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/FullVersion\"\
+","https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/FullVersion"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/FullVersion"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Result\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Result"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Result"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/SelectZStack\
+\"","https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/SelectZStack"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/SelectZStack"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TableOut\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TableOut"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TableOut"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TestImages\"\
+","https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TestImages"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TestImages"],
+    SelectWithContents->True]}], "}"}]], "Output",
+ CellChangeTimes->{{3.782234646269978*^9, 3.782234668184*^9}},
+ CellLabel->
+  "Out[114]=",ExpressionUUID->"68c65633-4e78-4e43-9aaf-233177671143"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudObjects", "[", 
+  "\"\<https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.782234684004698*^9, 3.782234732440404*^9}},
+ CellLabel->
+  "In[117]:=",ExpressionUUID->"be3fd9b1-ae3d-49cb-8e98-e015e08043bf"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/FullVersion\"\
+","https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/FullVersion"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/FullVersion"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Result\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Result"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Result"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/SelectZStack\
+\"","https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/SelectZStack"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/SelectZStack"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TableOut\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TableOut"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TableOut"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TestImages\"\
+","https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TestImages"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TestImages"],
+    SelectWithContents->True]}], "}"}]], "Output",
+ CellChangeTimes->{{3.782234706983797*^9, 3.782234733426661*^9}},
+ CellLabel->
+  "Out[117]=",ExpressionUUID->"7d4d2090-cffb-42d7-b67c-5ab64b2d46d3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudObjects", "[", 
+  "\"\<https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before\
+\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.782235024724094*^9, 3.78223504917377*^9}},
+ CellLabel->
+  "In[119]:=",ExpressionUUID->"42785146-1004-4594-9436-43c2c864e767"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p01-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p01-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p01-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p02-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p02-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p02-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p03-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p03-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p03-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p04-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p04-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p04-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p05-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p05-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p05-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p06-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p06-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p06-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p07-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p07-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p07-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p08-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p08-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p08-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p09-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p09-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p09-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p10-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p10-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p10-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p100-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p100-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p100-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p101-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p101-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p101-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p102-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p102-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p102-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p103-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p103-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p103-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p104-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p104-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p104-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p105-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p105-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p105-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p106-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p106-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p106-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p107-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p107-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p107-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p108-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p108-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p108-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p109-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p109-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p109-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p11-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p11-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p11-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p110-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p110-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p110-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p111-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p111-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p111-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p112-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p112-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p112-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p113-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p113-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p113-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p114-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p114-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p114-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p115-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p115-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p115-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p116-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p116-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p116-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p117-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p117-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p117-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p118-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p118-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p118-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p119-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p119-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p119-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p12-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p12-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p12-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p120-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p120-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p120-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p13-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p13-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p13-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p14-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p14-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p14-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p15-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p15-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p15-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p16-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p16-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p16-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p17-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p17-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p17-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p18-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p18-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p18-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p19-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p19-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p19-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p20-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p20-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p20-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p21-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p21-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p21-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p22-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p22-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p22-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p23-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p23-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p23-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p24-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p24-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p24-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p25-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p25-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p25-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p26-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p26-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p26-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p27-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p27-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p27-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p28-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p28-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p28-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p29-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p29-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p29-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p30-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p30-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p30-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p31-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p31-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p31-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p32-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p32-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p32-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p33-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p33-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p33-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p34-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p34-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p34-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p35-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p35-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p35-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p36-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p36-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p36-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p37-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p37-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p37-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p38-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p38-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p38-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p39-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p39-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p39-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p40-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p40-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p40-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p41-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p41-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p41-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p42-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p42-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p42-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p43-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p43-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p43-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p44-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p44-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p44-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p45-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p45-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p45-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p46-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p46-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p46-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p47-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p47-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p47-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p48-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p48-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p48-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p49-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p49-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p49-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p50-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p50-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p50-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p51-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p51-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p51-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p52-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p52-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p52-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p53-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p53-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p53-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p54-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p54-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p54-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p55-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p55-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p55-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p56-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p56-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p56-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p57-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p57-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p57-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p58-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p58-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p58-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p59-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p59-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p59-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p60-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p60-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p60-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p61-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p61-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p61-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p62-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p62-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p62-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p63-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p63-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p63-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p64-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p64-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p64-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p65-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p65-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p65-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p66-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p66-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p66-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p67-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p67-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p67-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p68-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p68-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p68-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p69-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p69-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p69-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p70-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p70-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p70-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p71-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p71-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p71-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p72-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p72-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p72-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p73-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p73-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p73-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p74-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p74-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p74-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p75-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p75-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p75-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p76-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p76-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p76-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p77-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p77-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p77-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p78-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p78-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p78-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p79-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p79-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p79-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p80-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p80-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p80-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p81-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p81-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p81-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p82-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p82-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p82-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p83-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p83-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p83-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p84-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p84-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p84-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p85-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p85-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p85-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p86-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p86-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p86-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p87-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p87-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p87-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p88-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p88-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p88-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p89-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p89-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p89-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p90-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p90-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p90-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p91-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p91-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p91-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p92-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p92-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p92-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p93-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p93-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p93-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p94-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p94-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p94-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p95-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p95-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p95-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p96-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p96-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p96-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p97-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p97-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p97-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p98-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p98-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p98-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p99-ch2sk1fk1fl1.tiff.tif\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before/2_r02c03f02p99-ch2sk1fk1fl1.tiff.tif"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before/2_\
+r02c03f02p99-ch2sk1fk1fl1.tiff.tif"],
+    SelectWithContents->True]}], "}"}]], "Output",
+ CellChangeTimes->{{3.782235031597917*^9, 3.78223505039758*^9}},
+ CellLabel->
+  "Out[119]=",ExpressionUUID->"8f0a156a-32ac-479c-b579-6da528a7c955"]
+}, Open  ]],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before\
+\"","https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before"],
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{{3.782235040673357*^9, 
+  3.782235042676824*^9}},ExpressionUUID->"c50d3ecf-5cac-48a6-8d10-\
+f73f1b96fd39"]
 }, Open  ]]
 },
 WindowSize->{2560, 1337},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 Magnification:>1.5 Inherited,
-FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
-2018)",
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -2304,20 +3919,20 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 215, 4, 63, "Input",ExpressionUUID->"003d715c-a79f-4b7a-9c93-c3c61350de14"],
-Cell[798, 28, 285, 4, 69, "Output",ExpressionUUID->"dd38e06f-1691-4fb8-b16c-8ee9e2108c50"]
+Cell[580, 22, 215, 4, 58, "Input",ExpressionUUID->"003d715c-a79f-4b7a-9c93-c3c61350de14"],
+Cell[798, 28, 285, 4, 64, "Output",ExpressionUUID->"dd38e06f-1691-4fb8-b16c-8ee9e2108c50"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1120, 37, 200, 3, 63, "Input",ExpressionUUID->"1aca87b8-a358-400b-a77a-afcee46266ae"],
-Cell[1323, 42, 409, 7, 69, "Output",ExpressionUUID->"5ca4fbc7-37bc-4fc5-9713-11c8168f6fe3"]
+Cell[1120, 37, 200, 3, 58, "Input",ExpressionUUID->"1aca87b8-a358-400b-a77a-afcee46266ae"],
+Cell[1323, 42, 409, 7, 64, "Output",ExpressionUUID->"5ca4fbc7-37bc-4fc5-9713-11c8168f6fe3"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1769, 54, 192, 2, 46, "Input",ExpressionUUID->"47921a87-878e-489c-a894-d4b505ec15a9"],
-Cell[1964, 58, 198, 3, 52, "Output",ExpressionUUID->"4e9ceaa0-9ec1-42a5-99b3-d62446f083ec"]
+Cell[1769, 54, 192, 2, 41, "Input",ExpressionUUID->"47921a87-878e-489c-a894-d4b505ec15a9"],
+Cell[1964, 58, 198, 3, 47, "Output",ExpressionUUID->"4e9ceaa0-9ec1-42a5-99b3-d62446f083ec"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[2199, 66, 161, 3, 81, "Subsection",ExpressionUUID->"541c662f-363c-42fe-a9b2-488d5947384e"],
-Cell[2363, 71, 12463, 317, 1339, "Input",ExpressionUUID->"5e739396-8407-44d4-8342-81db78a5f878"]
+Cell[2363, 71, 12463, 317, 1121, "Input",ExpressionUUID->"5e739396-8407-44d4-8342-81db78a5f878"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[14863, 393, 165, 3, 81, "Subsection",ExpressionUUID->"ac59e0cf-01b7-452f-b0c0-3457f239e218"],
@@ -2326,17 +3941,30 @@ Cell[15031, 398, 56439, 1423, 4614, "Input",ExpressionUUID->"2cb0b255-1f61-42f8-
 Cell[CellGroupData[{
 Cell[71507, 1826, 161, 3, 55, "Subsection",ExpressionUUID->"ca84d23b-105a-4bdc-b780-2be0432aee5a"],
 Cell[CellGroupData[{
-Cell[71693, 1833, 11556, 208, 1001, "Input",ExpressionUUID->"3ea47407-8239-4d63-9d7c-64eab4b44e52"],
+Cell[71693, 1833, 11556, 208, 885, "Input",ExpressionUUID->"3ea47407-8239-4d63-9d7c-64eab4b44e52"],
 Cell[83252, 2043, 8869, 165, 368, "Output",ExpressionUUID->"ade77dad-36fa-4c17-b6f0-e4c68b60eb64"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[92158, 2213, 837, 15, 46, "Input",ExpressionUUID->"cec1e147-d6a2-4638-97e7-d084c55607eb"],
-Cell[92998, 2230, 2361, 37, 56, "Output",ExpressionUUID->"43adf070-695b-4ca5-9e11-64efffd21d54"]
+Cell[92158, 2213, 837, 15, 42, "Input",ExpressionUUID->"cec1e147-d6a2-4638-97e7-d084c55607eb"],
+Cell[92998, 2230, 2361, 37, 48, "Output",ExpressionUUID->"43adf070-695b-4ca5-9e11-64efffd21d54"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[95396, 2272, 193, 2, 46, "Input",ExpressionUUID->"6f3c6bd2-badd-4614-95f1-4f09f5233c3d"],
-Cell[95592, 2276, 499, 7, 52, "Output",ExpressionUUID->"dae7e4be-adec-4045-b2b6-95adcc30f31a"]
-}, Open  ]]
+Cell[95396, 2272, 193, 2, 41, "Input",ExpressionUUID->"6f3c6bd2-badd-4614-95f1-4f09f5233c3d"],
+Cell[95592, 2276, 499, 7, 47, "Output",ExpressionUUID->"dae7e4be-adec-4045-b2b6-95adcc30f31a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[96128, 2288, 280, 6, 42, "Input",ExpressionUUID->"acb6c838-ad1f-4194-a415-9c56c0993af3"],
+Cell[96411, 2296, 2503, 59, 98, "Output",ExpressionUUID->"68c65633-4e78-4e43-9aaf-233177671143"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[98951, 2360, 282, 6, 42, "Input",ExpressionUUID->"be3fd9b1-ae3d-49cb-8e98-e015e08043bf"],
+Cell[99236, 2368, 2506, 59, 98, "Output",ExpressionUUID->"7d4d2090-cffb-42d7-b67c-5ab64b2d46d3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[101779, 2432, 295, 6, 42, "Input",ExpressionUUID->"42785146-1004-4594-9436-43c2c864e767"],
+Cell[102077, 2440, 62664, 1445, 3023, "Output",ExpressionUUID->"8f0a156a-32ac-479c-b579-6da528a7c955"]
+}, Open  ]],
+Cell[164756, 3888, 524, 12, 42, "Input",ExpressionUUID->"c50d3ecf-5cac-48a6-8d10-f73f1b96fd39"]
 }, Open  ]]
 }
 ]

@@ -1,0 +1,423 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15209,        415]
+NotebookOptionsPosition[     13573,        377]
+NotebookOutlinePosition[     13929,        393]
+CellTagsIndexPosition[     13886,        390]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"CloudConnect", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.77705473925775*^9, 
+  3.77705475551768*^9}},ExpressionUUID->"003d715c-a79f-4b7a-9c93-\
+c3c61350de14"],
+
+Cell[BoxData["\<\"weilin_deng@brown.edu\"\>"], "Output",
+ CellChangeTimes->{{3.777054744228034*^9, 
+  3.777054772633659*^9}},ExpressionUUID->"190c6727-1d30-43ea-ae4a-\
+47c29c859c4e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudObjects", "[", "]"}]], "Input",
+ NumberMarks->False,ExpressionUUID->"74344ce0-1d23-45a9-8858-9fb5fcb79e6f"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/weilin_deng/Base\"",
+       "https://www.wolframcloud.com/obj/weilin_deng/Base"},
+      "HyperlinkURL"], "]"}],
+    CloudObject["https://www.wolframcloud.com/obj/weilin_deng/Base"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/weilin_deng/LJ_force.nb\"",
+       "https://www.wolframcloud.com/obj/weilin_deng/LJ_force.nb"},
+      "HyperlinkURL"], "]"}],
+    CloudObject["https://www.wolframcloud.com/obj/weilin_deng/LJ_force.nb"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/weilin_deng/Piano_Wfile.nb\"",
+       "https://www.wolframcloud.com/obj/weilin_deng/Piano_Wfile.nb"},
+      "HyperlinkURL"], "]"}],
+    CloudObject["https://www.wolframcloud.com/obj/weilin_deng/Piano_Wfile.nb"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/weilin_deng/integral.nb\"",
+       "https://www.wolframcloud.com/obj/weilin_deng/integral.nb"},
+      "HyperlinkURL"], "]"}],
+    CloudObject["https://www.wolframcloud.com/obj/weilin_deng/integral.nb"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/weilin_deng/trash\"",
+       "https://www.wolframcloud.com/obj/weilin_deng/trash"},
+      "HyperlinkURL"], "]"}],
+    CloudObject["https://www.wolframcloud.com/obj/weilin_deng/trash"],
+    SelectWithContents->True]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.7770547768669014`*^9},ExpressionUUID->"c18a7d30-c771-4a03-80dc-\
+e52f890f543d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$CloudConnected"], "Input",
+ CellChangeTimes->{{3.7770547836802907`*^9, 
+  3.777054789000595*^9}},ExpressionUUID->"1aca87b8-a358-400b-a77a-\
+afcee46266ae"],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{
+  3.7770547894626217`*^9},ExpressionUUID->"081d9efb-4ef4-43b8-8327-\
+1b4e720cd89c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{
+   RowBox[{"Manipulate", "[", 
+    RowBox[{
+     RowBox[{"ContourPlot3D", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"x", "^", "2"}], "+", 
+         RowBox[{"y", "^", "2"}], "+", 
+         RowBox[{"a", " ", 
+          RowBox[{"z", "^", "3"}]}]}], "\[Equal]", "1"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"y", ",", 
+         RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"z", ",", 
+         RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+       RowBox[{"Mesh", "\[Rule]", "None"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"a", ",", 
+       RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "]"}], ",", 
+   "\"\<Plot3DContour\>\"", ",", 
+   RowBox[{"Permissions", "\[Rule]", "\"\<Private\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7770549561161537`*^9, 3.7770549882359905`*^9}, {
+  3.7770550474313765`*^9, 
+  3.7770550529016895`*^9}},ExpressionUUID->"7a4f1879-1a2a-499e-9cc0-\
+4fd55ddf6916"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/weilin_deng/Plot3DContour\"",
+     "https://www.wolframcloud.com/obj/weilin_deng/Plot3DContour"},
+    "HyperlinkURL"], "]"}],
+  CloudObject["https://www.wolframcloud.com/obj/weilin_deng/Plot3DContour"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{{3.7770549616424694`*^9, 3.7770549893710556`*^9}, 
+   3.77705505762696*^9},ExpressionUUID->"182ea01a-b2ac-40ad-b107-\
+e405d724d799"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{
+   RowBox[{"EvaluationNotebook", "[", "]"}], ",", 
+   RowBox[{"CloudObject", "[", "\"\<PlotTest.nb\>\"", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7770638971305504`*^9, 3.7770639109663415`*^9}, 
+   3.7770639585560637`*^9},ExpressionUUID->"3a7420a2-2ba4-4bcc-9f26-\
+87e77bcf0864"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/weilin_deng/PlotTest.nb\"",
+     "https://www.wolframcloud.com/obj/weilin_deng/PlotTest.nb"},
+    "HyperlinkURL"], "]"}],
+  CloudObject["https://www.wolframcloud.com/obj/weilin_deng/PlotTest.nb"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.7770639147045555`*^9, 
+  3.777063960053149*^9},ExpressionUUID->"627295ca-76fb-4dbb-a6a0-\
+660de94411d8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{
+   "f1", ",", "f2", ",", "q1", ",", "q2", ",", "\[Beta]", ",", "\[Nu]", ",", 
+    "m"}], "]"}], ";", 
+  RowBox[{"\[Nu]", "=", "2.42"}], ";", 
+  RowBox[{"m", "=", "5"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"f1", "[", 
+    RowBox[{"z_", ",", "\[Beta]_"}], "]"}], ":=", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"1", "-", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "/", "5"}], ")"}], "*", 
+       RowBox[{"(", 
+        RowBox[{"\[Nu]", "*", 
+         RowBox[{"(", 
+          RowBox[{"1", "-", "\[Beta]"}], ")"}]}], ")"}], "*", 
+       RowBox[{"(", 
+        RowBox[{"1", "-", "z"}], ")"}]}]}], ")"}], "^", "5"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"f2", "[", 
+    RowBox[{"z_", ",", "\[Beta]_"}], "]"}], ":=", 
+   RowBox[{"1", "-", 
+    RowBox[{"\[Nu]", "*", "\[Beta]", "*", 
+     RowBox[{"(", 
+      RowBox[{"1", "-", "z"}], ")"}]}]}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"q1", "[", 
+    RowBox[{"z_", ",", "\[Beta]_", ",", "\[Rho]_"}], "]"}], ":=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"f1", "[", 
+      RowBox[{"z", ",", "\[Beta]"}], "]"}], "/", 
+     RowBox[{"(", 
+      RowBox[{"\[Nu]", "*", 
+       RowBox[{"(", 
+        RowBox[{"1", "-", "\[Rho]"}], ")"}]}], ")"}]}], "+", "1", "-", 
+    RowBox[{"1", "/", 
+     RowBox[{"(", 
+      RowBox[{"\[Nu]", "*", 
+       RowBox[{"(", 
+        RowBox[{"1", "-", "\[Rho]"}], ")"}]}], ")"}]}]}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"q2", "[", 
+    RowBox[{"z_", ",", "\[Beta]_", ",", "\[Rho]_"}], "]"}], ":=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"f2", "[", 
+      RowBox[{"z", ",", "\[Beta]"}], "]"}], "/", 
+     RowBox[{"(", 
+      RowBox[{"\[Nu]", "*", 
+       RowBox[{"(", 
+        RowBox[{"1", "-", "\[Rho]"}], ")"}]}], ")"}]}], "+", "1", "-", 
+    RowBox[{"1", "/", 
+     RowBox[{"(", 
+      RowBox[{"\[Nu]", "*", 
+       RowBox[{"(", 
+        RowBox[{"1", "-", "\[Rho]"}], ")"}]}], ")"}]}]}]}], ";"}], "\n", 
+ RowBox[{"dyn", "=", 
+  RowBox[{"Manipulate", "[", 
+   RowBox[{
+    RowBox[{"Plot", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"y", ",", 
+        RowBox[{
+         RowBox[{"q1", "[", 
+          RowBox[{"y", ",", "\[Beta]", ",", "\[Rho]"}], "]"}], "*", 
+         RowBox[{"q2", "[", 
+          RowBox[{"y", ",", "\[Beta]", ",", "\[Rho]"}], "]"}]}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", "0", ",", "1"}], "}"}], ",", 
+      RowBox[{"BaseStyle", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"FontFamily", "\[Rule]", "\"\<Helvetica\>\""}], ",", 
+         RowBox[{"FontSize", "\[Rule]", "16"}], ",", 
+         RowBox[{"FontWeight", "\[Rule]", "\"\<Plain\>\""}]}], "}"}]}]}], 
+     "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\[Beta]", ",", "0.", ",", 
+      RowBox[{"100", "*", "0.0065"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\[Rho]", ",", "0", ",", 
+      RowBox[{"1", "-", 
+       RowBox[{"1", "/", "\[Nu]"}]}]}], "}"}], ",", 
+    RowBox[{"SaveDefinitions", "\[Rule]", "True"}]}], "]"}]}], "\n", 
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"dyn", ",", 
+   RowBox[{"CloudObject", "[", "\"\<dynamic.nb\>\"", "]"}], ",", 
+   RowBox[{"Permissions", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"All", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Read\>\"", ",", "\"\<Interact\>\"", ",", "\"\<Evaluate\>\""}], 
+       "}"}]}], "}"}]}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.777064125388606*^9, 3.7770641253916063`*^9}, 
+   3.777064190241315*^9},ExpressionUUID->"596e939a-8e73-44f4-8667-\
+d49182aa616d"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`\[Beta]$$ = 0., $CellContext`\[Rho]$$ = 0, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`\[Beta]$$], 0., 0.65}, {
+      Hold[$CellContext`\[Rho]$$], 0, 0.5867768595041323}}, Typeset`size$$ = {
+    360., {107., 112.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = False, $CellContext`\[Beta]$16960$$ = 
+    0, $CellContext`\[Rho]$16961$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`\[Beta]$$ = 0., $CellContext`\[Rho]$$ = 0},
+       "ControllerVariables" :> {
+        Hold[$CellContext`\[Beta]$$, $CellContext`\[Beta]$16960$$, 0], 
+        Hold[$CellContext`\[Rho]$$, $CellContext`\[Rho]$16961$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      Plot[{$CellContext`y, $CellContext`q1[$CellContext`y, $CellContext`\
+\[Beta]$$, $CellContext`\[Rho]$$] $CellContext`q2[$CellContext`y, \
+$CellContext`\[Beta]$$, $CellContext`\[Rho]$$]}, {$CellContext`y, 0, 1}, 
+        BaseStyle -> {
+         FontFamily -> "Helvetica", FontSize -> 16, FontWeight -> "Plain"}], 
+      "Specifications" :> {{$CellContext`\[Beta]$$, 0., 
+         0.65}, {$CellContext`\[Rho]$$, 0, 0.5867768595041323}}, 
+      "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{405., {166., 172.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`q1[
+         Pattern[$CellContext`z, 
+          Blank[]], 
+         Pattern[$CellContext`\[Beta], 
+          Blank[]], 
+         Pattern[$CellContext`\[Rho], 
+          
+          Blank[]]] := $CellContext`f1[$CellContext`z, \
+$CellContext`\[Beta]]/($CellContext`\[Nu] (1 - $CellContext`\[Rho])) + 1 - 
+        1/($CellContext`\[Nu] (1 - $CellContext`\[Rho])), $CellContext`f1[
+         Pattern[$CellContext`z, 
+          Blank[]], 
+         Pattern[$CellContext`\[Beta], 
+          Blank[]]] := (
+         1 - ((1/5) ($CellContext`\[Nu] (1 - $CellContext`\[Beta]))) (
+          1 - $CellContext`z))^5, $CellContext`\[Nu] = 2.42, $CellContext`q2[
+         Pattern[$CellContext`z, 
+          Blank[]], 
+         Pattern[$CellContext`\[Beta], 
+          Blank[]], 
+         Pattern[$CellContext`\[Rho], 
+          
+          Blank[]]] := $CellContext`f2[$CellContext`z, \
+$CellContext`\[Beta]]/($CellContext`\[Nu] (1 - $CellContext`\[Rho])) + 1 - 
+        1/($CellContext`\[Nu] (1 - $CellContext`\[Rho])), $CellContext`f2[
+         Pattern[$CellContext`z, 
+          Blank[]], 
+         Pattern[$CellContext`\[Beta], 
+          Blank[]]] := 
+       1 - ($CellContext`\[Nu] $CellContext`\[Beta]) (1 - $CellContext`z)}; 
+     Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.7770641281057615`*^9, 
+  3.7770641910613623`*^9},ExpressionUUID->"d401ee03-204d-4ff9-8167-\
+9121f78ed977"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/weilin_deng/dynamic.nb\"",
+     "https://www.wolframcloud.com/obj/weilin_deng/dynamic.nb"},
+    "HyperlinkURL"], "]"}],
+  CloudObject["https://www.wolframcloud.com/obj/weilin_deng/dynamic.nb"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.7770641281057615`*^9, 
+  3.7770641917784033`*^9},ExpressionUUID->"e92a5c53-c025-4bd7-b6d2-\
+9508f6ac966b"]
+}, Open  ]]
+},
+WindowSize->{751, 817},
+WindowMargins->{{266, Automatic}, {Automatic, 163}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 184, 4, 30, "Input",ExpressionUUID->"003d715c-a79f-4b7a-9c93-c3c61350de14"],
+Cell[767, 28, 182, 3, 34, "Output",ExpressionUUID->"190c6727-1d30-43ea-ae4a-47c29c859c4e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[986, 36, 136, 2, 30, "Input",ExpressionUUID->"74344ce0-1d23-45a9-8858-9fb5fcb79e6f"],
+Cell[1125, 40, 1907, 45, 130, "Output",ExpressionUUID->"c18a7d30-c771-4a03-80dc-e52f890f543d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3069, 90, 169, 3, 30, "Input",ExpressionUUID->"1aca87b8-a358-400b-a77a-afcee46266ae"],
+Cell[3241, 95, 135, 3, 34, "Output",ExpressionUUID->"081d9efb-4ef4-43b8-8327-1b4e720cd89c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3413, 103, 1118, 31, 73, "Input",ExpressionUUID->"7a4f1879-1a2a-499e-9cc0-4fd55ddf6916"],
+Cell[4534, 136, 516, 11, 37, "Output",ExpressionUUID->"182ea01a-b2ac-40ad-b107-e405d724d799"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5087, 152, 340, 7, 30, "Input",ExpressionUUID->"3a7420a2-2ba4-4bcc-9f26-87e77bcf0864"],
+Cell[5430, 161, 484, 11, 37, "Output",ExpressionUUID->"627295ca-76fb-4dbb-a6a0-660de94411d8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5951, 177, 3562, 107, 220, "Input",ExpressionUUID->"596e939a-8e73-44f4-8667-d49182aa616d"],
+Cell[9516, 286, 3555, 75, 357, "Output",ExpressionUUID->"d401ee03-204d-4ff9-8167-9121f78ed977"],
+Cell[13074, 363, 483, 11, 37, "Output",ExpressionUUID->"e92a5c53-c025-4bd7-b6d2-9508f6ac966b"]
+}, Open  ]]
+}
+]
+*)
+

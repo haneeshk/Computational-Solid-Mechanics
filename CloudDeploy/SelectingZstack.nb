@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     98293,       2336]
-NotebookOptionsPosition[     96119,       2287]
-NotebookOutlinePosition[     96503,       2304]
-CellTagsIndexPosition[     96460,       2301]
+NotebookDataLength[    195376,       5018]
+NotebookOptionsPosition[    191365,       4937]
+NotebookOutlinePosition[    191749,       4954]
+CellTagsIndexPosition[    191706,       4951]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24,13 +24,14 @@ Cell[BoxData[
  RowBox[{"CloudConnect", "[", "]"}]], "Input",
  CellChangeTimes->{{3.77705473925775*^9, 3.77705475551768*^9}},
  CellLabel->
-  "(Dialog) In[96]:=",ExpressionUUID->"003d715c-a79f-4b7a-9c93-c3c61350de14"],
+  "(L2) In[51]:=",ExpressionUUID->"003d715c-a79f-4b7a-9c93-c3c61350de14"],
 
 Cell[BoxData["\<\"wenqiang_fang@brown.edu\"\>"], "Output",
  CellChangeTimes->{{3.777054744228034*^9, 3.777054772633659*^9}, 
-   3.777205171407761*^9, 3.7772259099087*^9, 3.7774855629810123`*^9},
+   3.777205171407761*^9, 3.7772259099087*^9, 3.7774855629810123`*^9, 
+   3.78223394558527*^9},
  CellLabel->
-  "(Dialog) Out[96]=",ExpressionUUID->"dd38e06f-1691-4fb8-b16c-8ee9e2108c50"]
+  "(L2) Out[51]=",ExpressionUUID->"4165a649-53b7-4b39-8f79-2221d89c9ecb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -38,28 +39,30 @@ Cell[CellGroupData[{
 Cell[BoxData["$CloudConnected"], "Input",
  CellChangeTimes->{{3.7770547836802907`*^9, 3.777054789000595*^9}},
  CellLabel->
-  "(Dialog) In[97]:=",ExpressionUUID->"1aca87b8-a358-400b-a77a-afcee46266ae"],
+  "(L2) In[52]:=",ExpressionUUID->"1aca87b8-a358-400b-a77a-afcee46266ae"],
 
 Cell[BoxData["True"], "Output",
  CellChangeTimes->{
   3.7770547894626217`*^9, 3.777133552798226*^9, 3.7772051814488897`*^9, 
    3.777205546527849*^9, 3.777221485499776*^9, {3.7772257630311937`*^9, 
    3.777225764059568*^9}, 3.777225904279503*^9, 3.7772342505455227`*^9, 
-   3.777306402821253*^9, 3.777485564628624*^9},
+   3.777306402821253*^9, 3.777485564628624*^9, 3.782233947119166*^9},
  CellLabel->
-  "(Dialog) Out[97]=",ExpressionUUID->"5ca4fbc7-37bc-4fc5-9713-11c8168f6fe3"]
+  "(L2) Out[52]=",ExpressionUUID->"392a04cb-fb40-4e58-8061-52f95e21d65e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData["$CloudCreditsAvailable"], "Input",
  CellChangeTimes->{{3.777205187357815*^9, 3.777205204233698*^9}},
- CellLabel->"In[2]:=",ExpressionUUID->"47921a87-878e-489c-a894-d4b505ec15a9"],
+ CellLabel->
+  "(L2) In[53]:=",ExpressionUUID->"47921a87-878e-489c-a894-d4b505ec15a9"],
 
-Cell[BoxData["49860"], "Output",
+Cell[BoxData["48090"], "Output",
  CellChangeTimes->{3.777205205492358*^9, 3.77720554600485*^9, 
-  3.777221488307703*^9},
- CellLabel->"Out[2]=",ExpressionUUID->"4e9ceaa0-9ec1-42a5-99b3-d62446f083ec"]
+  3.777221488307703*^9, 3.782233948609117*^9},
+ CellLabel->
+  "(L2) Out[53]=",ExpressionUUID->"462121db-15cd-49a7-a326-9322c3c948c4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -387,7 +390,7 @@ Cell[BoxData[{
    3.7775521547834597`*^9, 3.7775521621272087`*^9}, 3.7775553038102093`*^9, 
    3.777556577031496*^9, {3.777558476468224*^9, 3.777558478106456*^9}},
  CellLabel->"In[64]:=",ExpressionUUID->"5e739396-8407-44d4-8342-81db78a5f878"]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -2272,16 +2275,2663 @@ Cell[CellGroupData[{
 
 Cell[BoxData["$CloudCreditsAvailable"], "Input",
  CellChangeTimes->{{3.777339459038485*^9, 3.777339463391642*^9}},
- CellLabel->"In[91]:=",ExpressionUUID->"6f3c6bd2-badd-4614-95f1-4f09f5233c3d"],
+ CellLabel->
+  "(L2) In[47]:=",ExpressionUUID->"6f3c6bd2-badd-4614-95f1-4f09f5233c3d"],
 
-Cell[BoxData["49797"], "Output",
+Cell[BoxData["48090"], "Output",
  CellChangeTimes->{
   3.777150909750987*^9, 3.7771515049000273`*^9, {3.77720614070251*^9, 
    3.777206142203114*^9}, 3.777224728948045*^9, 3.7772256966298447`*^9, 
    3.777225968329851*^9, 3.7773208455900297`*^9, 3.7773211966268587`*^9, {
    3.7773394671212273`*^9, 3.7773394706743727`*^9}, 3.777393478167927*^9, 
-   3.7774855843949747`*^9, {3.777552191470354*^9, 3.777552198260892*^9}},
- CellLabel->"Out[91]=",ExpressionUUID->"dae7e4be-adec-4045-b2b6-95adcc30f31a"]
+   3.7774855843949747`*^9, {3.777552191470354*^9, 3.777552198260892*^9}, {
+   3.782233894704076*^9, 3.782233906448807*^9}},
+ CellLabel->
+  "(L2) Out[47]=",ExpressionUUID->"5dd7ccef-0fbb-4951-985c-66bb97aacde7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$CloudCreditsAvailable"], "Input",
+ CellLabel->
+  "(L2) In[50]:=",ExpressionUUID->"d4aa6dbe-de9a-4220-91ec-6435f1017e5d"],
+
+Cell[BoxData["48090"], "Output",
+ CellChangeTimes->{{3.782233933361642*^9, 3.782233938069721*^9}},
+ CellLabel->
+  "(L2) Out[50]=",ExpressionUUID->"c869e863-d137-453c-82fd-8a3a16548fac"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"SetPermissions", "[", 
+    RowBox[{"#", ",", "\"\<Public\>\""}], "]"}], "&"}], "/@", 
+  RowBox[{
+  "CloudObjects", "[", 
+   "\"\<https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test\>\"", 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.782234520251425*^9, 3.782234539001699*^9}, {
+  3.782234938134042*^9, 3.782234961814292*^9}},
+ CellLabel->
+  "(L2) In[66]:=",ExpressionUUID->"ab9396b6-6be6-44da-8365-b09c659ea646"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.782234542017807*^9, 3.782235014055793*^9},
+ CellLabel->
+  "(L2) Out[66]=",ExpressionUUID->"9758462c-2310-4d76-a5e7-0482386832bb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{
+  3.782234810768229*^9},ExpressionUUID->"8e04125f-8353-46b2-8dab-\
+94d5a60218f3"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Before"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Outside\"",
+       "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Outside"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_Outside"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/2_\
+After\"","https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/2_\
+After"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/2_After"],
+    SelectWithContents->True], ",", 
+   InterpretationBox[
+    RowBox[{"CloudObject", "[", 
+     TemplateBox[{
+      "\"https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/2_\
+Shell\"","https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/2_\
+Shell"},
+      "HyperlinkURL"], "]"}],
+    CloudObject[
+    "https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/2_Shell"],
+    SelectWithContents->True]}], "}"}]], "Output",
+ CellChangeTimes->{3.7822348078567457`*^9},
+ CellLabel->
+  "(L2) Out[57]=",ExpressionUUID->"97798d2d-c363-494b-a06d-64cb321b2a38"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"SetPermissions", "[", 
+    RowBox[{"#", ",", "\"\<Public\>\""}], "]"}], "&"}], "/@", 
+  RowBox[{
+  "CloudObjects", "[", 
+   "\"\<https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Before\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.782234767265554*^9, 3.7822347697296457`*^9}, {
+  3.782234803167717*^9, 3.782234821020899*^9}, {3.782234855832274*^9, 
+  3.782234879611681*^9}},
+ CellLabel->
+  "(L2) In[61]:=",ExpressionUUID->"39389a3f-024e-4ac1-bd54-1bb3391696f9"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.782234782266787*^9, {3.782234816228463*^9, 3.7822348235539093`*^9}, 
+   3.782234859000971*^9, 3.782234921457837*^9},
+ CellLabel->
+  "(L2) Out[61]=",ExpressionUUID->"d1611aaf-4a3e-42a9-aa95-d3f22c6a9fbb"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"SetPermissions", "[", 
+    RowBox[{"#", ",", "\"\<Public\>\""}], "]"}], "&"}], "/@", 
+  RowBox[{
+  "CloudObjects", "[", 
+   "\"\<https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/2_After\
+\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.78223490919937*^9, 3.782234910367373*^9}},
+ CellLabel->
+  "(L2) In[65]:=",ExpressionUUID->"0405c478-aa00-4ed3-a2d4-76b50fa64652"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.7822350116983957`*^9},
+ CellLabel->
+  "(L2) Out[65]=",ExpressionUUID->"ba9f849c-ee95-4cdb-8a44-cc23b3f86150"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"SetPermissions", "[", 
+    RowBox[{"#", ",", "\"\<Public\>\""}], "]"}], "&"}], "/@", 
+  RowBox[{
+  "CloudObjects", "[", 
+   "\"\<https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/2_Shell\
+\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.782234900142488*^9, 3.782234903582952*^9}},
+ CellLabel->
+  "(L2) In[64]:=",ExpressionUUID->"92657414-cd22-4396-bb47-f1f9995e8623"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.782234941865192*^9, 3.782234970206758*^9}},
+ CellLabel->
+  "(L2) Out[64]=",ExpressionUUID->"f19dda97-8771-4740-95ed-0e7a33745c76"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"SetPermissions", "[", 
+    RowBox[{"#", ",", "\"\<Public\>\""}], "]"}], "&"}], "/@", 
+  RowBox[{
+  "CloudObjects", "[", 
+   "\"\<https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/Bead1/1_\
+Outside\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.782234892391345*^9, 3.782234893559764*^9}},
+ CellLabel->
+  "(L2) In[62]:=",ExpressionUUID->"39c8b120-37ee-4d3c-ba00-a2271fa9299b"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}],
+        "}"}]}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.782234939493579*^9},
+ CellLabel->
+  "(L2) Out[62]=",ExpressionUUID->"4536c98b-b551-42d3-8905-28188eb150bc"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SetPermissions", "[", 
+  RowBox[{
+   RowBox[{
+   "CloudObject", "[", 
+    "\"\<https://www.wolframcloud.com/obj/wenqiang_fang/HCP_test/TestImages\>\
+\"", "]"}], ",", "\"\<Public\>\""}], "]"}]], "Input",
+ CellChangeTimes->{3.782234793427888*^9},
+ CellLabel->
+  "(L2) In[56]:=",ExpressionUUID->"b67075ba-2846-4550-b968-f4ff4e1f680b"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"All", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"\<\"Owner\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Read\"\>", ",", "\<\"Write\"\>", ",", "\<\"Execute\"\>"}], 
+     "}"}]}]}], "}"}]], "Output",
+ CellChangeTimes->{3.78223479484564*^9},
+ CellLabel->
+  "(L2) Out[56]=",ExpressionUUID->"453f12aa-c1b0-436d-8a40-2d3c34b3d38c"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -2304,38 +4954,70 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 215, 4, 63, "Input",ExpressionUUID->"003d715c-a79f-4b7a-9c93-c3c61350de14"],
-Cell[798, 28, 285, 4, 69, "Output",ExpressionUUID->"dd38e06f-1691-4fb8-b16c-8ee9e2108c50"]
+Cell[580, 22, 211, 4, 63, "Input",ExpressionUUID->"003d715c-a79f-4b7a-9c93-c3c61350de14"],
+Cell[794, 28, 306, 5, 69, "Output",ExpressionUUID->"4165a649-53b7-4b39-8f79-2221d89c9ecb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1120, 37, 200, 3, 63, "Input",ExpressionUUID->"1aca87b8-a358-400b-a77a-afcee46266ae"],
-Cell[1323, 42, 409, 7, 69, "Output",ExpressionUUID->"5ca4fbc7-37bc-4fc5-9713-11c8168f6fe3"]
+Cell[1137, 38, 196, 3, 63, "Input",ExpressionUUID->"1aca87b8-a358-400b-a77a-afcee46266ae"],
+Cell[1336, 43, 427, 7, 69, "Output",ExpressionUUID->"392a04cb-fb40-4e58-8061-52f95e21d65e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1769, 54, 192, 2, 46, "Input",ExpressionUUID->"47921a87-878e-489c-a894-d4b505ec15a9"],
-Cell[1964, 58, 198, 3, 52, "Output",ExpressionUUID->"4e9ceaa0-9ec1-42a5-99b3-d62446f083ec"]
+Cell[1800, 55, 201, 3, 63, "Input",ExpressionUUID->"47921a87-878e-489c-a894-d4b505ec15a9"],
+Cell[2004, 60, 229, 4, 127, "Output",ExpressionUUID->"462121db-15cd-49a7-a326-9322c3c948c4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2199, 66, 161, 3, 81, "Subsection",ExpressionUUID->"541c662f-363c-42fe-a9b2-488d5947384e"],
-Cell[2363, 71, 12463, 317, 1339, "Input",ExpressionUUID->"5e739396-8407-44d4-8342-81db78a5f878"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[14863, 393, 165, 3, 81, "Subsection",ExpressionUUID->"ac59e0cf-01b7-452f-b0c0-3457f239e218"],
-Cell[15031, 398, 56439, 1423, 4614, "Input",ExpressionUUID->"2cb0b255-1f61-42f8-a187-c6116a36faa0"]
+Cell[2270, 69, 161, 3, 81, "Subsection",ExpressionUUID->"541c662f-363c-42fe-a9b2-488d5947384e"],
+Cell[2434, 74, 12463, 317, 1339, "Input",ExpressionUUID->"5e739396-8407-44d4-8342-81db78a5f878"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[71507, 1826, 161, 3, 55, "Subsection",ExpressionUUID->"ca84d23b-105a-4bdc-b780-2be0432aee5a"],
+Cell[14934, 396, 165, 3, 55, "Subsection",ExpressionUUID->"ac59e0cf-01b7-452f-b0c0-3457f239e218"],
+Cell[15102, 401, 56439, 1423, 10381, "Input",ExpressionUUID->"2cb0b255-1f61-42f8-a187-c6116a36faa0"]
+}, Closed]],
 Cell[CellGroupData[{
-Cell[71693, 1833, 11556, 208, 1001, "Input",ExpressionUUID->"3ea47407-8239-4d63-9d7c-64eab4b44e52"],
-Cell[83252, 2043, 8869, 165, 368, "Output",ExpressionUUID->"ade77dad-36fa-4c17-b6f0-e4c68b60eb64"]
+Cell[71578, 1829, 161, 3, 55, "Subsection",ExpressionUUID->"ca84d23b-105a-4bdc-b780-2be0432aee5a"],
+Cell[CellGroupData[{
+Cell[71764, 1836, 11556, 208, 1001, "Input",ExpressionUUID->"3ea47407-8239-4d63-9d7c-64eab4b44e52"],
+Cell[83323, 2046, 8869, 165, 368, "Output",ExpressionUUID->"ade77dad-36fa-4c17-b6f0-e4c68b60eb64"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[92158, 2213, 837, 15, 46, "Input",ExpressionUUID->"cec1e147-d6a2-4638-97e7-d084c55607eb"],
-Cell[92998, 2230, 2361, 37, 56, "Output",ExpressionUUID->"43adf070-695b-4ca5-9e11-64efffd21d54"]
+Cell[92229, 2216, 837, 15, 46, "Input",ExpressionUUID->"cec1e147-d6a2-4638-97e7-d084c55607eb"],
+Cell[93069, 2233, 2361, 37, 56, "Output",ExpressionUUID->"43adf070-695b-4ca5-9e11-64efffd21d54"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[95396, 2272, 193, 2, 46, "Input",ExpressionUUID->"6f3c6bd2-badd-4614-95f1-4f09f5233c3d"],
-Cell[95592, 2276, 499, 7, 52, "Output",ExpressionUUID->"dae7e4be-adec-4045-b2b6-95adcc30f31a"]
+Cell[95467, 2275, 201, 3, 63, "Input",ExpressionUUID->"6f3c6bd2-badd-4614-95f1-4f09f5233c3d"],
+Cell[95671, 2280, 557, 9, 69, "Output",ExpressionUUID->"5dd7ccef-0fbb-4951-985c-66bb97aacde7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[96265, 2294, 135, 2, 63, "Input",ExpressionUUID->"d4aa6dbe-de9a-4220-91ec-6435f1017e5d"],
+Cell[96403, 2298, 185, 3, 69, "Output",ExpressionUUID->"c869e863-d137-453c-82fd-8a3a16548fac"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[96625, 2306, 462, 12, 63, "Input",ExpressionUUID->"ab9396b6-6be6-44da-8365-b09c659ea646"],
+Cell[97090, 2320, 1734, 47, 101, "Output",ExpressionUUID->"9758462c-2310-4d76-a5e7-0482386832bb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[98861, 2372, 128, 3, 46, "Input",ExpressionUUID->"8e04125f-8353-46b2-8dab-94d5a60218f3"],
+Cell[98992, 2377, 1793, 47, 110, "Output",ExpressionUUID->"97798d2d-c363-494b-a06d-64cb321b2a38"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[100822, 2429, 526, 13, 63, "Input",ExpressionUUID->"39389a3f-024e-4ac1-bd54-1bb3391696f9"],
+Cell[101351, 2444, 30881, 847, 969, "Output",ExpressionUUID->"d1611aaf-4a3e-42a9-aa95-d3f22c6a9fbb"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[132269, 3296, 424, 11, 55, "Input",ExpressionUUID->"0405c478-aa00-4ed3-a2d4-76b50fa64652"],
+Cell[132696, 3309, 30784, 845, 1027, "Output",ExpressionUUID->"ba9f849c-ee95-4cdb-8a44-cc23b3f86150"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[163517, 4159, 425, 11, 63, "Input",ExpressionUUID->"92657414-cd22-4396-bb47-f1f9995e8623"],
+Cell[163945, 4172, 12956, 355, 442, "Output",ExpressionUUID->"f19dda97-8771-4740-95ed-0e7a33745c76"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[176938, 4532, 427, 11, 63, "Input",ExpressionUUID->"39c8b120-37ee-4d3c-ba00-a2271fa9299b"],
+Cell[177368, 4545, 13187, 362, 442, "Output",ExpressionUUID->"4536c98b-b551-42d3-8905-28188eb150bc"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[190592, 4912, 355, 9, 55, "Input",ExpressionUUID->"b67075ba-2846-4550-b968-f4ff4e1f680b"],
+Cell[190950, 4923, 387, 10, 69, "Output",ExpressionUUID->"453f12aa-c1b0-436d-8a40-2d3c34b3d38c"]
 }, Open  ]]
 }, Open  ]]
 }

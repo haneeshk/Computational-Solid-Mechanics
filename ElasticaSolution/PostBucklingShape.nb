@@ -10,17 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-<<<<<<< HEAD
-NotebookDataLength[    236696,       4796]
-NotebookOptionsPosition[    202871,       4060]
-NotebookOutlinePosition[    231945,       4723]
-CellTagsIndexPosition[    231902,       4720]
-=======
 NotebookDataLength[     58386,       1486]
 NotebookOptionsPosition[     38245,       1050]
 NotebookOutlinePosition[     56529,       1463]
 CellTagsIndexPosition[     56486,       1460]
->>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -46,15 +39,15 @@ Cell["Clearing Definitions", "Text",
 
 Cell[BoxData[
 <<<<<<< HEAD
- RowBox[{"\[IndentingNewLine]", 
+ RowBox[{"", 
   RowBox[{
    RowBox[{
     RowBox[{"Quiet", "@", 
      RowBox[{"Unprotect", "[", "\"\<Notation`*\>\"", "]"}]}], ";"}], 
-   "\[IndentingNewLine]", 
+   "", 
    RowBox[{
 =======
- RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", 
+ RowBox[{"", "", 
   RowBox[{
    RowBox[{
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
@@ -67,9 +60,9 @@ Cell[BoxData[
       RowBox[{
       "\"\<Global`*\>\"", ",", " ", "\"\<Love`ComplexSymbols`*\>\"", ",", 
        "\"\<ComplexSymbols`*\>\"", ",", "\"\<Notation`*\>\""}], "}"}]}], 
-    ";"}], "\[IndentingNewLine]", 
+    ";"}], "", 
 =======
-     RowBox[{"{", "\"\<Global`*\>\"", "}"}]}], ";"}], "\[IndentingNewLine]", 
+     RowBox[{"{", "\"\<Global`*\>\"", "}"}]}], ";"}], "", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
    RowBox[{
     RowBox[{
@@ -81,11 +74,11 @@ Cell[BoxData[
       RowBox[{
       "\"\<Global`*\>\"", ",", " ", "\"\<Love`ComplexSymbols`*\>\"", ",", 
        "\"\<ComplexSymbols`*\>\"", ",", "\"\<Notation`*\>\""}], "}"}]}], 
-    ";"}], "\[IndentingNewLine]", 
+    ";"}], "", 
 =======
-     RowBox[{"{", "\"\<Global`*\>\"", "}"}]}], ";"}], "\[IndentingNewLine]", 
+     RowBox[{"{", "\"\<Global`*\>\"", "}"}]}], ";"}], "", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
-   RowBox[{"<<", "MaTeX`"}], "\[IndentingNewLine]", 
+   RowBox[{"<<", "MaTeX`"}], "", 
    RowBox[{"(*", 
     RowBox[{"<<", "Notation`"}], "*)"}]}]}]], "Input",
  Editable->True,
@@ -96,9 +89,9 @@ Cell[BoxData[
 
 <<<<<<< HEAD
 Cell[BoxData[
- RowBox[{"\[IndentingNewLine]", 
+ RowBox[{"", 
   RowBox[{
-   RowBox[{"Begin", "[", "\"\<Love`\>\"", "]"}], "\[IndentingNewLine]", 
+   RowBox[{"Begin", "[", "\"\<Love`\>\"", "]"}], "", 
    RowBox[{"Needs", "[", 
     RowBox[{"\"\<ComplexSymbols`\>\"", ",", " ", 
 =======
@@ -107,7 +100,7 @@ Cell[BoxData[{
   RowBox[{
    RowBox[{"ValueQ", "[", "Love`sympaltte", "]"}], ",", 
    RowBox[{"NotebookClose", "[", "Love`sympaltte", "]"}]}], 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{
   RowBox[{
    RowBox[{
@@ -119,22 +112,22 @@ Cell[BoxData[{
    10000.},ExpressionUUID->"3fbe2f6b-bc69-4f8d-8012-96914cf33156"],
 
 Cell[BoxData[
- RowBox[{"\[IndentingNewLine]", 
+ RowBox[{"", 
   RowBox[{
    RowBox[{
     RowBox[{"Begin", "[", "\"\<Love`\>\"", "]"}], ";"}], 
-   "\[IndentingNewLine]", 
+   "", 
    RowBox[{"If", "[", 
     RowBox[{
      RowBox[{"ValueQ", "[", "sympaltte", "]"}], ",", 
      RowBox[{"NotebookClose", "[", "sympaltte", "]"}]}], "]"}], 
-   "\[IndentingNewLine]", 
+   "", 
    RowBox[{
     RowBox[{
      RowBox[{
       RowBox[{"Quiet", "[", 
        RowBox[{"ClearAll", "[", "#", "]"}], " ", "]"}], "&"}], " ", "/@", " ", 
-     RowBox[{"{", "\"\<Love`*\>\"", "}"}]}], ";"}], "\[IndentingNewLine]", 
+     RowBox[{"{", "\"\<Love`*\>\"", "}"}]}], ";"}], "", 
    RowBox[{
     RowBox[{"Get", "[", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
@@ -147,7 +140,7 @@ ForBetterMMAExperience/master/ComplexSymbols.wl\>\"",
         ShowStringCharacters->True,
         NumberMarks->True],
 <<<<<<< HEAD
-       FullForm], "]"}]}], "]"}], "\[IndentingNewLine]", 
+       FullForm], "]"}]}], "]"}], "", 
    RowBox[{
     RowBox[{"If", "[", 
      RowBox[{
@@ -155,61 +148,61 @@ ForBetterMMAExperience/master/ComplexSymbols.wl\>\"",
       RowBox[{
        RowBox[{"UnassignLabels", "[", "syms", "]"}], ";", 
        RowBox[{"ClearAll", "[", "syms", "]"}]}]}], "]"}], ";"}], 
-   "\[IndentingNewLine]", 
+   "", 
    RowBox[{"If", "[", 
     RowBox[{
      RowBox[{"ValueQ", "[", "sympaltte", "]"}], ",", 
      RowBox[{
       RowBox[{"NotebookClose", "[", "sympaltte", "]"}], ";", " ", 
       RowBox[{"ClearAll", "[", "sympaltte", "]"}]}]}], "]"}], 
-   "\[IndentingNewLine]", 
+   "", 
 =======
-       FullForm], "]"}], "]"}], ";"}], "\[IndentingNewLine]", 
+       FullForm], "]"}], "]"}], ";"}], "", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
    RowBox[{
     RowBox[{"syms", "=", 
      RowBox[{"AssignLabels", "[", 
       RowBox[{"{", 
        RowBox[{
-       "\"\<\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+       "\"\<\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\>\"", ",", 
-        "\"\<\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+        "\"\<\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"'\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\>\"", 
-        ",", "\"\<\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+        ",", "\"\<\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\>\"", 
         ",", "\"\<\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
 StyleBox[\"n\",FontFamily->\"Times New \
 Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\>\""}], "}"}], "]"}]}], 
-    ";"}], "\[IndentingNewLine]", 
+    ";"}], "", 
    RowBox[{
     RowBox[{"sympaltte", "=", 
      RowBox[{"SymbolPalette", "[", 
       RowBox[{"\"\<syms\>\"", ",", "syms", ",", "1"}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", 
+   "", 
    RowBox[{
 <<<<<<< HEAD
     RowBox[{
      RowBox[{"x", "::", "usage"}], "=", "\"\<x cordinate\>\""}], ";"}], 
-   "\[IndentingNewLine]", 
+   "", 
    RowBox[{
     RowBox[{"y", "::", "usage"}], "=", "\"\<y cordinate\>\""}], 
-   "\[IndentingNewLine]", 
-   RowBox[{"End", "[", "]"}], "\[IndentingNewLine]", 
+   "", 
+   RowBox[{"End", "[", "]"}], "", 
    RowBox[{"AppendTo", "[", 
     RowBox[{"$ContextPath", ",", " ", "\"\<Love`\>\""}], "]"}], 
 =======
-    RowBox[{"End", "[", "]"}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{"End", "[", "]"}], ";"}], "", 
    RowBox[{
     RowBox[{"AppendTo", "[", 
      RowBox[{"$ContextPath", ",", " ", "\"\<Love`\>\""}], "]"}], ";"}], 
-   "\[IndentingNewLine]", 
+   "", 
    RowBox[{"$ContextPath", "=", 
     RowBox[{"DeleteDuplicates", "[", "$ContextPath", "]"}]}], 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
-   "\[IndentingNewLine]"}]}]], "Input",
+   ""}]}]], "Input",
  Editable->True,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  FontFamily->"Source Sans Pro",
@@ -246,11 +239,11 @@ Cell[BoxData[{
     RowBox[{"HoldForm", "[", 
      RowBox[{
       RowBox[{
-       RowBox[{"\[Theta]", "''"}], "+", 
+       RowBox[{"θ", "''"}], "+", 
        RowBox[{"p", " ", 
-        RowBox[{"Sin", "[", "\[Theta]", "]"}]}]}], "=", "0"}], "]"}], ",", 
-    RowBox[{"FontSize", "\[Rule]", "18"}]}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
+        RowBox[{"Sin", "[", "θ", "]"}]}]}], "=", "0"}], "]"}], ",", 
+    RowBox[{"FontSize", "->", "18"}]}], "]"}], 
+  ";"}], "", 
  RowBox[{
   RowBox[{"MaTeX", "[", 
    RowBox[{
@@ -259,9 +252,9 @@ Cell[BoxData[{
       RowBox[{
        RowBox[{"x", "'"}], "[", "s", "]"}], "=", 
       RowBox[{"Cos", "[", 
-       RowBox[{"\[Theta]", "[", "s", "]"}], "]"}]}], "]"}], ",", 
-    RowBox[{"FontSize", "\[Rule]", "18"}]}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
+       RowBox[{"θ", "[", "s", "]"}], "]"}]}], "]"}], ",", 
+    RowBox[{"FontSize", "->", "18"}]}], "]"}], 
+  ";"}], "", 
  RowBox[{
   RowBox[{"MaTeX", "[", 
    RowBox[{
@@ -270,8 +263,8 @@ Cell[BoxData[{
       RowBox[{
        RowBox[{"y", "'"}], "[", "s", "]"}], "=", 
       RowBox[{"Sin", "[", 
-       RowBox[{"\[Theta]", "[", "s", "]"}], "]"}]}], "]"}], ",", 
-    RowBox[{"FontSize", "\[Rule]", "18"}]}], "]"}], ";"}]}], "Input",
+       RowBox[{"θ", "[", "s", "]"}], "]"}]}], "]"}], ",", 
+    RowBox[{"FontSize", "->", "18"}]}], "]"}], ";"}]}], "Input",
  Editable->True,
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  FontFamily->"Source Sans Pro",
@@ -990,12 +983,12 @@ g+jNc9+DF8c6KF97FMwwRwEefzscmh4dr1BxQI9fAOz0w2w=
 }, Open  ]],
 
 Cell[TextData[{
- StyleBox["\[Theta][s] = 2 ",
+ StyleBox["θ[s] = 2 ",
 =======
 Cell[TextData[{
- StyleBox["\[Theta]\[CloseCurlyQuote]\[CloseCurlyQuote][s]+p \
-sin[\[Theta][s]]=0\nx\[CloseCurlyQuote][s]=cos[\[Theta][s]]\ny\
-\[CloseCurlyQuote][s]=sin[\[Theta][s]]\n\[Theta][s] = 2 ",
+ StyleBox["θ''[s]+p \
+sin[θ[s]]=0\nx'[s]=cos[θ[s]]\ny\
+'[s]=sin[θ[s]]\nθ[s] = 2 ",
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
   FontFamily->"Times New Roman",
   FontSize->24,
@@ -1007,13 +1000,13 @@ sin[\[Theta][s]]=0\nx\[CloseCurlyQuote][s]=cos[\[Theta][s]]\ny\
      SuperscriptBox["sin", 
       RowBox[{"-", "1"}]], "[", 
      RowBox[{
-      RowBox[{"\[Sqrt]", 
+      RowBox[{"√", 
        SubscriptBox["k", "n"]}], " ", 
       RowBox[{"sn", "[", 
        RowBox[{
         RowBox[{
          RowBox[{"s", " ", 
-          RowBox[{"\[Sqrt]", "p"}]}], "+", 
+          RowBox[{"√", "p"}]}], "+", 
          RowBox[{"K", "[", 
           SubscriptBox["k", "n"], "]"}]}], ";", 
         SubscriptBox["k", "n"]}], "]"}]}], "]"}],
@@ -1030,7 +1023,7 @@ sin[\[Theta][s]]=0\nx\[CloseCurlyQuote][s]=cos[\[Theta][s]]\ny\
      RowBox[{"K", "[", 
       SubscriptBox["k", "n"], "]"}], "=", 
      RowBox[{
-      RowBox[{"\[Sqrt]", "p"}], "/", "2"}]}],
+      RowBox[{"√", "p"}], "/", "2"}]}],
     FontSlant->"Italic"], ";"}]],
   FontFamily->"Times New Roman",
   FontSize->24,
@@ -1047,33 +1040,33 @@ sin[\[Theta][s]]=0\nx\[CloseCurlyQuote][s]=cos[\[Theta][s]]\ny\
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"\[IndentingNewLine]", 
+ RowBox[{"", 
   RowBox[{
    RowBox[{"ClearAll", "[", 
     RowBox[{
      TemplateBox[{
-      "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+      "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
       "complexSymbols",
       Editable->False,
       Selectable->False], ",", 
      TemplateBox[{
-      "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+      "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
       "complexSymbols",
       Editable->False,
-      Selectable->False]}], "]"}], "\[IndentingNewLine]", 
+      Selectable->False]}], "]"}], "", 
 =======
 Cell[BoxData[
- RowBox[{"\[IndentingNewLine]", 
+ RowBox[{"", 
   RowBox[{"(*", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
    RowBox[{
     RowBox[{
      RowBox[{
       TemplateBox[{
-       "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+       "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
        "complexSymbols",
        Editable->False,
@@ -1127,20 +1120,20 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
 <<<<<<< HEAD
    RowBox[{"(*", 
     RowBox[{"From", " ", 
-     RowBox[{"Love", "'"}], "s", " ", "book"}], "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"Love", "'"}], "s", " ", "book"}], "*)"}], "", 
 =======
    "*)"}], 
   RowBox[{"(*", 
    RowBox[{"From", " ", 
-    RowBox[{"Love", "'"}], "s", " ", "book"}], "*)"}], "\[IndentingNewLine]", 
-  "\[IndentingNewLine]", 
+    RowBox[{"Love", "'"}], "s", " ", "book"}], "*)"}], "", 
+  "", 
   RowBox[{
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
    RowBox[{
     RowBox[{
      RowBox[{
       TemplateBox[{
-       "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+       "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 <<<<<<< HEAD
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"'\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
@@ -1168,7 +1161,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
          RowBox[{
           
           TemplateBox[{
-           "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+           "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
            "complexSymbols",
            Editable->False,
@@ -1185,7 +1178,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
             Selectable->False]}], "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"s", ",", "1"}], "}"}]}], "]"}], "//", "FullSimplify"}], 
-      ")"}]}], ";"}], "\[IndentingNewLine]", 
+      ")"}]}], ";"}], "", 
 =======
      RowBox[{"2", " ", 
       RowBox[{"ArcSin", "[", 
@@ -1212,13 +1205,13 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
            "complexSymbols",
            Editable->False,
            Selectable->False]}], "]"}]}], "]"}]}]}], ";"}], 
-   "\[IndentingNewLine]", 
+   "", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
    RowBox[{
     RowBox[{
      RowBox[{
       TemplateBox[{
-       "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+       "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
        "complexSymbols",
@@ -1242,7 +1235,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
          RowBox[{
           
           TemplateBox[{
-           "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+           "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
            "complexSymbols",
            Editable->False,
@@ -1259,12 +1252,12 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
             Selectable->False]}], "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"s", ",", "2"}], "}"}]}], "]"}], "//", "FullSimplify"}], 
-      ")"}]}], ";"}], "\[IndentingNewLine]", 
+      ")"}]}], ";"}], "", 
    RowBox[{"Labeled", "[", 
     RowBox[{
      RowBox[{
       TemplateBox[{
-       "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+       "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
        "complexSymbols",
        Editable->False,
@@ -1278,7 +1271,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
         "complexSymbols",
         Editable->False,
         Selectable->False]}], "]"}], ",", 
-     "\"\<\!\(\*TemplateBox[{\"\\\"\!\(\*StyleBox[\\\"\[Theta]\\\",FontFamily-\
+     "\"\<\!\(\*TemplateBox[{\"\\\"\!\(\*StyleBox[\\\"θ\\\",FontFamily-\
 >\\\"Times New \
 Roman\\\",FontSize->18,FontWeight->\\\"Regular\\\"]\)\\\"\"},\"complexSymbols\
 \",Editable->False,Selectable->False]\)[s;p, \
@@ -1288,12 +1281,12 @@ Roman\\\",FontSize->18,FontWeight->\\\"Regular\\\",FontSlant->\\\"Italic\\\"],\
  StyleBox[\\\"n\\\",FontFamily->\\\"Times New \
 Roman\\\",FontSize->14,FontWeight->\\\"Regular\\\"]]\)\\\"\"},\"\
 complexSymbols\",Editable->False,Selectable->False]\)] =\>\"", ",", "Left"}], 
-    "]"}], "\[IndentingNewLine]", 
+    "]"}], "", 
    RowBox[{"Labeled", "[", 
     RowBox[{
      RowBox[{
       TemplateBox[{
-       "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+       "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
        "complexSymbols",
@@ -1308,7 +1301,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
         "complexSymbols",
         Editable->False,
         Selectable->False]}], "]"}], ",", 
-     "\"\<\!\(\*TemplateBox[{\"\\\"\!\(\*StyleBox[\\\"\[Theta]\\\",FontFamily-\
+     "\"\<\!\(\*TemplateBox[{\"\\\"\!\(\*StyleBox[\\\"θ\\\",FontFamily-\
 >\\\"Times New \
 Roman\\\",FontSize->18,FontWeight->\\\"Regular\\\"]\)\!\(\*StyleBox[\\\"''\\\"\
 ,FontFamily->\\\"Times New \
@@ -1319,13 +1312,13 @@ Roman\\\",FontSize->18,FontWeight->\\\"Regular\\\",FontSlant->\\\"Italic\\\"],\
  StyleBox[\\\"n\\\",FontFamily->\\\"Times New \
 Roman\\\",FontSize->14,FontWeight->\\\"Regular\\\"]]\)\\\"\"},\"\
 complexSymbols\",Editable->False,Selectable->False]\)] =\>\"", ",", "Left"}], 
-    "]"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    "]"}], "", "", 
 =======
       RowBox[{"D", "[", 
        RowBox[{
         RowBox[{
          TemplateBox[{
-          "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+          "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
           "complexSymbols",
           Editable->False,
@@ -1342,14 +1335,14 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
            Selectable->False]}], "]"}], ",", 
         RowBox[{"{", 
          RowBox[{"s", ",", "2"}], "}"}]}], "]"}], ")"}]}], ";"}], 
-   "\[IndentingNewLine]", 
+   "", 
    RowBox[{"(*", 
     RowBox[{
      RowBox[{"Labeled", "[", 
       RowBox[{
        RowBox[{
         TemplateBox[{
-         "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+         "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
          "complexSymbols",
          Editable->False,
@@ -1366,7 +1359,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
        RowBox[{"HoldForm", "[", 
         RowBox[{
          TemplateBox[{
-          "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+          "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
           "complexSymbols",
           Editable->False,
@@ -1381,12 +1374,12 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
            "complexSymbols",
            Editable->False,
            Selectable->False]}], "]"}], " ", "]"}], ",", "Left"}], "]"}], 
-     "\[IndentingNewLine]", 
+     "", 
      RowBox[{"Labeled", "[", 
       RowBox[{
        RowBox[{
         TemplateBox[{
-         "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+         "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
          "complexSymbols",
@@ -1404,7 +1397,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
        RowBox[{"HoldForm", "[", 
         RowBox[{
          TemplateBox[{
-          "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+          "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
           "complexSymbols",
@@ -1420,9 +1413,9 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
            "complexSymbols",
            Editable->False,
            Selectable->False]}], "]"}], "]"}], ",", "Left"}], "]"}]}], 
-    "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+    "", "*)"}], "", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
-   "\[IndentingNewLine]", 
+   "", 
    RowBox[{
     RowBox[{
      RowBox[{"x", "[", 
@@ -1513,7 +1506,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
             "complexSymbols",
             Editable->False,
             Selectable->False]}], "]"}]}], ")"}]}]}]}], ";"}], 
-   "\[IndentingNewLine]", 
+   "", 
    RowBox[{
     RowBox[{
      RowBox[{"y", "[", 
@@ -1593,7 +1586,7 @@ Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
 StyleBox[\"n\",FontFamily->\"Times New \
 Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""}, "complexSymbols", 
               Editable -> False, Selectable -> False]}], "]"}]}], "]"}]}],
-   "\"\\!\\(\\*TemplateBox[{\\\"\\\\\\\"\\!\\(\\*StyleBox[\\\\\\\"\[Theta]\\\\\
+   "\"\\!\\(\\*TemplateBox[{\\\"\\\\\\\"\\!\\(\\*StyleBox[\\\\\\\"θ\\\\\
 \\\",FontFamily->\\\\\\\"Times New \
 Roman\\\\\\\",FontSize->18,FontWeight->\\\\\\\"Regular\\\\\\\"]\\)\\\\\\\"\\\"\
 },\\\"complexSymbols\\\",Editable->False,Selectable->False]\\)[s;p, \
@@ -1691,7 +1684,7 @@ Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
 StyleBox[\"n\",FontFamily->\"Times New \
 Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""}, "complexSymbols", 
               Editable -> False, Selectable -> False]}], "]"}], "5"]}]]}],
-   "\"\\!\\(\\*TemplateBox[{\\\"\\\\\\\"\\!\\(\\*StyleBox[\\\\\\\"\[Theta]\\\\\
+   "\"\\!\\(\\*TemplateBox[{\\\"\\\\\\\"\\!\\(\\*StyleBox[\\\\\\\"θ\\\\\
 \\\",FontFamily->\\\\\\\"Times New \
 Roman\\\\\\\",FontSize->18,FontWeight->\\\\\\\"Regular\\\\\\\"]\\)\\!\\(\\*\
 StyleBox[\\\\\\\"''\\\\\\\",FontFamily->\\\\\\\"Times New \
@@ -1730,7 +1723,7 @@ StyleBox[\"n\",FontFamily->\"Times New \
 Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
    "complexSymbols",
    Editable->False,
-   Selectable->False], "]"}], "\[IndentingNewLine]", 
+   Selectable->False], "]"}], "", 
  RowBox[{
   RowBox[{
    TemplateBox[{
@@ -1745,7 +1738,7 @@ StyleBox[\"n\",FontFamily->\"Times New \
 Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
    "complexSymbols",
    Editable->False,
-   Selectable->False], "]"}], "\[IndentingNewLine]", 
+   Selectable->False], "]"}], "", 
  RowBox[{
   RowBox[{
    TemplateBox[{
@@ -1759,7 +1752,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
     Selectable->False], "[", "p_", "]"}], ":=", 
   RowBox[{"Module", "[", 
    RowBox[{
-    RowBox[{"{", "solk", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", "solk", "}"}], ",", "", 
     RowBox[{"x", "/.", 
      RowBox[{"FindRoot", "[", 
       RowBox[{
@@ -1768,7 +1761,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
         RowBox[{
          RowBox[{"Sqrt", "[", "p", "]"}], "/", "2"}]}], ",", 
        RowBox[{"{", 
-        RowBox[{"x", ",", "0.1"}], "}"}]}], "]"}]}]}], "\[IndentingNewLine]", 
+        RowBox[{"x", ",", "0.1"}], "}"}]}], "]"}]}]}], "", 
    "]"}]}]}], "Input",
  Editable->True,
  FontFamily->"Source Sans Pro",
@@ -1789,7 +1782,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
    Editable->False,
    Selectable->False], "[", " ", 
   RowBox[{
-   SuperscriptBox["\[Pi]", "2"], "+", "0.4"}], "]"}]], "Input",ExpressionUUID-\
+   SuperscriptBox["π", "2"], "+", "0.4"}], "]"}]], "Input",ExpressionUUID-\
 >"367a257f-8a09-4f95-a578-24455a856a49"],
 
 Cell[BoxData["0.07675072278597488`"], "Output",ExpressionUUID->"18c8c6df-d78b-476d-a84f-033a16a44121"]
@@ -1805,14 +1798,14 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{"p", "=", " ", 
      RowBox[{
-      SuperscriptBox["\[Pi]", "2"], "+", "0.2"}]}], "}"}], ",", 
-   "\[IndentingNewLine]", 
+      SuperscriptBox["π", "2"], "+", "0.2"}]}], "}"}], ",", 
+   "", 
    RowBox[{"Plot", "[", 
     RowBox[{
      RowBox[{
       RowBox[{
        TemplateBox[{
-        "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+        "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
         "complexSymbols",
@@ -1832,7 +1825,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
        RowBox[{"Sin", "[", 
         RowBox[{
          TemplateBox[{
-          "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+          "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
           "complexSymbols",
           Editable->False,
@@ -1850,7 +1843,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
             Selectable->False], "[", "p", "]"}]}], "]"}], "]"}]}]}], ",", 
      RowBox[{"{", 
       RowBox[{"s", ",", "0", ",", ".1"}], "}"}], ",", 
-     RowBox[{"PlotLabel", "\[Rule]", 
+     RowBox[{"PlotLabel", "->", 
       RowBox[{"Grid", "[", 
        RowBox[{"{", 
         RowBox[{"{", 
@@ -1871,7 +1864,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
             "complexSymbols",
             Editable->False,
             Selectable->False], "[", "p", "]"}]}], "}"}], "}"}], "]"}]}]}], 
-    "]"}]}], "\[IndentingNewLine]", "]"}]], "Input",
+    "]"}]}], "", "]"}]], "Input",
  Editable->True,
  FontFamily->"Source Sans Pro",
  FontSize->18,
@@ -2498,17 +2491,17 @@ Roman\\\\\\\",FontSize->14,FontWeight->\\\\\\\"Regular\\\\\\\"]]\\)\\\\\\\"\\\
 }, Open  ]],
 
 Cell[BoxData[
- RowBox[{"\[IndentingNewLine]", 
+ RowBox[{"", 
   RowBox[{
-   RowBox[{"ClearAll", "[", "ColumnShapeFromLove\[Theta]", "]"}], 
-   "\[IndentingNewLine]", 
+   RowBox[{"ClearAll", "[", "ColumnShapeFromLoveθ", "]"}], 
+   "", 
    RowBox[{
-    RowBox[{"ColumnShapeFromLove\[Theta]", "[", "p_", "]"}], ":=", 
+    RowBox[{"ColumnShapeFromLoveθ", "[", "p_", "]"}], ":=", 
     RowBox[{"Module", "[", 
      RowBox[{
       RowBox[{"{", 
-       RowBox[{"soly", ",", "solx", ",", "x", ",", "y", ",", "\[Delta]"}], 
-       "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"soly", ",", "solx", ",", "x", ",", "y", ",", "δ"}], 
+       "}"}], ",", "", 
       RowBox[{
        RowBox[{"solx", " ", "=", 
         RowBox[{"NDSolve", "[", 
@@ -2522,7 +2515,7 @@ Cell[BoxData[
               RowBox[{
                
                TemplateBox[{
-                "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+                "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
                 "complexSymbols",
                 Editable->False,
@@ -2540,11 +2533,11 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
                   Selectable->False], "[", "p", "]"}]}], "]"}], "]"}]}], ",", 
             
             RowBox[{
-             RowBox[{"x", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+             RowBox[{"x", "[", "0", "]"}], "==", "0"}]}], "}"}], ",", 
           RowBox[{"x", "[", "s", "]"}], ",", 
           RowBox[{"{", 
            RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
-       "\[IndentingNewLine]", 
+       "", 
        RowBox[{"soly", "=", " ", 
         RowBox[{"NDSolve", "[", 
          RowBox[{
@@ -2552,12 +2545,12 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
            RowBox[{
             RowBox[{
              RowBox[{
-              RowBox[{"y", "'"}], "[", "s", "]"}], "\[Equal]", 
+              RowBox[{"y", "'"}], "[", "s", "]"}], "==", 
              RowBox[{"Sin", "[", 
               RowBox[{
                
                TemplateBox[{
-                "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+                "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
                 "complexSymbols",
                 Editable->False,
@@ -2575,19 +2568,19 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
                   Selectable->False], "[", "p", "]"}]}], "]"}], "]"}]}], ",", 
             
             RowBox[{
-             RowBox[{"y", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+             RowBox[{"y", "[", "0", "]"}], "==", "0"}]}], "}"}], ",", 
           RowBox[{"y", "[", "s", "]"}], ",", 
           RowBox[{"{", 
            RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
-       "\[IndentingNewLine]", 
-       RowBox[{"\[Delta]", " ", "=", " ", 
+       "", 
+       RowBox[{"δ", " ", "=", " ", 
         RowBox[{
          RowBox[{
           RowBox[{"y", "[", "s", "]"}], "/.", 
           RowBox[{"soly", "[", 
            RowBox[{"[", "1", "]"}], "]"}]}], "/.", 
-         RowBox[{"s", "\[Rule]", 
-          RowBox[{"1", "/", "2"}]}]}]}], ";", "\[IndentingNewLine]", 
+         RowBox[{"s", "->", 
+          RowBox[{"1", "/", "2"}]}]}]}], ";", "", 
        RowBox[{"ParametricPlot", "[", 
         RowBox[{
          RowBox[{"{", 
@@ -2602,16 +2595,16 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
              RowBox[{"[", "1", "]"}], "]"}]}]}], "}"}], ",", 
          RowBox[{"{", 
           RowBox[{"s", ",", "0", ",", "1"}], "}"}], ",", 
-         RowBox[{"PlotStyle", "\[Rule]", 
+         RowBox[{"PlotStyle", "->", 
           RowBox[{"{", "Black", "}"}]}], ",", 
-         RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", 
-         RowBox[{"PlotLabel", "\[Rule]", 
+         RowBox[{"ImageSize", "->", "Large"}], ",", 
+         RowBox[{"PlotLabel", "->", 
           RowBox[{"Grid", "[", 
            RowBox[{"{", 
             RowBox[{"{", 
-             RowBox[{"\"\<\[Delta] =\>\"", ",", "\[Delta]"}], "}"}], "}"}], 
+             RowBox[{"\"\<δ =\>\"", ",", "δ"}], "}"}], "}"}], 
            "]"}]}], ",", 
-         RowBox[{"PlotRange", "\[Rule]", 
+         RowBox[{"PlotRange", "->", 
           RowBox[{"{", 
            RowBox[{
             RowBox[{"{", 
@@ -2619,16 +2612,16 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
               RowBox[{"-", "0.5"}], ",", "1.5"}], "}"}], ",", 
             RowBox[{"{", 
              RowBox[{"0", ",", "0.5"}], "}"}]}], "}"}]}]}], "]"}]}]}], 
-     "\[IndentingNewLine]", "]"}]}]}]}]], "Input",
+     "", "]"}]}]}]}]], "Input",
 =======
 Cell[BoxData[{
- RowBox[{"ClearAll", "[", "ColumnShapeFromLove\[Theta]", "]"}], "\n", 
+ RowBox[{"ClearAll", "[", "ColumnShapeFromLoveθ", "]"}], "\n", 
  RowBox[{
-  RowBox[{"ColumnShapeFromLove\[Theta]", "[", "p_", "]"}], ":=", 
+  RowBox[{"ColumnShapeFromLoveθ", "[", "p_", "]"}], ":=", 
   RowBox[{"Module", "[", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"soly", ",", "solx", ",", "x", ",", "y", ",", "\[Delta]"}], 
+     RowBox[{"soly", ",", "solx", ",", "x", ",", "y", ",", "δ"}], 
      "}"}], ",", 
     RowBox[{
      RowBox[{"solx", "=", 
@@ -2638,13 +2631,13 @@ Cell[BoxData[{
          RowBox[{
           RowBox[{
            RowBox[{
-            SuperscriptBox["x", "\[Prime]",
-             MultilineFunction->None], "[", "s", "]"}], "\[Equal]", 
+            SuperscriptBox["x", "′",
+             MultilineFunction->None], "[", "s", "]"}], "==", 
            RowBox[{"Cos", "[", 
             RowBox[{
              
              TemplateBox[{
-              "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+              "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
               "complexSymbols",
               Editable->False,
@@ -2661,7 +2654,7 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
                 Editable->False,
                 Selectable->False], "[", "p", "]"}]}], "]"}], "]"}]}], ",", 
           RowBox[{
-           RowBox[{"x", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+           RowBox[{"x", "[", "0", "]"}], "==", "0"}]}], "}"}], ",", 
         RowBox[{"x", "[", "s", "]"}], ",", 
         RowBox[{"{", 
          RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
@@ -2672,13 +2665,13 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
          RowBox[{
           RowBox[{
            RowBox[{
-            SuperscriptBox["y", "\[Prime]",
-             MultilineFunction->None], "[", "s", "]"}], "\[Equal]", 
+            SuperscriptBox["y", "′",
+             MultilineFunction->None], "[", "s", "]"}], "==", 
            RowBox[{"Sin", "[", 
             RowBox[{
              
              TemplateBox[{
-              "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+              "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
               "complexSymbols",
               Editable->False,
@@ -2695,45 +2688,45 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
                 Editable->False,
                 Selectable->False], "[", "p", "]"}]}], "]"}], "]"}]}], ",", 
           RowBox[{
-           RowBox[{"y", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+           RowBox[{"y", "[", "0", "]"}], "==", "0"}]}], "}"}], ",", 
         RowBox[{"y", "[", "s", "]"}], ",", 
         RowBox[{"{", 
          RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
-     RowBox[{"\[Delta]", "=", 
+     RowBox[{"δ", "=", 
       RowBox[{
        RowBox[{
-        RowBox[{"y", "[", "s", "]"}], "/.", "\[VeryThinSpace]", 
+        RowBox[{"y", "[", "s", "]"}], "/.", " ", 
         RowBox[{
-        "soly", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], "/.",
-        "\[VeryThinSpace]", 
-       RowBox[{"s", "\[Rule]", 
+        "soly", "[[", "1", "]]"}]}], "/.",
+        " ", 
+       RowBox[{"s", "->", 
         FractionBox["1", "2"]}]}]}], ";", 
      RowBox[{"ParametricPlot", "[", 
       RowBox[{
        RowBox[{"{", 
         RowBox[{
          RowBox[{
-          RowBox[{"x", "[", "s", "]"}], "/.", "\[VeryThinSpace]", 
+          RowBox[{"x", "[", "s", "]"}], "/.", " ", 
           RowBox[{
-          "solx", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], 
+          "solx", "[[", "1", "]]"}]}], 
          ",", 
          RowBox[{
-          RowBox[{"y", "[", "s", "]"}], "/.", "\[VeryThinSpace]", 
+          RowBox[{"y", "[", "s", "]"}], "/.", " ", 
           RowBox[{
-          "soly", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}]}], 
+          "soly", "[[", "1", "]]"}]}]}], 
         "}"}], ",", 
        RowBox[{"{", 
         RowBox[{"s", ",", "0", ",", "1"}], "}"}], ",", 
-       RowBox[{"PlotStyle", "\[Rule]", 
+       RowBox[{"PlotStyle", "->", 
         RowBox[{"{", "Black", "}"}]}], ",", 
-       RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", 
-       RowBox[{"PlotLabel", "\[Rule]", 
+       RowBox[{"ImageSize", "->", "Large"}], ",", 
+       RowBox[{"PlotLabel", "->", 
         RowBox[{"Grid", "[", 
          RowBox[{"{", 
           RowBox[{"{", 
-           RowBox[{"\"\<\[Delta] =\>\"", ",", "\[Delta]"}], "}"}], "}"}], 
+           RowBox[{"\"\<δ =\>\"", ",", "δ"}], "}"}], "}"}], 
          "]"}]}], ",", 
-       RowBox[{"PlotRange", "\[Rule]", 
+       RowBox[{"PlotRange", "->", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{"{", 
@@ -2754,13 +2747,13 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"Manipulate", "[", 
   RowBox[{
-   RowBox[{"ColumnShapeFromLove\[Theta]", "[", "p", "]"}], ",", 
+   RowBox[{"ColumnShapeFromLoveθ", "[", "p", "]"}], ",", 
    RowBox[{"{", 
     RowBox[{"p", ",", 
      RowBox[{
-      SuperscriptBox["\[Pi]", "2"], "+", "0.1"}], ",", 
+      SuperscriptBox["π", "2"], "+", "0.1"}], ",", 
      RowBox[{"5", 
-      SuperscriptBox["\[Pi]", "2"]}]}], "}"}]}], "]"}]], "Input",
+      SuperscriptBox["π", "2"]}]}], "}"}]}], "]"}]], "Input",
 =======
 Cell[BoxData[
  RowBox[{"If", "[", 
@@ -2769,11 +2762,11 @@ Cell[BoxData[
     RowBox[{
      RowBox[{"DownValues", "[", 
       TemplateBox[{
-       "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+       "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
        "complexSymbols",
        Editable->False,
-       Selectable->False], "]"}], "\[NotEqual]", " ", 
+       Selectable->False], "]"}], "!=", " ", 
      RowBox[{"{", "}"}]}], " ", "&&", " ", 
     RowBox[{
      RowBox[{"DownValues", "[", 
@@ -2784,17 +2777,17 @@ StyleBox[\"n\",FontFamily->\"Times New \
 Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
        "complexSymbols",
        Editable->False,
-       Selectable->False], "]"}], "\[NotEqual]", " ", 
+       Selectable->False], "]"}], "!=", " ", 
      RowBox[{"{", "}"}]}]}], ",", 
    RowBox[{"Manipulate", "[", 
     RowBox[{
-     RowBox[{"ColumnShapeFromLove\[Theta]", "[", "p", "]"}], ",", 
+     RowBox[{"ColumnShapeFromLoveθ", "[", "p", "]"}], ",", 
      RowBox[{"{", 
       RowBox[{"p", ",", 
        RowBox[{
-        SuperscriptBox["\[Pi]", "2"], "+", "0.1"}], ",", 
+        SuperscriptBox["π", "2"], "+", "0.1"}], ",", 
        RowBox[{"5", 
-        SuperscriptBox["\[Pi]", "2"]}]}], "}"}]}], "]"}]}], "]"}]], "Input",
+        SuperscriptBox["π", "2"]}]}], "}"}]}], "]"}]}], "]"}]], "Input",
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
  Editable->True,
  FontFamily->"Source Sans Pro",
@@ -2821,7 +2814,7 @@ Cell[BoxData[
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
          Typeset`skipInitDone$$}, 
-      "Body" :> $CellContext`ColumnShapeFromLove\[Theta][$CellContext`p$$], 
+      "Body" :> $CellContext`ColumnShapeFromLoveθ[$CellContext`p$$], 
       "Specifications" :> {{$CellContext`p$$, 9.969604401089358, 5 Pi^2}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
      ImageSizeCache->{621., {132., 138.}},
@@ -2848,12 +2841,12 @@ Cell[BoxData[""], "Input",
 
 Cell[BoxData[{
  RowBox[{"ClearAll", "[", "ColumnShapeFromLovexy", 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{
   RowBox[{"ColumnShapeFromLovexy", "[", "p_", "]"}], ":=", 
   RowBox[{"Module", "[", 
    RowBox[{
-    RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", "}"}], ",", "", 
     RowBox[{"ParametricPlot", "[", 
      RowBox[{
       RowBox[{"{", 
@@ -2888,12 +2881,12 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
             Selectable->False], "[", "p", "]"}]}], "]"}]}], "}"}], ",", 
       RowBox[{"{", 
        RowBox[{"s", ",", "0", ",", "1"}], "}"}], ",", 
-      RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
-      RowBox[{"PlotStyle", "\[Rule]", 
+      RowBox[{"PlotRange", "->", "All"}], ",", 
+      RowBox[{"PlotStyle", "->", 
        RowBox[{"{", 
         RowBox[{"Green", ",", "Dashed"}], "}"}]}], ",", 
-      RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}]}], 
-   "\[IndentingNewLine]", "]"}]}]}], "Input",
+      RowBox[{"ImageSize", "->", "Large"}]}], "]"}]}], 
+   "", "]"}]}]}], "Input",
  Editable->True,
  FontFamily->"Source Sans Pro",
  FontSize->18,
@@ -3045,16 +3038,16 @@ Cell[BoxData[""], "Input",
 
 Cell[BoxData[{
  RowBox[{"ClearAll", "[", "ColumnShapeFromMMA", 
-  "]"}], "\[IndentingNewLine]", 
+  "]"}], "", 
  RowBox[{
   RowBox[{"ColumnShapeFromMMA", "[", "p_", "]"}], ":=", 
   RowBox[{"Module", "[", 
    RowBox[{
     RowBox[{"{", 
      RowBox[{
-     "solMM", ",", "MM\[Theta]2", ",", "solx", ",", "soly", ",", "dflection", 
-      ",", "x", ",", "y", ",", "\[Theta]"}], "}"}], ",", 
-    "\[IndentingNewLine]", 
+     "solMM", ",", "MMθ2", ",", "solx", ",", "soly", ",", "dflection", 
+      ",", "x", ",", "y", ",", "θ"}], "}"}], ",", 
+    "", 
     RowBox[{
      RowBox[{"solMM", "=", 
       RowBox[{"NDSolve", "[", 
@@ -3065,23 +3058,23 @@ Cell[BoxData[{
           RowBox[{
            RowBox[{
             RowBox[{
-             RowBox[{"\[Theta]", "''"}], "[", "s", "]"}], "+", 
+             RowBox[{"θ", "''"}], "[", "s", "]"}], "+", 
             RowBox[{"p", " ", 
              RowBox[{"Sin", "[", 
-              RowBox[{"\[Theta]", "[", "s", "]"}], "]"}]}]}], "\[Equal]", 
+              RowBox[{"θ", "[", "s", "]"}], "]"}]}]}], "==", 
            "0"}], ",", 
           RowBox[{
            RowBox[{
-            RowBox[{"\[Theta]", "'"}], "[", "0", "]"}], "\[Equal]", "0"}], 
+            RowBox[{"θ", "'"}], "[", "0", "]"}], "==", "0"}], 
           ",", 
           RowBox[{
            RowBox[{
-            RowBox[{"\[Theta]", "'"}], "[", "1", "]"}], "\[Equal]", "0"}]}], 
+            RowBox[{"θ", "'"}], "[", "1", "]"}], "==", "0"}]}], 
          "}"}], ",", 
-        RowBox[{"\[Theta]", "[", "s", "]"}], ",", 
+        RowBox[{"θ", "[", "s", "]"}], ",", 
         RowBox[{"{", 
          RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
-     "\[IndentingNewLine]", 
+     "", 
      RowBox[{"solx", " ", "=", 
       RowBox[{"NDSolve", "[", 
        RowBox[{
@@ -3092,15 +3085,15 @@ Cell[BoxData[{
             RowBox[{"x", "'"}], "[", "s", "]"}], "==", 
            RowBox[{"Cos", "[", 
             RowBox[{
-             RowBox[{"\[Theta]", "[", "s", "]"}], "/.", 
+             RowBox[{"θ", "[", "s", "]"}], "/.", 
              RowBox[{"solMM", "[", 
               RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], ",", 
           RowBox[{
-           RowBox[{"x", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+           RowBox[{"x", "[", "0", "]"}], "==", "0"}]}], "}"}], ",", 
         RowBox[{"x", "[", "s", "]"}], ",", 
         RowBox[{"{", 
          RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
-     "\[IndentingNewLine]", 
+     "", 
      RowBox[{"soly", "=", " ", 
       RowBox[{"NDSolve", "[", 
        RowBox[{
@@ -3108,26 +3101,26 @@ Cell[BoxData[{
          RowBox[{
           RowBox[{
            RowBox[{
-            RowBox[{"y", "'"}], "[", "s", "]"}], "\[Equal]", 
+            RowBox[{"y", "'"}], "[", "s", "]"}], "==", 
            RowBox[{"Sin", "[", 
             RowBox[{
-             RowBox[{"\[Theta]", "[", "s", "]"}], "/.", 
+             RowBox[{"θ", "[", "s", "]"}], "/.", 
              RowBox[{"solMM", "[", 
               RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], ",", 
           RowBox[{
-           RowBox[{"y", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+           RowBox[{"y", "[", "0", "]"}], "==", "0"}]}], "}"}], ",", 
         RowBox[{"y", "[", "s", "]"}], ",", 
         RowBox[{"{", 
          RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
-     "\[IndentingNewLine]", 
+     "", 
      RowBox[{"dflection", " ", "=", " ", 
       RowBox[{
        RowBox[{
         RowBox[{"y", "[", "s", "]"}], "/.", 
         RowBox[{"soly", "[", 
          RowBox[{"[", "1", "]"}], "]"}]}], "/.", 
-       RowBox[{"s", "\[Rule]", 
-        RowBox[{"1", "/", "2"}]}]}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"s", "->", 
+        RowBox[{"1", "/", "2"}]}]}]}], ";", "", 
      RowBox[{"ParametricPlot", "[", 
       RowBox[{
        RowBox[{"{", 
@@ -3143,8 +3136,8 @@ Cell[BoxData[{
             RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], "}"}], ",", 
        RowBox[{"{", 
         RowBox[{"s", ",", "0", ",", "1"}], "}"}], ",", 
-       RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
-       RowBox[{"PlotStyle", "\[Rule]", 
+       RowBox[{"PlotRange", "->", "All"}], ",", 
+       RowBox[{"PlotStyle", "->", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{"Opacity", "[", "0.5", "]"}], ",", 
@@ -3152,8 +3145,8 @@ Cell[BoxData[{
           RowBox[{
            RowBox[{"ColorData", "[", "2", "]"}], "[", "1", "]"}]}], "}"}]}], 
        ",", 
-       RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}]}]}], 
-   "\[IndentingNewLine]", "]"}]}]}], "Input",
+       RowBox[{"ImageSize", "->", "Large"}]}], "]"}]}]}], 
+   "", "]"}]}]}], "Input",
  Editable->True,
  FontFamily->"Source Sans Pro",
  FontSize->18,
@@ -3165,7 +3158,7 @@ Cell[BoxData[
  RowBox[{"Show", "[", 
   RowBox[{
    RowBox[{"ColumnShapeFromMMA", "[", "15", "]"}], ",", 
-   RowBox[{"ColumnShapeFromLove\[Theta]", "[", "15", "]"}], ",", 
+   RowBox[{"ColumnShapeFromLoveθ", "[", "15", "]"}], ",", 
    RowBox[{"ColumnShapeFromLovexy", "[", "15", "]"}]}], "]"}]], "Input",
  Editable->True,
  FontFamily->"Source Sans Pro",
@@ -3907,7 +3900,7 @@ bkSH6D3Ffd9lT4AzUa8sypAOlE+Smd9lNYB7/eiRWAM6/N//2/4PAYPWAQ==
 
 Cell["\<\
 Log:
-1. All equations from Love\[CloseCurlyQuote]s book are correct. They have \
+1. All equations from Love's book are correct. They have \
 been validated using Direct numerical calculations\
 \>", "Text",ExpressionUUID->"ddd6a263-1c42-4c9a-858f-dfc9af5176b8"],
 
@@ -3934,14 +3927,14 @@ Cell[BoxData[
    RowBox[{
     RowBox[{
      TemplateBox[{
-      "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+      "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"'\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
       "complexSymbols",
       Editable->False,
       Selectable->False], "[", 
      RowBox[{"s", ",", "p", ",", "k"}], "]"}], ",", 
-    RowBox[{"s", "\[Rule]", "0"}]}], "]"}], " "}]], "Input",ExpressionUUID->\
+    RowBox[{"s", "->", "0"}]}], "]"}], " "}]], "Input",ExpressionUUID->\
 "10e132e5-30c8-4d0a-9558-f3bb0aad3f00"],
 
 Cell[BoxData["0"], "Output",ExpressionUUID->"53ff9682-e6d2-4ad0-9362-f2b8c7db3190"]
@@ -4023,7 +4016,7 @@ Cell[BoxData[
 }, Open  ]],
 
 Cell[BoxData[{
- RowBox[{"ClearAll", "[", "ColumnShapeRotate", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"ClearAll", "[", "ColumnShapeRotate", "]"}], "", 
  RowBox[{
   RowBox[{"ColumnShapeRotate", "[", 
    RowBox[{"p1_", ",", "p2_"}], "]"}], ":=", 
@@ -4031,19 +4024,19 @@ Cell[BoxData[{
    RowBox[{
     RowBox[{"{", 
      RowBox[{
-     "solMM", ",", "MM\[Theta]2", ",", "solx", ",", "soly", ",", "solk", ",", 
-      "dflection", ",", "x", ",", "y", ",", "\[Theta]", ",", "\[Theta]0", ",",
-       "\[Theta]1", ",", "p", ",", "span"}], "}"}], ",", 
-    "\[IndentingNewLine]", 
+     "solMM", ",", "MMθ2", ",", "solx", ",", "soly", ",", "solk", ",", 
+      "dflection", ",", "x", ",", "y", ",", "θ", ",", "θ0", ",",
+       "θ1", ",", "p", ",", "span"}], "}"}], ",", 
+    "", 
     RowBox[{
      RowBox[{"p", " ", "=", 
       RowBox[{"Sqrt", "[", 
        RowBox[{
         SuperscriptBox["p1", "2"], "+", 
-        SuperscriptBox["p2", "2"]}], "]"}]}], ";", "\[IndentingNewLine]", 
-     RowBox[{"\[Theta]0", "=", 
+        SuperscriptBox["p2", "2"]}], "]"}]}], ";", "", 
+     RowBox[{"θ0", "=", 
       RowBox[{"ArcTan", "[", 
-       RowBox[{"p1", ",", "p2"}], "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"p1", ",", "p2"}], "]"}]}], ";", "", 
      RowBox[{"solk", " ", "=", " ", 
       RowBox[{"FindRoot", "[", 
        RowBox[{
@@ -4051,26 +4044,26 @@ Cell[BoxData[{
          RowBox[{
           
           TemplateBox[{
-           "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+           "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
            "complexSymbols",
            Editable->False,
            Selectable->False], "[", 
           RowBox[{
            RowBox[{"1", "/", "2"}], ",", "p", ",", "k"}], "]"}], "-", 
-         "\[Theta]0"}], ",", 
+         "θ0"}], ",", 
         RowBox[{"{", 
          RowBox[{"k", ",", "0.7"}], "}"}]}], "]"}]}], ";", 
-     "\[IndentingNewLine]", 
+     "", 
      RowBox[{
-      RowBox[{"\[Theta]1", "[", "s_", "]"}], "=", 
+      RowBox[{"θ1", "[", "s_", "]"}], "=", 
       RowBox[{
        RowBox[{"(", 
         RowBox[{
          RowBox[{
           
           TemplateBox[{
-           "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+           "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
            "complexSymbols",
            Editable->False,
@@ -4078,29 +4071,29 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
           RowBox[{"s", ",", "p", ",", 
            RowBox[{"Re", "[", "k", "]"}]}], "]"}], "/.", 
          RowBox[{"solk", "[", 
-          RowBox[{"[", "1", "]"}], "]"}]}], ")"}], "-", "\[Theta]0"}]}], ";", 
+          RowBox[{"[", "1", "]"}], "]"}]}], ")"}], "-", "θ0"}]}], ";", 
 =======
           RowBox[{
            RowBox[{
             RowBox[{
-             RowBox[{"\[Theta]", "''"}], "[", "s", "]"}], "+", 
+             RowBox[{"θ", "''"}], "[", "s", "]"}], "+", 
             RowBox[{"p", " ", 
              RowBox[{"Sin", "[", 
-              RowBox[{"\[Theta]", "[", "s", "]"}], "]"}]}]}], "\[Equal]", 
+              RowBox[{"θ", "[", "s", "]"}], "]"}]}]}], "==", 
            "0"}], ",", 
           RowBox[{
            RowBox[{
-            RowBox[{"\[Theta]", "'"}], "[", "0", "]"}], "\[Equal]", "0"}], 
+            RowBox[{"θ", "'"}], "[", "0", "]"}], "==", "0"}], 
           ",", 
           RowBox[{
            RowBox[{
-            RowBox[{"\[Theta]", "'"}], "[", "1", "]"}], "\[Equal]", "0"}]}], 
+            RowBox[{"θ", "'"}], "[", "1", "]"}], "==", "0"}]}], 
          "}"}], ",", 
-        RowBox[{"\[Theta]", "[", "s", "]"}], ",", 
+        RowBox[{"θ", "[", "s", "]"}], ",", 
         RowBox[{"{", 
          RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
-     "\[IndentingNewLine]", 
+     "", 
      RowBox[{"solx", " ", "=", 
       RowBox[{"NDSolve", "[", 
        RowBox[{
@@ -4111,15 +4104,15 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
             RowBox[{"x", "'"}], "[", "s", "]"}], "==", 
            RowBox[{"Cos", "[", 
 <<<<<<< HEAD
-            RowBox[{"\[Theta]1", "[", "s", "]"}], "]"}]}], ",", 
+            RowBox[{"θ1", "[", "s", "]"}], "]"}]}], ",", 
 =======
             RowBox[{
-             RowBox[{"\[Theta]", "[", "s", "]"}], "/.", 
+             RowBox[{"θ", "[", "s", "]"}], "/.", 
              RowBox[{"solMM", "[", 
               RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], ",", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
           RowBox[{
-           RowBox[{"x", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+           RowBox[{"x", "[", "0", "]"}], "==", "0"}]}], "}"}], ",", 
         RowBox[{"x", "[", "s", "]"}], ",", 
         RowBox[{"{", 
 <<<<<<< HEAD
@@ -4128,7 +4121,7 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
 =======
          RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
-     "\[IndentingNewLine]", 
+     "", 
      RowBox[{"soly", "=", " ", 
       RowBox[{"NDSolve", "[", 
        RowBox[{
@@ -4136,18 +4129,18 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
          RowBox[{
           RowBox[{
            RowBox[{
-            RowBox[{"y", "'"}], "[", "s", "]"}], "\[Equal]", 
+            RowBox[{"y", "'"}], "[", "s", "]"}], "==", 
            RowBox[{"Sin", "[", 
 <<<<<<< HEAD
-            RowBox[{"\[Theta]1", "[", "s", "]"}], "]"}]}], ",", 
+            RowBox[{"θ1", "[", "s", "]"}], "]"}]}], ",", 
 =======
             RowBox[{
-             RowBox[{"\[Theta]", "[", "s", "]"}], "/.", 
+             RowBox[{"θ", "[", "s", "]"}], "/.", 
              RowBox[{"solMM", "[", 
               RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], ",", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
           RowBox[{
-           RowBox[{"y", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+           RowBox[{"y", "[", "0", "]"}], "==", "0"}]}], "}"}], ",", 
         RowBox[{"y", "[", "s", "]"}], ",", 
         RowBox[{"{", 
 <<<<<<< HEAD
@@ -4156,15 +4149,15 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
 =======
          RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
-     "\[IndentingNewLine]", 
+     "", 
      RowBox[{"dflection", " ", "=", " ", 
       RowBox[{
        RowBox[{
         RowBox[{"y", "[", "s", "]"}], "/.", 
         RowBox[{"soly", "[", 
          RowBox[{"[", "1", "]"}], "]"}]}], "/.", 
-       RowBox[{"s", "\[Rule]", 
-        RowBox[{"1", "/", "2"}]}]}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"s", "->", 
+        RowBox[{"1", "/", "2"}]}]}]}], ";", "", 
 <<<<<<< HEAD
      RowBox[{"span", " ", "=", 
       RowBox[{"2", 
@@ -4180,10 +4173,10 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
           RowBox[{"solx", "[", 
 <<<<<<< HEAD
            RowBox[{"[", "1", "]"}], "]"}]}], "/.", 
-         RowBox[{"s", "\[Rule]", 
-          RowBox[{"1", "/", "2"}]}]}], ")"}]}]}], ";", "\[IndentingNewLine]", 
+         RowBox[{"s", "->", 
+          RowBox[{"1", "/", "2"}]}]}], ")"}]}]}], ";", "", 
      
-     RowBox[{"Show", "[", "\[IndentingNewLine]", 
+     RowBox[{"Show", "[", "", 
       RowBox[{
        RowBox[{"ParametricPlot", "[", 
         RowBox[{
@@ -4201,8 +4194,8 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
          RowBox[{"{", 
           RowBox[{"s", ",", "0", ",", 
            RowBox[{"1", "/", "2"}]}], "}"}], ",", 
-         RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
-         RowBox[{"PlotStyle", "\[Rule]", 
+         RowBox[{"PlotRange", "->", "All"}], ",", 
+         RowBox[{"PlotStyle", "->", 
           RowBox[{"{", 
            RowBox[{
             RowBox[{"Opacity", "[", "1", "]"}], ",", 
@@ -4210,8 +4203,8 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
             RowBox[{
              RowBox[{"ColorData", "[", "2", "]"}], "[", "1", "]"}]}], "}"}]}],
           ",", 
-         RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}], ",", 
-       "\[IndentingNewLine]", 
+         RowBox[{"ImageSize", "->", "Large"}]}], "]"}], ",", 
+       "", 
        RowBox[{"ParametricPlot", "[", 
         RowBox[{
          RowBox[{"{", 
@@ -4229,8 +4222,8 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
          RowBox[{"{", 
           RowBox[{"s", ",", "0", ",", 
            RowBox[{"1", "/", "2"}]}], "}"}], ",", 
-         RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
-         RowBox[{"PlotStyle", "\[Rule]", 
+         RowBox[{"PlotRange", "->", "All"}], ",", 
+         RowBox[{"PlotStyle", "->", 
           RowBox[{"{", 
            RowBox[{
             RowBox[{"Opacity", "[", "1", "]"}], ",", 
@@ -4238,7 +4231,7 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
             RowBox[{
              RowBox[{"ColorData", "[", "2", "]"}], "[", "1", "]"}]}], "}"}]}],
           ",", 
-         RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}]}], "]"}]}]}], 
+         RowBox[{"ImageSize", "->", "Large"}]}], "]"}]}], "]"}]}]}], 
 =======
            RowBox[{"[", "1", "]"}], "]"}]}], ",", 
          RowBox[{"Abs", "[", 
@@ -4248,8 +4241,8 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
             RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], "}"}], ",", 
        RowBox[{"{", 
         RowBox[{"s", ",", "0", ",", "1"}], "}"}], ",", 
-       RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
-       RowBox[{"PlotStyle", "\[Rule]", 
+       RowBox[{"PlotRange", "->", "All"}], ",", 
+       RowBox[{"PlotStyle", "->", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{"Opacity", "[", "0.5", "]"}], ",", 
@@ -4257,9 +4250,9 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
           RowBox[{
            RowBox[{"ColorData", "[", "2", "]"}], "[", "1", "]"}]}], "}"}]}], 
        ",", 
-       RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}]}]}], 
+       RowBox[{"ImageSize", "->", "Large"}]}], "]"}]}]}], 
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
-   "\[IndentingNewLine]", "]"}]}]}], "Input",
+   "", "]"}]}]}], "Input",
  Editable->True,
  FontFamily->"Source Sans Pro",
  FontSize->18,
@@ -4275,7 +4268,7 @@ Cell[BoxData[
  RowBox[{"Show", "[", 
   RowBox[{
 <<<<<<< HEAD
-   RowBox[{"ColumnShapeFromLove\[Theta]", "[", "10", "]"}], ",", 
+   RowBox[{"ColumnShapeFromLoveθ", "[", "10", "]"}], ",", 
    RowBox[{"ColumnShapeRotate", "[", 
     RowBox[{"10", ",", "0"}], "]"}]}], "]"}]], "Input",ExpressionUUID->\
 "24df204e-81ae-4c8b-b0df-4da5f40fb333"],
@@ -4501,7 +4494,7 @@ xKw=
   Method->{"ScalingFunctions" -> None},
   PlotLabel->FormBox[
     TagBox[
-     GridBox[{{"\"\[Delta] =\"", "0.10188457623538485`"}}, AutoDelete -> 
+     GridBox[{{"\"δ =\"", "0.10188457623538485`"}}, AutoDelete -> 
       False, GridBoxItemSize -> {
        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
     TraditionalForm],
@@ -4570,7 +4563,7 @@ Editable->True,
 WindowSize->{1795, 1272},
 =======
    RowBox[{"ColumnShapeFromMMA", "[", "15", "]"}], ",", 
-   RowBox[{"ColumnShapeFromLove\[Theta]", "[", "15", "]"}], ",", 
+   RowBox[{"ColumnShapeFromLoveθ", "[", "15", "]"}], ",", 
    RowBox[{"ColumnShapeFromLovexy", "[", "15", "]"}]}], "]"}]], "Input",
  Editable->True,
  FontFamily->"Source Sans Pro",
@@ -4579,7 +4572,7 @@ WindowSize->{1795, 1272},
 
 Cell["\<\
 Log:
-1. All equations from Love\[CloseCurlyQuote]s book are correct. They have \
+1. All equations from Love's book are correct. They have \
 been validated using Direct numerical calculations\
 \>", "Text",ExpressionUUID->"ddd6a263-1c42-4c9a-858f-dfc9af5176b8"]
 }, Open  ]]
@@ -4589,92 +4582,92 @@ WindowSize->{1018, 1002},
 >>>>>>> ef96411ee319f70d2034d8ae1459b6a2a2eb9d55
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 CellLabelAutoDelete->True,
-InputAliases->{"intt" -> RowBox[{"\[Integral]", 
-     RowBox[{"\[SelectionPlaceholder]", 
-       RowBox[{"\[DifferentialD]", "\[Placeholder]"}]}]}], "dintt" -> 
+InputAliases->{"intt" -> RowBox[{"∫", 
+     RowBox[{"", 
+       RowBox[{"", ""}]}]}], "dintt" -> 
   RowBox[{
      SubsuperscriptBox[
-     "\[Integral]", "\[SelectionPlaceholder]", "\[Placeholder]"], 
-     RowBox[{"\[Placeholder]", 
-       RowBox[{"\[DifferentialD]", "\[Placeholder]"}]}]}], "rintt" -> 
+     "∫", "", ""], 
+     RowBox[{"", 
+       RowBox[{"", ""}]}]}], "rintt" -> 
   RowBox[{
-     UnderscriptBox["\[Integral]", 
-      RowBox[{"\[SelectionPlaceholder]", "\[Element]", "\[Placeholder]"}]], 
-     "\[Placeholder]"}], "sumt" -> RowBox[{
-     UnderoverscriptBox["\[Sum]", 
-      RowBox[{"\[SelectionPlaceholder]", "=", "\[Placeholder]"}], 
-      "\[Placeholder]"], "\[Placeholder]"}], "prodt" -> RowBox[{
-     UnderoverscriptBox["\[Product]", 
-      RowBox[{"\[SelectionPlaceholder]", "=", "\[Placeholder]"}], 
-      "\[Placeholder]"], "\[Placeholder]"}], "dt" -> RowBox[{
-     SubscriptBox["\[PartialD]", "\[Placeholder]"], " ", 
-     "\[SelectionPlaceholder]"}], "cbrt" -> 
+     UnderscriptBox["∫", 
+      RowBox[{"", "∈", ""}]], 
+     ""}], "sumt" -> RowBox[{
+     UnderoverscriptBox["∑", 
+      RowBox[{"", "=", ""}], 
+      ""], ""}], "prodt" -> RowBox[{
+     UnderoverscriptBox["∏", 
+      RowBox[{"", "=", ""}], 
+      ""], ""}], "dt" -> RowBox[{
+     SubscriptBox["∂", ""], " ", 
+     ""}], "cbrt" -> 
   RadicalBox[
-   "\[SelectionPlaceholder]", "3", SurdForm -> True, MultilineFunction -> 
+   "", "3", SurdForm -> True, MultilineFunction -> 
     None], "surd" -> 
   RadicalBox[
-   "\[SelectionPlaceholder]", "\[Placeholder]", SurdForm -> True, 
+   "", "", SurdForm -> True, 
     MultilineFunction -> None], "ket" -> 
-  TemplateBox[{"\[SelectionPlaceholder]"}, "Ket"], "bra" -> 
-  TemplateBox[{"\[SelectionPlaceholder]"}, "Bra"], "braket" -> 
-  TemplateBox[{"\[SelectionPlaceholder]", "\[Placeholder]"}, "BraKet"], 
-  "delay" -> TemplateBox[{"\[SelectionPlaceholder]"}, "SystemsModelDelay"], 
+  TemplateBox[{""}, "Ket"], "bra" -> 
+  TemplateBox[{""}, "Bra"], "braket" -> 
+  TemplateBox[{"", ""}, "BraKet"], 
+  "delay" -> TemplateBox[{""}, "SystemsModelDelay"], 
   "grad" -> RowBox[{
-     SubscriptBox["\[Del]", "\[SelectionPlaceholder]"], "\[Placeholder]"}], 
+     SubscriptBox["∇", ""], ""}], 
   "del." -> RowBox[{
-     SubscriptBox["\[Del]", "\[SelectionPlaceholder]"], ".", 
-     "\[Placeholder]"}], "delx" -> RowBox[{
-     SubscriptBox["\[Del]", "\[SelectionPlaceholder]"], "\[Cross]", 
-     "\[Placeholder]"}], "del2" -> RowBox[{
-     SubsuperscriptBox["\[Del]", "\[SelectionPlaceholder]", 2], 
-     "\[Placeholder]"}], "kd" -> 
-  TemplateBox[{"\[SelectionPlaceholder]"}, "KroneckerDeltaSeq"], "algs" -> 
+     SubscriptBox["∇", ""], ".", 
+     ""}], "delx" -> RowBox[{
+     SubscriptBox["∇", ""], "", 
+     ""}], "del2" -> RowBox[{
+     SubsuperscriptBox["∇", "", 2], 
+     ""}], "kd" -> 
+  TemplateBox[{""}, "KroneckerDeltaSeq"], "algs" -> 
   TemplateBox[{}, "Algebraics"], "bools" -> TemplateBox[{}, "Booleans"], 
   "comps" -> TemplateBox[{}, "Complexes"], "ints" -> 
   TemplateBox[{}, "Integers"], "pris" -> TemplateBox[{}, "Primes"], "rats" -> 
   TemplateBox[{}, "Rationals"], "reals" -> TemplateBox[{}, "Reals"], "dlim" -> 
   RowBox[{
-     UnderscriptBox["\[Limit]", 
-      RowBox[{"\[SelectionPlaceholder]", 
-        UnderscriptBox["\[Rule]", 
-         TemplateBox[{}, "Integers"]], "\[Infinity]"}]], "\[Placeholder]"}], 
+     UnderscriptBox["", 
+      RowBox[{"", 
+        UnderscriptBox["->", 
+         TemplateBox[{}, "Integers"]], "∞"}]], ""}], 
   "dMlim" -> RowBox[{
-     UnderscriptBox["\[MaxLimit]", 
-      RowBox[{"\[SelectionPlaceholder]", 
-        UnderscriptBox["\[Rule]", 
-         TemplateBox[{}, "Integers"]], "\[Infinity]"}]], "\[Placeholder]"}], 
+     UnderscriptBox["", 
+      RowBox[{"", 
+        UnderscriptBox["->", 
+         TemplateBox[{}, "Integers"]], "∞"}]], ""}], 
   "dmlim" -> RowBox[{
-     UnderscriptBox["\[MinLimit]", 
-      RowBox[{"\[SelectionPlaceholder]", 
-        UnderscriptBox["\[Rule]", 
-         TemplateBox[{}, "Integers"]], "\[Infinity]"}]], "\[Placeholder]"}], 
+     UnderscriptBox["", 
+      RowBox[{"", 
+        UnderscriptBox["->", 
+         TemplateBox[{}, "Integers"]], "∞"}]], ""}], 
   "notation" -> RowBox[{"Notation", "[", 
      RowBox[{
-       TemplateBox[{"\[SelectionPlaceholder]"}, "NotationTemplateTag"], " ", 
-       "\[DoubleLongLeftRightArrow]", " ", 
-       TemplateBox[{"\[Placeholder]"}, "NotationTemplateTag"]}], "]"}], 
+       TemplateBox[{""}, "NotationTemplateTag"], " ", 
+       "⟺", " ", 
+       TemplateBox[{""}, "NotationTemplateTag"]}], "]"}], 
   "notation>" -> RowBox[{"Notation", "[", 
      RowBox[{
-       TemplateBox[{"\[SelectionPlaceholder]"}, "NotationTemplateTag"], " ", 
-       "\[DoubleLongRightArrow]", " ", 
-       TemplateBox[{"\[Placeholder]"}, "NotationTemplateTag"]}], "]"}], 
+       TemplateBox[{""}, "NotationTemplateTag"], " ", 
+       "⟹", " ", 
+       TemplateBox[{""}, "NotationTemplateTag"]}], "]"}], 
   "notation<" -> RowBox[{"Notation", "[", 
      RowBox[{
-       TemplateBox[{"\[SelectionPlaceholder]"}, "NotationTemplateTag"], " ", 
-       "\[DoubleLongLeftArrow]", " ", 
-       TemplateBox[{"\[Placeholder]"}, "NotationTemplateTag"]}], "]"}], 
+       TemplateBox[{""}, "NotationTemplateTag"], " ", 
+       "⟸", " ", 
+       TemplateBox[{""}, "NotationTemplateTag"]}], "]"}], 
   "symb" -> RowBox[{"Symbolize", "[", 
-     TemplateBox[{"\[SelectionPlaceholder]"}, "NotationTemplateTag"], "]"}], 
+     TemplateBox[{""}, "NotationTemplateTag"], "]"}], 
   "infixnotation" -> RowBox[{"InfixNotation", "[", 
      RowBox[{
-       TemplateBox[{"\[SelectionPlaceholder]"}, "NotationTemplateTag"], ",", 
-       "\[Placeholder]"}], "]"}], "addia" -> RowBox[{"AddInputAlias", "[", 
-     RowBox[{"\"\[SelectionPlaceholder]\"", "\[Rule]", 
-       TemplateBox[{"\[Placeholder]"}, "NotationTemplateTag"]}], "]"}], 
+       TemplateBox[{""}, "NotationTemplateTag"], ",", 
+       ""}], "]"}], "addia" -> RowBox[{"AddInputAlias", "[", 
+     RowBox[{"\"\"", "->", 
+       TemplateBox[{""}, "NotationTemplateTag"]}], "]"}], 
   "pattwraper" -> 
-  TemplateBox[{"\[SelectionPlaceholder]"}, "NotationPatternTag"], 
+  TemplateBox[{""}, "NotationPatternTag"], 
   "madeboxeswraper" -> 
-  TemplateBox[{"\[SelectionPlaceholder]"}, "NotationMadeBoxesTag"], "love" -> 
+  TemplateBox[{""}, "NotationMadeBoxesTag"], "love" -> 
   DynamicBox[
     FEPrivate`If[
      FrontEnd`SameQ[
@@ -4728,7 +4721,7 @@ InputAliases->{"intt" -> RowBox[{"\[Integral]",
            PaneBox[
             
             TemplateBox[{
-             "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+             "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""}, "complexSymbols", 
              Editable -> False, Selectable -> False]], 
            Appearance -> {
@@ -4788,7 +4781,7 @@ Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""}, "complexSymbols",
            PaneBox[
             
             TemplateBox[{
-             "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+             "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"'\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""}, 
              "complexSymbols", Editable -> False, Selectable -> False]], 
@@ -4849,7 +4842,7 @@ FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
            PaneBox[
             
             TemplateBox[{
-             "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+             "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New \
 Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
 FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""}, 
              "complexSymbols", Editable -> False, Selectable -> False]], 
@@ -4992,19 +4985,19 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""}, "complexSymbols",
               RowBox[{
                 
                 TemplateBox[{
-                 "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New Roman\
+                 "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New Roman\
 \",FontSize->18,FontWeight->\"Regular\"]\)\""}, "complexSymbols", Editable -> 
                  False, Selectable -> False], ",", 
                 
                 TemplateBox[{
-                 "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New Roman\
+                 "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New Roman\
 \",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"'\",FontFamily->\"\
 Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""}, 
                  "complexSymbols", Editable -> False, Selectable -> False], 
                 ",", 
                 
                 TemplateBox[{
-                 "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New Roman\
+                 "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New Roman\
 \",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",FontFamily->\"\
 Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""}, 
                  "complexSymbols", Editable -> False, Selectable -> False], 
@@ -5089,19 +5082,19 @@ Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""}, "complexSymbols",
               RowBox[{
                 
                 TemplateBox[{
-                 "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New Roman\
+                 "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New Roman\
 \",FontSize->18,FontWeight->\"Regular\"]\)\""}, "complexSymbols", Editable -> 
                  False, Selectable -> False], ",", 
                 
                 TemplateBox[{
-                 "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New Roman\
+                 "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New Roman\
 \",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"'\",FontFamily->\"\
 Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""}, 
                  "complexSymbols", Editable -> False, Selectable -> False], 
                 ",", 
                 
                 TemplateBox[{
-                 "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New Roman\
+                 "\"\!\(\*StyleBox[\"θ\",FontFamily->\"Times New Roman\
 \",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",FontFamily->\"\
 Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""}, 
                  "complexSymbols", Editable -> False, Selectable -> False], 

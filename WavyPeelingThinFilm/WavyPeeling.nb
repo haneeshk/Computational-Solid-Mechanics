@@ -10,16 +10,37 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    579609,      12530]
-NotebookOptionsPosition[    552540,      12092]
-NotebookOutlinePosition[    555028,      12153]
-CellTagsIndexPosition[    554912,      12147]
+NotebookDataLength[    726065,      15284]
+NotebookOptionsPosition[    697492,      14824]
+NotebookOutlinePosition[    699980,      14885]
+CellTagsIndexPosition[    699864,      14879]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
+Cell[BoxData["\[IndentingNewLine]"], "Input",ExpressionUUID->"81e09400-8e95-469e-8ab6-a7a4f6ffe978"],
+
+Cell[BoxData[""], "Input",ExpressionUUID->"8de5eb41-4616-4c62-a866-357c223a5ff6"]
+}, Open  ]],
+
+Cell[TextData[{
+ "\n",
+ Cell[BoxData[
+  CheckboxBox[True]], "Input",ExpressionUUID->
+  "0b2b81c1-7857-4eec-9b33-a64880195c25"],
+ "  section 2.1.1 (Geometry) is good to go: \n",
+ Cell[BoxData[
+  CheckboxBox[True]], "Input",ExpressionUUID->
+  "33440c93-55a9-4a3d-bac3-72191e9b4ee4"],
+ " section 2.1.2 (Evolution law for de-adherence) \n"
+}], "Text",ExpressionUUID->"63364edd-0f80-46a6-a2ee-99bbfdfcc437"],
+
+Cell["", "Text",ExpressionUUID->"5ed7ba0e-5d81-4b84-a2af-efed1292ca55"],
+
+Cell[CellGroupData[{
+
 Cell[TextData[StyleBox["Theory",
  FontSize->18,
  FontWeight->"Bold"]], "Text",
@@ -12088,11 +12109,2722 @@ Cell[BoxData[
    MultilineFunction->None], TraditionalForm]], "Output",
  CellLabel->
   "Out[135]//TraditionalForm=",ExpressionUUID->"034722b2-e81d-40fb-8653-\
-f87c1a557b98"]
+f87c1a557b98"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FindExternalEvaluators", "[", "\"\<Python\>\"", "]"}]], "Input",
+ CellLabel->
+  "In[199]:=",ExpressionUUID->"cb9a0c4a-2c1f-4623-b619-ec58b18ab4e9"],
+
+Cell[BoxData[
+ TemplateBox[{TagBox[
+    DynamicModuleBox[{
+     TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
+      Data`UnorderedAssociation[
+       "RowCount" -> 6, "Length" -> 6, "InitialType" -> TypeSystem`Assoc[
+          TypeSystem`Atom[String], 
+          
+          TypeSystem`Struct[{
+           "System", "Version", "Executable", "Registered"}, {
+            TypeSystem`Atom[
+             TypeSystem`Enumeration["Python"]], 
+            TypeSystem`Atom[
+             TypeSystem`Enumeration["2.7.10", "3.8.1"]], 
+            TypeSystem`Atom[String], TypeSystem`AnyType}], 6], "Shape" -> 
+        TypeSystem`PackageScope`HeaderShape[
+          Association[{All, 
+             TypeSystem`PackageScope`KeyDummy[0]} -> 1, {All, "System"} -> 
+           1, {All, "Version"} -> 1, {All, "Executable"} -> 
+           1, {All, "Registered"} -> 1], 
+          TypeSystem`PackageScope`Limited[
+           TypeSystem`PackageScope`ColumnShape[
+            TypeSystem`PackageScope`KeyValueShape[
+             TypeSystem`PackageScope`AtomShape[345.6], 
+             TypeSystem`PackageScope`RowShape[
+              Association[
+              "System" -> TypeSystem`PackageScope`AtomShape[54.], "Version" -> 
+               TypeSystem`PackageScope`AtomShape[54.], "Executable" -> 
+               TypeSystem`PackageScope`AtomShape[480.00000000000006`], 
+               "Registered" -> TypeSystem`PackageScope`UnknownShape]]]], 
+           6, {}]], "InitialData" -> 
+        TypeSystem`PackageScope`CacheHandle[1242997602], "Type" -> 
+        TypeSystem`Assoc[
+          TypeSystem`Atom[String], 
+          
+          TypeSystem`Struct[{
+           "System", "Version", "Executable", "Registered"}, {
+            TypeSystem`Atom[
+             TypeSystem`Enumeration["Python"]], 
+            TypeSystem`Atom[
+             TypeSystem`Enumeration["2.7.10", "3.8.1"]], 
+            TypeSystem`Atom[String], TypeSystem`AnyType}], 6], "HandleQ" -> 
+        True, "RowTarget" -> 20, "Data" -> 
+        TypeSystem`PackageScope`CacheHandle[1242997602]], 
+      TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
+      TypeSystem`NestedGrid`PackagePrivate`$pos$$ = 1, 
+      TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
+      DynamicModule[{
+        TypeSystem`NestedGrid`PackagePrivate`renderedGrid = Deploy[
+           Style[
+            Grid[{{
+               Item[
+                Annotation[
+                 EventHandler[
+                  MouseAppearance[
+                   Mouseover[
+                    Pane[
+                    Style[
+                    RawBoxes[
+                    StyleBox["\"\"", FontColor -> GrayLevel[0.4]]], Italic, 
+                    GrayLevel[0.7]], {{20, Full}, 15}], 
+                    Style[
+                    Pane[
+                    Style[
+                    RawBoxes[
+                    StyleBox[
+                    "\"\"", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], Italic, 
+                    GrayLevel[0.7]], {{20, Full}, 15}], FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                  TypeSystem`NestedGrid`PackagePrivate`updateState[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    1500072270][{All, Keys}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[All, Keys]], "Mouse"], Background -> 
+                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Item[
+                Annotation[
+                 EventHandler[
+                  MouseAppearance[
+                   Mouseover[
+                    Pane[
+                    RawBoxes[
+                    StyleBox["\"System\"", FontColor -> GrayLevel[0.4]]], {{
+                    20, Full}, 15}], 
+                    Style[
+                    Pane[
+                    RawBoxes[
+                    StyleBox[
+                    "\"System\"", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], {{20, Full}, 15}], FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                  TypeSystem`NestedGrid`PackagePrivate`updateState[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    1500072270][{All, "System"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[All, "System"]], "Mouse"], 
+                Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Item[
+                Annotation[
+                 EventHandler[
+                  MouseAppearance[
+                   Mouseover[
+                    Pane[
+                    RawBoxes[
+                    StyleBox["\"Version\"", FontColor -> GrayLevel[0.4]]], {{
+                    20, Full}, 15}], 
+                    Style[
+                    Pane[
+                    RawBoxes[
+                    StyleBox[
+                    "\"Version\"", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], {{20, Full}, 15}], FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                  TypeSystem`NestedGrid`PackagePrivate`updateState[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    1500072270][{All, "Version"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[All, "Version"]], "Mouse"], 
+                Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Item[
+                Annotation[
+                 EventHandler[
+                  MouseAppearance[
+                   Mouseover[
+                    Pane[
+                    RawBoxes[
+                    StyleBox[
+                    "\"Executable\"", FontColor -> GrayLevel[0.4]]], {{
+                    20, Full}, 15}], 
+                    Style[
+                    Pane[
+                    RawBoxes[
+                    StyleBox[
+                    "\"Executable\"", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], {{20, Full}, 15}], FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                  TypeSystem`NestedGrid`PackagePrivate`updateState[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    1500072270][{All, "Executable"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[All, "Executable"]], "Mouse"], 
+                Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Item[
+                Annotation[
+                 EventHandler[
+                  MouseAppearance[
+                   Mouseover[
+                    Pane[
+                    RawBoxes[
+                    StyleBox[
+                    "\"Registered\"", FontColor -> GrayLevel[0.4]]], {{
+                    20, Full}, 15}], 
+                    Style[
+                    Pane[
+                    RawBoxes[
+                    StyleBox[
+                    "\"Registered\"", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], {{20, Full}, 15}], FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                  TypeSystem`NestedGrid`PackagePrivate`updateState[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    1500072270][{All, "Registered"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[All, "Registered"]], "Mouse"], 
+                Background -> GrayLevel[0.95], 
+                Alignment -> {Left, Baseline}]}, {
+               Item[
+                Pane[
+                 Annotation[
+                  EventHandler[
+                   MouseAppearance[
+                    Mouseover["894cba12-48ef-4bbd-8f32-1a4a72cc0456", 
+                    Style[
+                    "894cba12-48ef-4bbd-8f32-1a4a72cc0456", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                   TypeSystem`NestedGrid`PackagePrivate`updateState[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1500072270][{
+                    Key["894cba12-48ef-4bbd-8f32-1a4a72cc0456"]}]], 
+                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                  1500072270][
+                   GeneralUtilities`Slice[
+                    Key["894cba12-48ef-4bbd-8f32-1a4a72cc0456"]]], "Mouse"], 
+                 ImageSize -> {{345.6, Full}, Automatic}], Background -> 
+                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["Python", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["894cba12-48ef-4bbd-8f32-1a4a72cc0456"], 
+                   Key["System"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["3.8.1", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["894cba12-48ef-4bbd-8f32-1a4a72cc0456"], 
+                   Key["Version"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                "/Library/Frameworks/Python.framework/Versions/3.8/bin/\
+python3", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["894cba12-48ef-4bbd-8f32-1a4a72cc0456"], 
+                   Key["Executable"]]], "Mouse"], 
+                ImageSize -> {{480.00000000000006`, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes[
+                  StyleBox[
+                  "Automatic", FontFamily -> "Source Code Pro", FontSize -> 
+                   13, ShowStringCharacters -> True]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["894cba12-48ef-4bbd-8f32-1a4a72cc0456"], 
+                   Key["Registered"]]], "Mouse"], 
+                ImageSize -> {{60, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}]}, {
+               Item[
+                Pane[
+                 Annotation[
+                  EventHandler[
+                   MouseAppearance[
+                    Mouseover["f70e64df-44e9-42fc-bf05-20f4a479e8e5", 
+                    Style[
+                    "f70e64df-44e9-42fc-bf05-20f4a479e8e5", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                   TypeSystem`NestedGrid`PackagePrivate`updateState[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1500072270][{
+                    Key["f70e64df-44e9-42fc-bf05-20f4a479e8e5"]}]], 
+                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                  1500072270][
+                   GeneralUtilities`Slice[
+                    Key["f70e64df-44e9-42fc-bf05-20f4a479e8e5"]]], "Mouse"], 
+                 ImageSize -> {{345.6, Full}, Automatic}], Background -> 
+                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["Python", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["f70e64df-44e9-42fc-bf05-20f4a479e8e5"], 
+                   Key["System"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["3.8.1", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["f70e64df-44e9-42fc-bf05-20f4a479e8e5"], 
+                   Key["Version"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                "/Library/Frameworks/Python.framework/Versions/3.8/bin/\
+python3.8", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["f70e64df-44e9-42fc-bf05-20f4a479e8e5"], 
+                   Key["Executable"]]], "Mouse"], 
+                ImageSize -> {{480.00000000000006`, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes[
+                  StyleBox[
+                  "Automatic", FontFamily -> "Source Code Pro", FontSize -> 
+                   13, ShowStringCharacters -> True]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["f70e64df-44e9-42fc-bf05-20f4a479e8e5"], 
+                   Key["Registered"]]], "Mouse"], 
+                ImageSize -> {{60, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}]}, {
+               Item[
+                Pane[
+                 Annotation[
+                  EventHandler[
+                   MouseAppearance[
+                    Mouseover["fa8ac9c8-3fc8-4572-aa21-d85996064f7b", 
+                    Style[
+                    "fa8ac9c8-3fc8-4572-aa21-d85996064f7b", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                   TypeSystem`NestedGrid`PackagePrivate`updateState[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1500072270][{
+                    Key["fa8ac9c8-3fc8-4572-aa21-d85996064f7b"]}]], 
+                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                  1500072270][
+                   GeneralUtilities`Slice[
+                    Key["fa8ac9c8-3fc8-4572-aa21-d85996064f7b"]]], "Mouse"], 
+                 ImageSize -> {{345.6, Full}, Automatic}], Background -> 
+                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["Python", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["fa8ac9c8-3fc8-4572-aa21-d85996064f7b"], 
+                   Key["System"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["2.7.10", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["fa8ac9c8-3fc8-4572-aa21-d85996064f7b"], 
+                   Key["Version"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["/usr/bin/python", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["fa8ac9c8-3fc8-4572-aa21-d85996064f7b"], 
+                   Key["Executable"]]], "Mouse"], 
+                ImageSize -> {{480.00000000000006`, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["MissingDependencies", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["fa8ac9c8-3fc8-4572-aa21-d85996064f7b"], 
+                   Key["Registered"]]], "Mouse"], 
+                ImageSize -> {{182.40000000000003`, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}]}, {
+               Item[
+                Pane[
+                 Annotation[
+                  EventHandler[
+                   MouseAppearance[
+                    Mouseover["cc09f24d-486f-4fe2-8ba1-c5c108a9e14f", 
+                    Style[
+                    "cc09f24d-486f-4fe2-8ba1-c5c108a9e14f", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                   TypeSystem`NestedGrid`PackagePrivate`updateState[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1500072270][{
+                    Key["cc09f24d-486f-4fe2-8ba1-c5c108a9e14f"]}]], 
+                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                  1500072270][
+                   GeneralUtilities`Slice[
+                    Key["cc09f24d-486f-4fe2-8ba1-c5c108a9e14f"]]], "Mouse"], 
+                 ImageSize -> {{345.6, Full}, Automatic}], Background -> 
+                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["Python", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["cc09f24d-486f-4fe2-8ba1-c5c108a9e14f"], 
+                   Key["System"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["2.7.10", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["cc09f24d-486f-4fe2-8ba1-c5c108a9e14f"], 
+                   Key["Version"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["/usr/bin/python2.7", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["cc09f24d-486f-4fe2-8ba1-c5c108a9e14f"], 
+                   Key["Executable"]]], "Mouse"], 
+                ImageSize -> {{480.00000000000006`, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["MissingDependencies", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["cc09f24d-486f-4fe2-8ba1-c5c108a9e14f"], 
+                   Key["Registered"]]], "Mouse"], 
+                ImageSize -> {{182.40000000000003`, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}]}, {
+               Item[
+                Pane[
+                 Annotation[
+                  EventHandler[
+                   MouseAppearance[
+                    Mouseover["21eca2b0-cd80-4fb5-83d8-a4a90a624d4c", 
+                    Style[
+                    "21eca2b0-cd80-4fb5-83d8-a4a90a624d4c", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                   TypeSystem`NestedGrid`PackagePrivate`updateState[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1500072270][{
+                    Key["21eca2b0-cd80-4fb5-83d8-a4a90a624d4c"]}]], 
+                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                  1500072270][
+                   GeneralUtilities`Slice[
+                    Key["21eca2b0-cd80-4fb5-83d8-a4a90a624d4c"]]], "Mouse"], 
+                 ImageSize -> {{345.6, Full}, Automatic}], Background -> 
+                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["Python", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["21eca2b0-cd80-4fb5-83d8-a4a90a624d4c"], 
+                   Key["System"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["3.8.1", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["21eca2b0-cd80-4fb5-83d8-a4a90a624d4c"], 
+                   Key["Version"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["/usr/local/bin/python3", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["21eca2b0-cd80-4fb5-83d8-a4a90a624d4c"], 
+                   Key["Executable"]]], "Mouse"], 
+                ImageSize -> {{480.00000000000006`, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes[
+                  StyleBox[
+                  "Automatic", FontFamily -> "Source Code Pro", FontSize -> 
+                   13, ShowStringCharacters -> True]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["21eca2b0-cd80-4fb5-83d8-a4a90a624d4c"], 
+                   Key["Registered"]]], "Mouse"], 
+                ImageSize -> {{60, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}]}, {
+               Item[
+                Pane[
+                 Annotation[
+                  EventHandler[
+                   MouseAppearance[
+                    Mouseover["86f82b5a-8396-4a3d-9dbf-2c842a8b03e3", 
+                    Style[
+                    "86f82b5a-8396-4a3d-9dbf-2c842a8b03e3", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                   TypeSystem`NestedGrid`PackagePrivate`updateState[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1500072270][{
+                    Key["86f82b5a-8396-4a3d-9dbf-2c842a8b03e3"]}]], 
+                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                  1500072270][
+                   GeneralUtilities`Slice[
+                    Key["86f82b5a-8396-4a3d-9dbf-2c842a8b03e3"]]], "Mouse"], 
+                 ImageSize -> {{345.6, Full}, Automatic}], Background -> 
+                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["Python", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["86f82b5a-8396-4a3d-9dbf-2c842a8b03e3"], 
+                   Key["System"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["3.8.1", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["86f82b5a-8396-4a3d-9dbf-2c842a8b03e3"], 
+                   Key["Version"]]], "Mouse"], 
+                ImageSize -> {{54., Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["/usr/local/bin/python3.8", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["86f82b5a-8396-4a3d-9dbf-2c842a8b03e3"], 
+                   Key["Executable"]]], "Mouse"], 
+                ImageSize -> {{480.00000000000006`, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes[
+                  StyleBox[
+                  "Automatic", FontFamily -> "Source Code Pro", FontSize -> 
+                   13, ShowStringCharacters -> True]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+                  GeneralUtilities`Slice[
+                   Key["86f82b5a-8396-4a3d-9dbf-2c842a8b03e3"], 
+                   Key["Registered"]]], "Mouse"], 
+                ImageSize -> {{60, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}]}}, BaseStyle -> {ContextMenu -> {
+                 MenuItem["Copy position to clipboard", 
+                  KernelExecute[
+                   TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
+                   TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
+                  MenuEvaluator -> Automatic], 
+                 MenuItem["Copy data to clipboard", 
+                  KernelExecute[
+                   TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
+                  MenuEvaluator -> Automatic], Delimiter, 
+                 MenuItem["Paste position in new cell", 
+                  KernelExecute[
+                   TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
+                   TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
+                  MenuEvaluator -> Automatic], 
+                 MenuItem["Paste data in new cell", 
+                  KernelExecute[
+                   TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
+                  MenuEvaluator -> Automatic]}, FontFamily -> "Verdana", 
+               FontSize -> 12}, Alignment -> Left, RowMinHeight -> 1.5, 
+             Dividers -> All, FrameStyle -> GrayLevel[0.85], 
+             BaseStyle -> {FontFamily -> "Verdana", FontSize -> 12}], 
+            LineBreakWithin -> False, ContextMenu -> {}, NumberMarks -> False,
+             ShowAutoStyles -> False]], 
+         TypeSystem`NestedGrid`PackagePrivate`initialQ = True, 
+         TypeSystem`NestedGrid`PackagePrivate`self = $Failed}, 
+        Dynamic[
+         TypeSystem`NestedGrid`PackagePrivate`setupViewPath[
+         TypeSystem`NestedGrid`PackagePrivate`$path$$, If[
+            Not[TypeSystem`NestedGrid`PackagePrivate`initialQ], 
+            
+            Module[{TypeSystem`NestedGrid`PackagePrivate`tmpGrid$ = $Failed, 
+              TypeSystem`NestedGrid`PackagePrivate`tmpData$ = 
+              TypeSystem`NestedGrid`PackagePrivate`LookupCacheValue[
+                TypeSystem`NestedGrid`PackagePrivate`$state$$["Data"]]}, 
+             TypeSystem`NestedGrid`PackagePrivate`tmpGrid$ = 
+              If[TypeSystem`NestedGrid`PackagePrivate`tmpData$ === 
+                TypeSystem`NestedGrid`PackagePrivate`$NotCached, 
+                TypeSystem`NestedGrid`PackagePrivate`renderedGrid, 
+                TypeSystem`NestedGrid`PackagePrivate`renderGrid[
+                TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                 TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                 TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1500072270][
+                TypeSystem`NestedGrid`PackagePrivate`tmpData$]]; If[
+               Not[
+                FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]], 
+               TypeSystem`NestedGrid`PackagePrivate`renderedGrid = 
+               TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]; Null]]; 
+          TypeSystem`NestedGrid`PackagePrivate`initialQ = False; 
+          TypeSystem`NestedGrid`PackagePrivate`$pos$$; If[
+            FailureQ[TypeSystem`NestedGrid`PackagePrivate`renderedGrid], 
+            TypeSystem`SparseGrid[
+             TypeSystem`H["(data no longer present)"]], 
+            If[GeneralUtilities`$DebugMode, 
+             Row[{TypeSystem`NestedGrid`PackagePrivate`renderedGrid, "  ", 
+               TypeSystem`NestedGrid`PackagePrivate`formatState[
+               TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                TypeSystem`NestedGrid`PackagePrivate`$pos$$]}], 
+             TypeSystem`NestedGrid`PackagePrivate`renderedGrid]]], 
+         TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$pos$$}], 
+        DynamicModuleValues :> {}], 
+      TypeSystem`NestedGrid`PackagePrivate`$posCell$$, 
+      TypeSystem`NestedGrid`PackagePrivate`$topBar$$ = Dynamic[
+        TypeSystem`NestedGrid`PackagePrivate`alignBar[
+        TypeSystem`NestedGrid`PackagePrivate`$state$$][
+         TypeSystem`NestedGrid`PackagePrivate`makeFramedBar[
+          TypeSystem`PackageScope`Pathbar[
+          TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+           TypeSystem`NestedGrid`PackagePrivate`updateState[
+           TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+            TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+            TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+            TypeSystem`NestedGrid`PackagePrivate`$grid$$, 1500072270]]]], 
+        TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$path$$}], 
+      TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$ = Framed[
+        Dynamic[
+         Replace[
+          MouseAnnotation[Null], {
+          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][Null] -> 
+           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[1500072270][
+             Pattern[TypeSystem`NestedGrid`PackagePrivate`path, 
+              Blank[]]] :> (
+            TypeSystem`NestedGrid`PackagePrivate`$lastPath = 
+             TypeSystem`NestedGrid`PackagePrivate`path; 
+            TypeSystem`NestedGrid`PackagePrivate`makePathTrail[
+             TypeSystem`NestedGrid`PackagePrivate`path, 
+              TypeSystem`NestedGrid`PackagePrivate`makePathElements]), Null :> 
+           Spacer[10], Blank[] :> Spacer[10]}], TrackedSymbols :> {}], 
+        FrameStyle -> None, ImageMargins -> 0, FrameMargins -> 0, Alignment -> 
+        Top, ImageSize -> {Automatic, 14}]}, 
+     DynamicBox[
+      ToBoxes[
+       Column[
+        If[TypeSystem`NestedGrid`PackagePrivate`$path$$ == {}, {
+          TypeSystem`NestedGrid`PackagePrivate`displayScrollBar[
+          TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+           TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+           TypeSystem`NestedGrid`PackagePrivate`$pos$$], 
+          TypeSystem`NestedGrid`PackagePrivate`onDesktopShow[
+           TypeSystem`NestedGrid`PackagePrivate`alignBar[
+           TypeSystem`NestedGrid`PackagePrivate`$state$$][
+           TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$]]}, {
+         TypeSystem`NestedGrid`PackagePrivate`$topBar$$, 
+          TypeSystem`NestedGrid`PackagePrivate`displayScrollBar[
+          TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+           TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+           TypeSystem`NestedGrid`PackagePrivate`$pos$$], 
+          TypeSystem`NestedGrid`PackagePrivate`onDesktopShow[
+           TypeSystem`NestedGrid`PackagePrivate`alignBar[
+           TypeSystem`NestedGrid`PackagePrivate`$state$$][
+           TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$]]}], Spacings -> 
+        If[TypeSystem`NestedGrid`PackagePrivate`$path$$ == {}, 
+          0, {{}, {0, 0.05, 0}}]], StandardForm], 
+      ImageSizeCache -> {1600., {186.26806640625, 197.73193359375}}, 
+      TrackedSymbols :> {
+       TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
+     BaseStyle -> {LineBreakWithin -> False}, Deinitialization :> 
+     TypeSystem`NestedGrid`PackagePrivate`deleteState[
+      TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+     DynamicModuleValues :> {}, Initialization :> 
+     Block[{$ContextPath = $ContextPath}, 
+       Needs["TypeSystem`"]]], Deploy, DefaultBaseStyle -> "Deploy"]},
+  "CopyTag",
+  DisplayFunction->(#& ),
+  InterpretationFunction->("Dataset[<>]"& )]], "Output",
+ CellLabel->
+  "Out[199]=",ExpressionUUID->"3702e7c5-697d-4a04-a1b2-8191827aa572"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExternalEvaluate", "[", 
+  RowBox[{"\"\<Python\>\"", ",", "\"\<2+2\>\""}], "]"}]], "Input",
+ CellLabel->
+  "In[200]:=",ExpressionUUID->"195cf01a-8cea-48b8-ae26-284c46f84fce"],
+
+Cell[BoxData["4"], "Output",
+ CellLabel->
+  "Out[200]=",ExpressionUUID->"4f858dff-781f-487a-b7f7-bcf95a68a09d"]
+}, Open  ]],
+
+Cell["from matplotlib import pyplot as plt", "ExternalLanguage",
+ CellLabel->
+  "In[202]:=",ExpressionUUID->"a6f63ff7-2f44-4295-b383-aed41fe9d451"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["Failure",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
+    TemplateBox[{PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquarePlusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"required field \\\"type_ignores\\\" missing from Module\
+\"", "SummaryItem"]}}, GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"PythonError\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquareMinusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"required field \\\"type_ignores\\\" missing from Module\
+\"", "SummaryItem"]}}, GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"PythonError\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"FailureCode\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox["\"TypeError\"", HoldForm], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"Traceback\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   TagBox[
+                    DynamicModuleBox[{Typeset`var$$ = True}, 
+                    InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    
+                    TemplateBox[{
+                    "\"TypeError\"", "\" \"", 
+                    "\"required field \\\"type_ignores\\\" missing from \
+Module\""}, "RowDefault"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    
+                    TemplateBox[{
+                    "\"TypeError\"", "\" \"", 
+                    "\"required field \\\"type_ignores\\\" missing from \
+Module\""}, "RowDefault"]}, {"", 
+                    PaneBox[
+                    StyleBox[
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    DynamicModuleBox[{Typeset`var$$ = False}, 
+                    InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/language/decorators.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"safe_wl_execute\""}, 
+                    "RowDefault"]}}, GridBoxAlignment -> {
+                    "Columns" -> {{Left}}}, AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}], True -> 
+                    GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/language/decorators.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"safe_wl_execute\""}, 
+                    "RowDefault"]}, {"", 
+                    PaneBox[
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    
+                    GridBox[{{"\"  24.                      opts={},\""}, {
+                    "\"  25.                      export_opts={},\""}, {
+                    "\"  26.                      \
+exception_class=WolframLanguageException):\""}, {"\"  27.  \""}, {
+                    "\"  28.      __traceback_hidden_variables__ = True\""}, {
+                    "\"  29.  \""}, {"\"  30.      try:\""}, {
+                    ItemBox[
+                    "\"  31.          return export(function(*args, **opts), \
+**export_opts)\"", Background -> RGBColor[1, 1, 0.85], StripOnInput -> 
+                    False]}, {
+                    "\"  32.      except Exception as export_exception:\""}, {
+                    "\"  33.          try:\""}, {
+                    "\"  34.              try:\""}, {"\"  35.  \""}, {
+                    "\"  36.                  # The user can provide an \
+exception class, and it can be broken, in which case we are running \
+another\""}, {
+                    "\"  37.                  # try / except to return errors \
+that are happening during class serialization\""}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}}, DefaultBaseStyle -> "Column", 
+                    GridBoxFrame -> {"ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> 
+                    GrayLevel[0.85]}}, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "Column", 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}], "Column"], ImageMargins -> 
+                    0]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"]], Appearance -> 
+                    "Frameless"], " in ", "safe_wl_execute"}], 
+                    Column[{
+                    
+                    Column[{"  24.                      opts={},", 
+                    "  25.                      export_opts={},", 
+                    "  26.                      \
+exception_class=WolframLanguageException):", "  27.  ", 
+                    "  28.      __traceback_hidden_variables__ = True", 
+                    "  29.  ", "  30.      try:", 
+                    Item[
+                    "  31.          return export(function(*args, **opts), \
+**export_opts)", Background -> LightYellow], 
+                    "  32.      except Exception as export_exception:", 
+                    "  33.          try:", "  34.              try:", 
+                    "  35.  ", 
+                    "  36.                  # The user can provide an \
+exception class, and it can be broken, in which case we are running another", 
+                    "  37.                  # try / except to return errors \
+that are happening during class serialization"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, False]], 
+                    DynamicModuleValues -> Automatic], Setting[#, {0}]& ]}, {
+                    TagBox[
+                    DynamicModuleBox[{Typeset`var$$ = False}, 
+                    InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"handle_message\""}, 
+                    "RowDefault"]}}, GridBoxAlignment -> {
+                    "Columns" -> {{Left}}}, AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}], True -> 
+                    GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"handle_message\""}, 
+                    "RowDefault"]}, {"", 
+                    PaneBox[
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    
+                    GridBox[{{"\" 169.  \""}, {
+                    "\" 170.  @to_wl(**EXPORT_KWARGS)\""}, {
+                    "\" 171.  def handle_message(socket, \
+context=UnprintableContext()):\""}, {"\" 172.  \""}, {
+                    "\" 173.      __traceback_hidden_variables__ = True\""}, {
+                    "\" 174.  \""}, {
+                    "\" 175.      message = binary_deserialize(socket.recv())\
+\""}, {
+                    ItemBox[
+                    "\" 176.      result = evaluate_message(context=context, \
+**message)\"", Background -> RGBColor[1, 1, 0.85], StripOnInput -> False]}, {
+                    "\" 177.  \""}, {"\" 178.      sys.stdout.flush()\""}, {
+                    "\" 179.      return result\""}, {"\" 180.  \""}, {
+                    "\" 181.  \""}, {
+                    "\" 182.  def start_zmq_instance(port=None, \
+write_to_stdout=True, **opts):\""}}, GridBoxAlignment -> {
+                    "Columns" -> {{Left}}}, GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}}, DefaultBaseStyle -> "Column", 
+                    GridBoxFrame -> {"ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> 
+                    GrayLevel[0.85]}}, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "Column", 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}], "Column"], ImageMargins -> 
+                    0]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "handle_message"}], 
+                    Column[{
+                    
+                    Column[{" 169.  ", " 170.  @to_wl(**EXPORT_KWARGS)", 
+                    " 171.  def handle_message(socket, \
+context=UnprintableContext()):", " 172.  ", 
+                    " 173.      __traceback_hidden_variables__ = True", 
+                    " 174.  ", 
+                    " 175.      message = binary_deserialize(socket.recv())", 
+                    
+                    Item[
+                    " 176.      result = evaluate_message(context=context, \
+**message)", Background -> LightYellow], " 177.  ", 
+                    " 178.      sys.stdout.flush()", 
+                    " 179.      return result", " 180.  ", " 181.  ", 
+                    " 182.  def start_zmq_instance(port=None, \
+write_to_stdout=True, **opts):"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, False]], 
+                    DynamicModuleValues -> Automatic], Setting[#, {0}]& ]}, {
+                    TagBox[
+                    DynamicModuleBox[{Typeset`var$$ = True}, 
+                    InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"evaluate_message\""}, 
+                    "RowDefault"]}}, GridBoxAlignment -> {
+                    "Columns" -> {{Left}}}, AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}], True -> 
+                    GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"evaluate_message\""}, 
+                    "RowDefault"]}, {"", 
+                    PaneBox[
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    
+                    GridBox[{{"\" 154.          else:\""}, {
+                    "\" 155.              func = \
+execute_from_string(function, context)\""}, {
+                    "\" 156.          #get the full argument types (possibly \
+calling a serialization function if necessary)\""}, {
+                    "\" 157.          #finally call the function and assign \
+the output\""}, {"\" 158.          return func(*args)\""}, {"\" 159.  \""}, {
+                    "\" 160.      if isinstance(input, \
+six.string_types):\""}, {
+                    ItemBox[
+                    "\" 161.          result = execute_from_string(input, \
+context)\"", Background -> RGBColor[1, 1, 0.85], StripOnInput -> False]}, {
+                    "\" 162.  \""}, {
+                    "\" 163.          if return_type == 'string':\""}, {
+                    "\" 164.              # bug 354267 repr returns a 'str' \
+even on py2 (i.e. bytes).\""}, {
+                    "\" 165.              return \
+force_text(repr(result))\""}, {"\" 166.  \""}, {
+                    "\" 167.          return result\""}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}}, DefaultBaseStyle -> "Column", 
+                    GridBoxFrame -> {"ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> 
+                    GrayLevel[0.85]}}, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "Column", 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}], "Column"], ImageMargins -> 
+                    0]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "evaluate_message"}], 
+                    Column[{
+                    
+                    Column[{" 154.          else:", 
+                    " 155.              func = execute_from_string(function, \
+context)", 
+                    " 156.          #get the full argument types (possibly \
+calling a serialization function if necessary)", 
+                    " 157.          #finally call the function and assign the \
+output", " 158.          return func(*args)", " 159.  ", 
+                    " 160.      if isinstance(input, six.string_types):", 
+                    Item[
+                    " 161.          result = execute_from_string(input, \
+context)", Background -> LightYellow], " 162.  ", 
+                    " 163.          if return_type == 'string':", 
+                    " 164.              # bug 354267 repr returns a 'str' \
+even on py2 (i.e. bytes).", 
+                    " 165.              return force_text(repr(result))", 
+                    " 166.  ", " 167.          return result"}, 
+                    Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, True]], 
+                    DynamicModuleValues -> Automatic], Setting[#, {0}]& ]}, {
+                    TagBox[
+                    DynamicModuleBox[{Typeset`var$$ = True}, 
+                    InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"execute_from_string\""}, 
+                    "RowDefault"]}}, GridBoxAlignment -> {
+                    "Columns" -> {{Left}}}, AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}], True -> 
+                    GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"execute_from_string\""}, 
+                    "RowDefault"]}, {"", 
+                    PaneBox[
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    
+                    GridBox[{{"\"  59.  \""}, {
+                    "\"  60.      result = None\""}, {"\"  61.  \""}, {
+                    "\"  62.      if isinstance(last(expressions), ast.Expr):\
+\""}, {"\"  63.          result = expressions.pop(-1)\""}, {"\"  64.  \""}, {
+                    "\"  65.      if expressions:\""}, {
+                    ItemBox[
+                    "\"  66.          exec(compile(ast.Module(expressions), \
+'', 'exec'), current)\"", Background -> RGBColor[1, 1, 0.85], StripOnInput -> 
+                    False]}, {"\"  67.  \""}, {"\"  68.      if result:\""}, {
+                    "\"  69.          result = eval(\""}, {
+                    "\"  70.              \
+compile(ast.Expression(result.value), '', 'eval'), current)\""}, {
+                    "\"  71.      else:\""}, {
+                    "\"  72.          result = wl.Null\""}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}}, DefaultBaseStyle -> "Column", 
+                    GridBoxFrame -> {"ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> 
+                    GrayLevel[0.85]}}, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "Column", 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}], "Column"], ImageMargins -> 
+                    0]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "execute_from_string"}], 
+                    Column[{
+                    
+                    Column[{"  59.  ", "  60.      result = None", "  61.  ", 
+                    "  62.      if isinstance(last(expressions), ast.Expr):", 
+                    "  63.          result = expressions.pop(-1)", "  64.  ", 
+                    "  65.      if expressions:", 
+                    Item[
+                    "  66.          exec(compile(ast.Module(expressions), '', \
+'exec'), current)", Background -> LightYellow], "  67.  ", 
+                    "  68.      if result:", "  69.          result = eval(", 
+                    "  70.              compile(ast.Expression(result.value), \
+'', 'eval'), current)", "  71.      else:", 
+                    "  72.          result = wl.Null"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, True]], 
+                    DynamicModuleValues -> Automatic], Setting[#, {0}]& ]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "Column", 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"], FontFamily -> "Courier", StripOnInput -> 
+                    False], ImageMargins -> 0]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    
+                    Row[{"TypeError", " ", 
+                    "required field \"type_ignores\" missing from Module"}], 
+                    Style[
+                    Column[{
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"]], Appearance -> 
+                    "Frameless"], " in ", "safe_wl_execute"}], 
+                    Column[{
+                    
+                    Column[{"  24.                      opts={},", 
+                    "  25.                      export_opts={},", 
+                    "  26.                      \
+exception_class=WolframLanguageException):", "  27.  ", 
+                    "  28.      __traceback_hidden_variables__ = True", 
+                    "  29.  ", "  30.      try:", 
+                    Item[
+                    "  31.          return export(function(*args, **opts), \
+**export_opts)", Background -> LightYellow], 
+                    "  32.      except Exception as export_exception:", 
+                    "  33.          try:", "  34.              try:", 
+                    "  35.  ", 
+                    "  36.                  # The user can provide an \
+exception class, and it can be broken, in which case we are running another", 
+                    "  37.                  # try / except to return errors \
+that are happening during class serialization"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "handle_message"}], 
+                    Column[{
+                    
+                    Column[{" 169.  ", " 170.  @to_wl(**EXPORT_KWARGS)", 
+                    " 171.  def handle_message(socket, \
+context=UnprintableContext()):", " 172.  ", 
+                    " 173.      __traceback_hidden_variables__ = True", 
+                    " 174.  ", 
+                    " 175.      message = binary_deserialize(socket.recv())", 
+                    
+                    Item[
+                    " 176.      result = evaluate_message(context=context, \
+**message)", Background -> LightYellow], " 177.  ", 
+                    " 178.      sys.stdout.flush()", 
+                    " 179.      return result", " 180.  ", " 181.  ", 
+                    " 182.  def start_zmq_instance(port=None, \
+write_to_stdout=True, **opts):"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "evaluate_message"}], 
+                    Column[{
+                    
+                    Column[{" 154.          else:", 
+                    " 155.              func = execute_from_string(function, \
+context)", 
+                    " 156.          #get the full argument types (possibly \
+calling a serialization function if necessary)", 
+                    " 157.          #finally call the function and assign the \
+output", " 158.          return func(*args)", " 159.  ", 
+                    " 160.      if isinstance(input, six.string_types):", 
+                    Item[
+                    " 161.          result = execute_from_string(input, \
+context)", Background -> LightYellow], " 162.  ", 
+                    " 163.          if return_type == 'string':", 
+                    " 164.              # bug 354267 repr returns a 'str' \
+even on py2 (i.e. bytes).", 
+                    " 165.              return force_text(repr(result))", 
+                    " 166.  ", " 167.          return result"}, 
+                    Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, True], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "execute_from_string"}], 
+                    Column[{
+                    Column[{"  59.  ", "  60.      result = None", "  61.  ", 
+                    "  62.      if isinstance(last(expressions), ast.Expr):", 
+                    "  63.          result = expressions.pop(-1)", "  64.  ", 
+                    "  65.      if expressions:", 
+                    Item[
+                    "  66.          exec(compile(ast.Module(expressions), '', \
+'exec'), current)", Background -> LightYellow], "  67.  ", 
+                    "  68.      if result:", "  69.          result = eval(", 
+                    "  70.              compile(ast.Expression(result.value), \
+'', 'eval'), current)", "  71.      else:", 
+                    "  72.          result = wl.Null"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, True]}], 
+                    FontFamily -> "Courier"]}, True]], DynamicModuleValues -> 
+                    Automatic], Setting[#, {0}]& ], HoldForm], 
+                  "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  Failure["PythonError", 
+   Association[
+   "MessageTemplate" :> "required field \"type_ignores\" missing from Module",
+     "MessageParameters" :> Association[], "FailureCode" :> "TypeError", 
+    "Traceback" :> OpenerView[{
+       Row[{
+        "TypeError", " ", 
+         "required field \"type_ignores\" missing from Module"}], 
+       Style[
+        Column[{
+          OpenerView[{
+            Row[{
+              Button[
+               Style[
+               "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py", 
+                RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+               If[
+                FileExistsQ[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"], 
+                SystemOpen[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"]], Appearance -> 
+               "Frameless"], " in ", "safe_wl_execute"}], 
+            Column[{
+              
+              Column[{"  24.                      opts={},", 
+                "  25.                      export_opts={},", 
+                "  26.                      \
+exception_class=WolframLanguageException):", "  27.  ", 
+                "  28.      __traceback_hidden_variables__ = True", "  29.  ",
+                 "  30.      try:", 
+                Item[
+                "  31.          return export(function(*args, **opts), \
+**export_opts)", Background -> LightYellow], 
+                "  32.      except Exception as export_exception:", 
+                "  33.          try:", "  34.              try:", "  35.  ", 
+                "  36.                  # The user can provide an exception \
+class, and it can be broken, in which case we are running another", 
+                "  37.                  # try / except to return errors that \
+are happening during class serialization"}, Background -> {{
+                  GrayLevel[0.95], 
+                  GrayLevel[1]}}, Frame -> LightGray]}]}, False], 
+          OpenerView[{
+            Row[{
+              Button[
+               Style[
+               "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+               If[
+                FileExistsQ[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                SystemOpen[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+               "Frameless"], " in ", "handle_message"}], 
+            Column[{
+              
+              Column[{" 169.  ", " 170.  @to_wl(**EXPORT_KWARGS)", 
+                " 171.  def handle_message(socket, \
+context=UnprintableContext()):", " 172.  ", 
+                " 173.      __traceback_hidden_variables__ = True", " 174.  ",
+                 " 175.      message = binary_deserialize(socket.recv())", 
+                Item[
+                " 176.      result = evaluate_message(context=context, \
+**message)", Background -> LightYellow], " 177.  ", 
+                " 178.      sys.stdout.flush()", " 179.      return result", 
+                " 180.  ", " 181.  ", 
+                " 182.  def start_zmq_instance(port=None, \
+write_to_stdout=True, **opts):"}, Background -> {{
+                  GrayLevel[0.95], 
+                  GrayLevel[1]}}, Frame -> LightGray]}]}, False], 
+          OpenerView[{
+            Row[{
+              Button[
+               Style[
+               "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+               If[
+                FileExistsQ[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                SystemOpen[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+               "Frameless"], " in ", "evaluate_message"}], 
+            Column[{
+              
+              Column[{" 154.          else:", 
+                " 155.              func = execute_from_string(function, \
+context)", 
+                " 156.          #get the full argument types (possibly \
+calling a serialization function if necessary)", 
+                " 157.          #finally call the function and assign the \
+output", " 158.          return func(*args)", " 159.  ", 
+                " 160.      if isinstance(input, six.string_types):", 
+                Item[
+                " 161.          result = execute_from_string(input, context)",
+                  Background -> LightYellow], " 162.  ", 
+                " 163.          if return_type == 'string':", 
+                " 164.              # bug 354267 repr returns a 'str' even on \
+py2 (i.e. bytes).", " 165.              return force_text(repr(result))", 
+                " 166.  ", " 167.          return result"}, Background -> {{
+                  GrayLevel[0.95], 
+                  GrayLevel[1]}}, Frame -> LightGray]}]}, True], 
+          OpenerView[{
+            Row[{
+              Button[
+               Style[
+               "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+               If[
+                FileExistsQ[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                SystemOpen[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+               "Frameless"], " in ", "execute_from_string"}], 
+            Column[{
+              
+              Column[{"  59.  ", "  60.      result = None", "  61.  ", 
+                "  62.      if isinstance(last(expressions), ast.Expr):", 
+                "  63.          result = expressions.pop(-1)", "  64.  ", 
+                "  65.      if expressions:", 
+                Item[
+                "  66.          exec(compile(ast.Module(expressions), '', \
+'exec'), current)", Background -> LightYellow], "  67.  ", 
+                "  68.      if result:", "  69.          result = eval(", 
+                "  70.              compile(ast.Expression(result.value), '', \
+'eval'), current)", "  71.      else:", "  72.          result = wl.Null"}, 
+               Background -> {{
+                  GrayLevel[0.95], 
+                  GrayLevel[1]}}, Frame -> LightGray]}]}, True]}], FontFamily -> 
+        "Courier"]}, True]]],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellLabel->
+  "Out[202]=",ExpressionUUID->"4e8a5099-3898-4933-858e-d89801aa1619"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExternalEvaluate", "[", 
+  RowBox[{"\"\<Python\>\"", ",", "\"\<[i**2 for i in range(10)]\>\""}], 
+  "]"}]], "Input",
+ CellLabel->
+  "In[203]:=",ExpressionUUID->"b2dff77c-314d-4748-badd-3b5c44586952"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "0", ",", "1", ",", "4", ",", "9", ",", "16", ",", "25", ",", "36", ",", 
+   "49", ",", "64", ",", "81"}], "}"}]], "Output",
+ CellLabel->
+  "Out[203]=",ExpressionUUID->"5d8cfa62-b8bb-4cc0-9960-02f7830bbc79"]
+}, Open  ]],
+
+Cell["\<\
+import math
+
+[math.sqrt(i) for i in range(10)]\
+\>", "ExternalLanguage",
+ CellLabel->
+  "In[206]:=",ExpressionUUID->"026857b8-a5ef-4441-8c10-e74fb4242148"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["Failure",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
+    TemplateBox[{PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquarePlusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"required field \\\"type_ignores\\\" missing from Module\
+\"", "SummaryItem"]}}, GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"PythonError\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquareMinusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"required field \\\"type_ignores\\\" missing from Module\
+\"", "SummaryItem"]}}, GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"PythonError\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"FailureCode\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox["\"TypeError\"", HoldForm], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"Traceback\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   TagBox[
+                    DynamicModuleBox[{Typeset`var$$ = True}, 
+                    InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    
+                    TemplateBox[{
+                    "\"TypeError\"", "\" \"", 
+                    "\"required field \\\"type_ignores\\\" missing from \
+Module\""}, "RowDefault"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    
+                    TemplateBox[{
+                    "\"TypeError\"", "\" \"", 
+                    "\"required field \\\"type_ignores\\\" missing from \
+Module\""}, "RowDefault"]}, {"", 
+                    PaneBox[
+                    StyleBox[
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    DynamicModuleBox[{Typeset`var$$ = False}, 
+                    InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/language/decorators.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"safe_wl_execute\""}, 
+                    "RowDefault"]}}, GridBoxAlignment -> {
+                    "Columns" -> {{Left}}}, AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}], True -> 
+                    GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/language/decorators.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"safe_wl_execute\""}, 
+                    "RowDefault"]}, {"", 
+                    PaneBox[
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    
+                    GridBox[{{"\"  24.                      opts={},\""}, {
+                    "\"  25.                      export_opts={},\""}, {
+                    "\"  26.                      \
+exception_class=WolframLanguageException):\""}, {"\"  27.  \""}, {
+                    "\"  28.      __traceback_hidden_variables__ = True\""}, {
+                    "\"  29.  \""}, {"\"  30.      try:\""}, {
+                    ItemBox[
+                    "\"  31.          return export(function(*args, **opts), \
+**export_opts)\"", Background -> RGBColor[1, 1, 0.85], StripOnInput -> 
+                    False]}, {
+                    "\"  32.      except Exception as export_exception:\""}, {
+                    "\"  33.          try:\""}, {
+                    "\"  34.              try:\""}, {"\"  35.  \""}, {
+                    "\"  36.                  # The user can provide an \
+exception class, and it can be broken, in which case we are running \
+another\""}, {
+                    "\"  37.                  # try / except to return errors \
+that are happening during class serialization\""}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}}, DefaultBaseStyle -> "Column", 
+                    GridBoxFrame -> {"ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> 
+                    GrayLevel[0.85]}}, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "Column", 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}], "Column"], ImageMargins -> 
+                    0]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"]], Appearance -> 
+                    "Frameless"], " in ", "safe_wl_execute"}], 
+                    Column[{
+                    
+                    Column[{"  24.                      opts={},", 
+                    "  25.                      export_opts={},", 
+                    "  26.                      \
+exception_class=WolframLanguageException):", "  27.  ", 
+                    "  28.      __traceback_hidden_variables__ = True", 
+                    "  29.  ", "  30.      try:", 
+                    Item[
+                    "  31.          return export(function(*args, **opts), \
+**export_opts)", Background -> LightYellow], 
+                    "  32.      except Exception as export_exception:", 
+                    "  33.          try:", "  34.              try:", 
+                    "  35.  ", 
+                    "  36.                  # The user can provide an \
+exception class, and it can be broken, in which case we are running another", 
+                    "  37.                  # try / except to return errors \
+that are happening during class serialization"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, False]], 
+                    DynamicModuleValues -> Automatic], Setting[#, {0}]& ]}, {
+                    TagBox[
+                    DynamicModuleBox[{Typeset`var$$ = False}, 
+                    InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"handle_message\""}, 
+                    "RowDefault"]}}, GridBoxAlignment -> {
+                    "Columns" -> {{Left}}}, AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}], True -> 
+                    GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"handle_message\""}, 
+                    "RowDefault"]}, {"", 
+                    PaneBox[
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    
+                    GridBox[{{"\" 169.  \""}, {
+                    "\" 170.  @to_wl(**EXPORT_KWARGS)\""}, {
+                    "\" 171.  def handle_message(socket, \
+context=UnprintableContext()):\""}, {"\" 172.  \""}, {
+                    "\" 173.      __traceback_hidden_variables__ = True\""}, {
+                    "\" 174.  \""}, {
+                    "\" 175.      message = binary_deserialize(socket.recv())\
+\""}, {
+                    ItemBox[
+                    "\" 176.      result = evaluate_message(context=context, \
+**message)\"", Background -> RGBColor[1, 1, 0.85], StripOnInput -> False]}, {
+                    "\" 177.  \""}, {"\" 178.      sys.stdout.flush()\""}, {
+                    "\" 179.      return result\""}, {"\" 180.  \""}, {
+                    "\" 181.  \""}, {
+                    "\" 182.  def start_zmq_instance(port=None, \
+write_to_stdout=True, **opts):\""}}, GridBoxAlignment -> {
+                    "Columns" -> {{Left}}}, GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}}, DefaultBaseStyle -> "Column", 
+                    GridBoxFrame -> {"ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> 
+                    GrayLevel[0.85]}}, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "Column", 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}], "Column"], ImageMargins -> 
+                    0]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "handle_message"}], 
+                    Column[{
+                    
+                    Column[{" 169.  ", " 170.  @to_wl(**EXPORT_KWARGS)", 
+                    " 171.  def handle_message(socket, \
+context=UnprintableContext()):", " 172.  ", 
+                    " 173.      __traceback_hidden_variables__ = True", 
+                    " 174.  ", 
+                    " 175.      message = binary_deserialize(socket.recv())", 
+                    
+                    Item[
+                    " 176.      result = evaluate_message(context=context, \
+**message)", Background -> LightYellow], " 177.  ", 
+                    " 178.      sys.stdout.flush()", 
+                    " 179.      return result", " 180.  ", " 181.  ", 
+                    " 182.  def start_zmq_instance(port=None, \
+write_to_stdout=True, **opts):"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, False]], 
+                    DynamicModuleValues -> Automatic], Setting[#, {0}]& ]}, {
+                    TagBox[
+                    DynamicModuleBox[{Typeset`var$$ = True}, 
+                    InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"evaluate_message\""}, 
+                    "RowDefault"]}}, GridBoxAlignment -> {
+                    "Columns" -> {{Left}}}, AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}], True -> 
+                    GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"evaluate_message\""}, 
+                    "RowDefault"]}, {"", 
+                    PaneBox[
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    
+                    GridBox[{{"\" 154.          else:\""}, {
+                    "\" 155.              func = \
+execute_from_string(function, context)\""}, {
+                    "\" 156.          #get the full argument types (possibly \
+calling a serialization function if necessary)\""}, {
+                    "\" 157.          #finally call the function and assign \
+the output\""}, {"\" 158.          return func(*args)\""}, {"\" 159.  \""}, {
+                    "\" 160.      if isinstance(input, \
+six.string_types):\""}, {
+                    ItemBox[
+                    "\" 161.          result = execute_from_string(input, \
+context)\"", Background -> RGBColor[1, 1, 0.85], StripOnInput -> False]}, {
+                    "\" 162.  \""}, {
+                    "\" 163.          if return_type == 'string':\""}, {
+                    "\" 164.              # bug 354267 repr returns a 'str' \
+even on py2 (i.e. bytes).\""}, {
+                    "\" 165.              return \
+force_text(repr(result))\""}, {"\" 166.  \""}, {
+                    "\" 167.          return result\""}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}}, DefaultBaseStyle -> "Column", 
+                    GridBoxFrame -> {"ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> 
+                    GrayLevel[0.85]}}, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "Column", 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}], "Column"], ImageMargins -> 
+                    0]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "evaluate_message"}], 
+                    Column[{
+                    
+                    Column[{" 154.          else:", 
+                    " 155.              func = execute_from_string(function, \
+context)", 
+                    " 156.          #get the full argument types (possibly \
+calling a serialization function if necessary)", 
+                    " 157.          #finally call the function and assign the \
+output", " 158.          return func(*args)", " 159.  ", 
+                    " 160.      if isinstance(input, six.string_types):", 
+                    Item[
+                    " 161.          result = execute_from_string(input, \
+context)", Background -> LightYellow], " 162.  ", 
+                    " 163.          if return_type == 'string':", 
+                    " 164.              # bug 354267 repr returns a 'str' \
+even on py2 (i.e. bytes).", 
+                    " 165.              return force_text(repr(result))", 
+                    " 166.  ", " 167.          return result"}, 
+                    Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, True]], 
+                    DynamicModuleValues -> Automatic], Setting[#, {0}]& ]}, {
+                    TagBox[
+                    DynamicModuleBox[{Typeset`var$$ = True}, 
+                    InterpretationBox[
+                    StyleBox[
+                    PaneSelectorBox[{False -> GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"execute_from_string\""}, 
+                    "RowDefault"]}}, GridBoxAlignment -> {
+                    "Columns" -> {{Left}}}, AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}], True -> 
+                    GridBox[{{
+                    OpenerBox[
+                    Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                    Automatic, AutoAction -> False, ContinuousAction -> 
+                    False], 
+                    TemplateBox[{
+                    ButtonBox[
+                    StyleBox[
+                    "\"/Applications/Mathematica.app/Contents/SystemFiles/\
+Links/WolframClientForPython/wolframclient/utils/externalevaluate.py\"", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
+                    StripOnInput -> False], ButtonFunction :> If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless", Evaluator -> Automatic, Method -> 
+                    "Preemptive"], "\" in \"", "\"execute_from_string\""}, 
+                    "RowDefault"]}, {"", 
+                    PaneBox[
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    
+                    GridBox[{{"\"  59.  \""}, {
+                    "\"  60.      result = None\""}, {"\"  61.  \""}, {
+                    "\"  62.      if isinstance(last(expressions), ast.Expr):\
+\""}, {"\"  63.          result = expressions.pop(-1)\""}, {"\"  64.  \""}, {
+                    "\"  65.      if expressions:\""}, {
+                    ItemBox[
+                    "\"  66.          exec(compile(ast.Module(expressions), \
+'', 'exec'), current)\"", Background -> RGBColor[1, 1, 0.85], StripOnInput -> 
+                    False]}, {"\"  67.  \""}, {"\"  68.      if result:\""}, {
+                    "\"  69.          result = eval(\""}, {
+                    "\"  70.              \
+compile(ast.Expression(result.value), '', 'eval'), current)\""}, {
+                    "\"  71.      else:\""}, {
+                    "\"  72.          result = wl.Null\""}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    GridBoxBackground -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}}, DefaultBaseStyle -> "Column", 
+                    GridBoxFrame -> {"ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> 
+                    GrayLevel[0.85]}}, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "Column", 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}], "Column"], ImageMargins -> 
+                    0]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    AutoDelete -> False, GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.2}}, 
+                    "Rows" -> {{0.5}}}, BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "execute_from_string"}], 
+                    Column[{
+                    
+                    Column[{"  59.  ", "  60.      result = None", "  61.  ", 
+                    "  62.      if isinstance(last(expressions), ast.Expr):", 
+                    "  63.          result = expressions.pop(-1)", "  64.  ", 
+                    "  65.      if expressions:", 
+                    Item[
+                    "  66.          exec(compile(ast.Module(expressions), '', \
+'exec'), current)", Background -> LightYellow], "  67.  ", 
+                    "  68.      if result:", "  69.          result = eval(", 
+                    "  70.              compile(ast.Expression(result.value), \
+'', 'eval'), current)", "  71.      else:", 
+                    "  72.          result = wl.Null"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, True]], 
+                    DynamicModuleValues -> Automatic], Setting[#, {0}]& ]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    DefaultBaseStyle -> "Column", 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Column"], FontFamily -> "Courier", StripOnInput -> 
+                    False], ImageMargins -> 0]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+                    Automatic, ImageMargins -> 0, BaseStyle -> {}, 
+                    DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
+                    Baseline], Deployed -> False, StripOnInput -> False], 
+                    OpenerView[{
+                    
+                    Row[{"TypeError", " ", 
+                    "required field \"type_ignores\" missing from Module"}], 
+                    Style[
+                    Column[{
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"]], Appearance -> 
+                    "Frameless"], " in ", "safe_wl_execute"}], 
+                    Column[{
+                    
+                    Column[{"  24.                      opts={},", 
+                    "  25.                      export_opts={},", 
+                    "  26.                      \
+exception_class=WolframLanguageException):", "  27.  ", 
+                    "  28.      __traceback_hidden_variables__ = True", 
+                    "  29.  ", "  30.      try:", 
+                    Item[
+                    "  31.          return export(function(*args, **opts), \
+**export_opts)", Background -> LightYellow], 
+                    "  32.      except Exception as export_exception:", 
+                    "  33.          try:", "  34.              try:", 
+                    "  35.  ", 
+                    "  36.                  # The user can provide an \
+exception class, and it can be broken, in which case we are running another", 
+                    "  37.                  # try / except to return errors \
+that are happening during class serialization"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "handle_message"}], 
+                    Column[{
+                    
+                    Column[{" 169.  ", " 170.  @to_wl(**EXPORT_KWARGS)", 
+                    " 171.  def handle_message(socket, \
+context=UnprintableContext()):", " 172.  ", 
+                    " 173.      __traceback_hidden_variables__ = True", 
+                    " 174.  ", 
+                    " 175.      message = binary_deserialize(socket.recv())", 
+                    
+                    Item[
+                    " 176.      result = evaluate_message(context=context, \
+**message)", Background -> LightYellow], " 177.  ", 
+                    " 178.      sys.stdout.flush()", 
+                    " 179.      return result", " 180.  ", " 181.  ", 
+                    " 182.  def start_zmq_instance(port=None, \
+write_to_stdout=True, **opts):"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, False], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "evaluate_message"}], 
+                    Column[{
+                    
+                    Column[{" 154.          else:", 
+                    " 155.              func = execute_from_string(function, \
+context)", 
+                    " 156.          #get the full argument types (possibly \
+calling a serialization function if necessary)", 
+                    " 157.          #finally call the function and assign the \
+output", " 158.          return func(*args)", " 159.  ", 
+                    " 160.      if isinstance(input, six.string_types):", 
+                    Item[
+                    " 161.          result = execute_from_string(input, \
+context)", Background -> LightYellow], " 162.  ", 
+                    " 163.          if return_type == 'string':", 
+                    " 164.              # bug 354267 repr returns a 'str' \
+even on py2 (i.e. bytes).", 
+                    " 165.              return force_text(repr(result))", 
+                    " 166.  ", " 167.          return result"}, 
+                    Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, True], 
+                    OpenerView[{
+                    Row[{
+                    Button[
+                    Style[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                    RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+                    
+                    If[
+                    FileExistsQ[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                    SystemOpen[
+                    "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+                    "Frameless"], " in ", "execute_from_string"}], 
+                    Column[{
+                    Column[{"  59.  ", "  60.      result = None", "  61.  ", 
+                    "  62.      if isinstance(last(expressions), ast.Expr):", 
+                    "  63.          result = expressions.pop(-1)", "  64.  ", 
+                    "  65.      if expressions:", 
+                    Item[
+                    "  66.          exec(compile(ast.Module(expressions), '', \
+'exec'), current)", Background -> LightYellow], "  67.  ", 
+                    "  68.      if result:", "  69.          result = eval(", 
+                    "  70.              compile(ast.Expression(result.value), \
+'', 'eval'), current)", "  71.      else:", 
+                    "  72.          result = wl.Null"}, Background -> {{
+                    GrayLevel[0.95], 
+                    GrayLevel[1]}}, Frame -> LightGray]}]}, True]}], 
+                    FontFamily -> "Courier"]}, True]], DynamicModuleValues -> 
+                    Automatic], Setting[#, {0}]& ], HoldForm], 
+                  "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  Failure["PythonError", 
+   Association[
+   "MessageTemplate" :> "required field \"type_ignores\" missing from Module",
+     "MessageParameters" :> Association[], "FailureCode" :> "TypeError", 
+    "Traceback" :> OpenerView[{
+       Row[{
+        "TypeError", " ", 
+         "required field \"type_ignores\" missing from Module"}], 
+       Style[
+        Column[{
+          OpenerView[{
+            Row[{
+              Button[
+               Style[
+               "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py", 
+                RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+               If[
+                FileExistsQ[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"], 
+                SystemOpen[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/language/decorators.py"]], Appearance -> 
+               "Frameless"], " in ", "safe_wl_execute"}], 
+            Column[{
+              
+              Column[{"  24.                      opts={},", 
+                "  25.                      export_opts={},", 
+                "  26.                      \
+exception_class=WolframLanguageException):", "  27.  ", 
+                "  28.      __traceback_hidden_variables__ = True", "  29.  ",
+                 "  30.      try:", 
+                Item[
+                "  31.          return export(function(*args, **opts), \
+**export_opts)", Background -> LightYellow], 
+                "  32.      except Exception as export_exception:", 
+                "  33.          try:", "  34.              try:", "  35.  ", 
+                "  36.                  # The user can provide an exception \
+class, and it can be broken, in which case we are running another", 
+                "  37.                  # try / except to return errors that \
+are happening during class serialization"}, Background -> {{
+                  GrayLevel[0.95], 
+                  GrayLevel[1]}}, Frame -> LightGray]}]}, False], 
+          OpenerView[{
+            Row[{
+              Button[
+               Style[
+               "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+               If[
+                FileExistsQ[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                SystemOpen[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+               "Frameless"], " in ", "handle_message"}], 
+            Column[{
+              
+              Column[{" 169.  ", " 170.  @to_wl(**EXPORT_KWARGS)", 
+                " 171.  def handle_message(socket, \
+context=UnprintableContext()):", " 172.  ", 
+                " 173.      __traceback_hidden_variables__ = True", " 174.  ",
+                 " 175.      message = binary_deserialize(socket.recv())", 
+                Item[
+                " 176.      result = evaluate_message(context=context, \
+**message)", Background -> LightYellow], " 177.  ", 
+                " 178.      sys.stdout.flush()", " 179.      return result", 
+                " 180.  ", " 181.  ", 
+                " 182.  def start_zmq_instance(port=None, \
+write_to_stdout=True, **opts):"}, Background -> {{
+                  GrayLevel[0.95], 
+                  GrayLevel[1]}}, Frame -> LightGray]}]}, False], 
+          OpenerView[{
+            Row[{
+              Button[
+               Style[
+               "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+               If[
+                FileExistsQ[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                SystemOpen[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+               "Frameless"], " in ", "evaluate_message"}], 
+            Column[{
+              
+              Column[{" 154.          else:", 
+                " 155.              func = execute_from_string(function, \
+context)", 
+                " 156.          #get the full argument types (possibly \
+calling a serialization function if necessary)", 
+                " 157.          #finally call the function and assign the \
+output", " 158.          return func(*args)", " 159.  ", 
+                " 160.      if isinstance(input, six.string_types):", 
+                Item[
+                " 161.          result = execute_from_string(input, context)",
+                  Background -> LightYellow], " 162.  ", 
+                " 163.          if return_type == 'string':", 
+                " 164.              # bug 354267 repr returns a 'str' even on \
+py2 (i.e. bytes).", " 165.              return force_text(repr(result))", 
+                " 166.  ", " 167.          return result"}, Background -> {{
+                  GrayLevel[0.95], 
+                  GrayLevel[1]}}, Frame -> LightGray]}]}, True], 
+          OpenerView[{
+            Row[{
+              Button[
+               Style[
+               "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py", 
+                RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
+               If[
+                FileExistsQ[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"], 
+                SystemOpen[
+                "/Applications/Mathematica.app/Contents/SystemFiles/Links/\
+WolframClientForPython/wolframclient/utils/externalevaluate.py"]], Appearance -> 
+               "Frameless"], " in ", "execute_from_string"}], 
+            Column[{
+              
+              Column[{"  59.  ", "  60.      result = None", "  61.  ", 
+                "  62.      if isinstance(last(expressions), ast.Expr):", 
+                "  63.          result = expressions.pop(-1)", "  64.  ", 
+                "  65.      if expressions:", 
+                Item[
+                "  66.          exec(compile(ast.Module(expressions), '', \
+'exec'), current)", Background -> LightYellow], "  67.  ", 
+                "  68.      if result:", "  69.          result = eval(", 
+                "  70.              compile(ast.Expression(result.value), '', \
+'eval'), current)", "  71.      else:", "  72.          result = wl.Null"}, 
+               Background -> {{
+                  GrayLevel[0.95], 
+                  GrayLevel[1]}}, Frame -> LightGray]}]}, True]}], FontFamily -> 
+        "Courier"]}, True]]],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellLabel->
+  "Out[206]=",ExpressionUUID->"165e919a-17b4-4727-b726-89fdf9dc9258"]
 },
 CellGrouping->Manual,
 WindowSize->{828, 985},
-WindowMargins->{{14, Automatic}, {Automatic, 0}},
+WindowMargins->{{Automatic, 9}, {Automatic, 10}},
 TrackCellChangeTimes->False,
 Magnification:>2. Inherited,
 FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
@@ -12134,404 +14866,426 @@ StyleDefinitions->Notebook[{
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "ProofThetaTRange"->{
-  Cell[233816, 5047, 686, 22, 72, "Subsubsection",ExpressionUUID->"1bdb54dd-4a8d-4091-b14f-b5180c874ebc",
-   CellGroupingRules->{"GroupTogetherGrouping", 10001.},
-   CellTags->"ProofThetaTRange"]},
  "subsectionhk"->{
-  Cell[8699, 287, 289, 10, 72, "Subsubsection",ExpressionUUID->"25a8d016-a9de-495d-8582-a0b2d76e5ac3",
+  Cell[9399, 308, 289, 10, 72, "Subsubsection",ExpressionUUID->"25a8d016-a9de-495d-8582-a0b2d76e5ac3",
    CellGroupingRules->{"GroupTogetherGrouping", 10001.},
-   CellTags->"subsectionhk"]}
+   CellTags->"subsectionhk"]},
+ "ProofThetaTRange"->{
+  Cell[234516, 5068, 686, 22, 72, "Subsubsection",ExpressionUUID->"1bdb54dd-4a8d-4091-b14f-b5180c874ebc",
+   CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+   CellTags->"ProofThetaTRange"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ProofThetaTRange", 554481, 12136},
- {"subsectionhk", 554698, 12140}
+ {"subsectionhk", 699429, 14868},
+ {"ProofThetaTRange", 699643, 14872}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 195, 5, 41, "Text",ExpressionUUID->"d1cb1b6c-bdeb-4d3a-bd6a-2fc260239d97",
+Cell[580, 22, 100, 0, 82, "Input",ExpressionUUID->"81e09400-8e95-469e-8ab6-a7a4f6ffe978"],
+Cell[683, 24, 81, 0, 56, InheritFromParent,ExpressionUUID->"8de5eb41-4616-4c62-a866-357c223a5ff6"]
+}, Open  ]],
+Cell[779, 27, 402, 10, 146, "Text",ExpressionUUID->"63364edd-0f80-46a6-a2ee-99bbfdfcc437"],
+Cell[1184, 39, 71, 0, 32, "Text",ExpressionUUID->"5ed7ba0e-5d81-4b84-a2af-efed1292ca55"],
+Cell[CellGroupData[{
+Cell[1280, 43, 195, 5, 41, "Text",ExpressionUUID->"d1cb1b6c-bdeb-4d3a-bd6a-2fc260239d97",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[778, 29, 155, 3, 72, "Subsubsection",ExpressionUUID->"04470074-d756-47ba-8cd6-ef4c805fe547",
+Cell[1478, 50, 155, 3, 72, "Subsubsection",ExpressionUUID->"04470074-d756-47ba-8cd6-ef4c805fe547",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[970, 37, 203, 7, 72, "Subsubsection",ExpressionUUID->"38b8cd2c-a69e-45c0-8880-1d1032428634",
+Cell[1670, 58, 203, 7, 72, "Subsubsection",ExpressionUUID->"38b8cd2c-a69e-45c0-8880-1d1032428634",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
-Cell[1176, 46, 1736, 52, 340, "Text",ExpressionUUID->"6ff9706c-34be-4f64-9e7c-c329cbc7834f",
+Cell[1876, 67, 1736, 52, 340, "Text",ExpressionUUID->"6ff9706c-34be-4f64-9e7c-c329cbc7834f",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2949, 103, 205, 7, 72, "Subsubsection",ExpressionUUID->"46b92338-f7f3-4415-b53a-f748cfb5f936",
+Cell[3649, 124, 205, 7, 72, "Subsubsection",ExpressionUUID->"46b92338-f7f3-4415-b53a-f748cfb5f936",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[3157, 112, 183, 6, 70, "Text",ExpressionUUID->"53f42539-f17d-43f2-9b17-22ebc20ff804",
+Cell[3857, 133, 183, 6, 70, "Text",ExpressionUUID->"53f42539-f17d-43f2-9b17-22ebc20ff804",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[3343, 120, 5319, 162, 405, "Text",ExpressionUUID->"2c8f005f-303a-4e15-ae68-0fe4e42cec3e",
+Cell[4043, 141, 5319, 162, 291, "Text",ExpressionUUID->"2c8f005f-303a-4e15-ae68-0fe4e42cec3e",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8699, 287, 289, 10, 72, "Subsubsection",ExpressionUUID->"25a8d016-a9de-495d-8582-a0b2d76e5ac3",
+Cell[9399, 308, 289, 10, 72, "Subsubsection",ExpressionUUID->"25a8d016-a9de-495d-8582-a0b2d76e5ac3",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellTags->"subsectionhk"],
-Cell[8991, 299, 1967, 60, 339, "Text",ExpressionUUID->"10d788b0-c71b-4a15-9199-cf8864b9d592",
+Cell[9691, 320, 1967, 60, 339, "Text",ExpressionUUID->"10d788b0-c71b-4a15-9199-cf8864b9d592",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
-Cell[10961, 361, 1826, 56, 76, "Text",ExpressionUUID->"6027d038-a7e0-4b3f-8706-69084f8cd5e1",
+Cell[11661, 382, 1826, 56, 76, "Text",ExpressionUUID->"6027d038-a7e0-4b3f-8706-69084f8cd5e1",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[12824, 422, 274, 10, 52, "Subsubsection",ExpressionUUID->"6bb7b5f3-5e25-4734-b7ab-5b2a22b27923",
+Cell[13524, 443, 274, 10, 52, "Subsubsection",ExpressionUUID->"6bb7b5f3-5e25-4734-b7ab-5b2a22b27923",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[13101, 434, 2759, 92, 304, "Text",ExpressionUUID->"f1dad813-d069-4e67-8ab9-7d1be4aeda96",
+Cell[13801, 455, 2759, 92, 266, "Text",ExpressionUUID->"f1dad813-d069-4e67-8ab9-7d1be4aeda96",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]],
-Cell[15875, 529, 473, 15, 76, "Subsubsection",ExpressionUUID->"88265368-3bc7-4977-b75d-19c3495375fe",
+Cell[16575, 550, 473, 15, 76, "Subsubsection",ExpressionUUID->"88265368-3bc7-4977-b75d-19c3495375fe",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[16351, 546, 929, 28, 74, "Text",ExpressionUUID->"887b00dd-86c3-493b-9adf-53e782e4cf1e"],
+Cell[17051, 567, 929, 28, 74, "Text",ExpressionUUID->"887b00dd-86c3-493b-9adf-53e782e4cf1e"],
 Cell[CellGroupData[{
-Cell[17305, 578, 270, 11, 106, "Subsubsection",ExpressionUUID->"e87a30c2-72f3-4349-9ab3-5adeb512abb9",
+Cell[18005, 599, 270, 11, 106, "Subsubsection",ExpressionUUID->"e87a30c2-72f3-4349-9ab3-5adeb512abb9",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[17578, 591, 3156, 105, 573, "Text",ExpressionUUID->"3aa1f1f8-f3f6-49e2-8f7f-dc567608df9a",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[20771, 701, 277, 11, 140, "Subsubsection",ExpressionUUID->"b348afd6-3a7b-449b-9c20-d3499b56891a",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[21051, 714, 22351, 459, 1506, "Text",ExpressionUUID->"1e20c8e3-7bb4-4c0c-a40f-ce0316fbd6fd",
+Cell[18278, 612, 3156, 105, 459, "Text",ExpressionUUID->"3aa1f1f8-f3f6-49e2-8f7f-dc567608df9a",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[43439, 1178, 201, 5, 36, "Text",ExpressionUUID->"16ec63fb-b30e-4a0d-a39e-5164a499f94d",
+Cell[21471, 722, 277, 11, 140, "Subsubsection",ExpressionUUID->"b348afd6-3a7b-449b-9c20-d3499b56891a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[21751, 735, 22351, 459, 1316, "Text",ExpressionUUID->"1e20c8e3-7bb4-4c0c-a40f-ce0316fbd6fd",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44139, 1199, 201, 5, 36, "Text",ExpressionUUID->"16ec63fb-b30e-4a0d-a39e-5164a499f94d",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[43643, 1185, 717, 20, 142, "Input",ExpressionUUID->"047273d8-1b39-4d6e-a78c-ed367d196380",
+Cell[44343, 1206, 717, 20, 142, "Input",ExpressionUUID->"047273d8-1b39-4d6e-a78c-ed367d196380",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[44363, 1207, 597, 12, 238, "Input",ExpressionUUID->"2bbd9f3f-aa6c-4ca6-8142-8714d2ac0928",
+Cell[45063, 1228, 597, 12, 238, "Input",ExpressionUUID->"2bbd9f3f-aa6c-4ca6-8142-8714d2ac0928",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
 Cell[CellGroupData[{
-Cell[44985, 1223, 11986, 248, 926, "Input",ExpressionUUID->"864de87f-74b4-4b03-80db-6865e03b4d27",
+Cell[45685, 1244, 11986, 248, 681, "Input",ExpressionUUID->"864de87f-74b4-4b03-80db-6865e03b4d27",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[56974, 1473, 225, 4, 41, "Print",ExpressionUUID->"d594e5b3-d9ba-4126-92df-cb27763198fa",
+Cell[57674, 1494, 225, 4, 41, "Print",ExpressionUUID->"d594e5b3-d9ba-4126-92df-cb27763198fa",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
 }, Open  ]],
-Cell[57214, 1480, 160, 2, 51, "Input",ExpressionUUID->"eab05c5c-e484-4520-9f1a-91fc113e6b85",
+Cell[57914, 1501, 160, 2, 51, "Input",ExpressionUUID->"eab05c5c-e484-4520-9f1a-91fc113e6b85",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[57377, 1484, 10258, 301, 1629, "Input",ExpressionUUID->"843088bd-5c82-4436-8d44-aa1264066e19",
+Cell[58077, 1505, 10258, 301, 1369, "Input",ExpressionUUID->"843088bd-5c82-4436-8d44-aa1264066e19",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[67638, 1787, 1916, 50, 298, "Input",ExpressionUUID->"8b309360-9496-4771-8f4c-62f22d1f7221",
+Cell[68338, 1808, 1916, 50, 237, "Input",ExpressionUUID->"8b309360-9496-4771-8f4c-62f22d1f7221",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
 Cell[CellGroupData[{
-Cell[69579, 1841, 312, 7, 51, "Input",ExpressionUUID->"8e5a38a9-3f5c-42c2-9d90-12b0d7190ace",
+Cell[70279, 1862, 312, 7, 51, "Input",ExpressionUUID->"8e5a38a9-3f5c-42c2-9d90-12b0d7190ace",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[69894, 1850, 1687, 34, 210, "Output",ExpressionUUID->"1ced6a25-f363-4ea5-a8b7-3a961b16e74b",
+Cell[70594, 1871, 1687, 34, 210, "Output",ExpressionUUID->"1ced6a25-f363-4ea5-a8b7-3a961b16e74b",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
 }, Open  ]],
-Cell[71596, 1887, 12599, 326, 1704, "Input",ExpressionUUID->"bd02e149-cee4-4a0a-ac7c-9627aa1b6522",
+Cell[72296, 1908, 12599, 326, 1197, "Input",ExpressionUUID->"bd02e149-cee4-4a0a-ac7c-9627aa1b6522",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
 Cell[CellGroupData[{
-Cell[84220, 2217, 19802, 329, 112, "Input",ExpressionUUID->"cf0cb26d-1fae-415f-bda5-72b83d5ab054",
+Cell[84920, 2238, 19802, 329, 112, "Input",ExpressionUUID->"cf0cb26d-1fae-415f-bda5-72b83d5ab054",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[104025, 2548, 19748, 328, 120, "Output",ExpressionUUID->"902730f8-9974-4f79-9e60-a4cca5d17df7"]
+Cell[104725, 2569, 19748, 328, 120, "Output",ExpressionUUID->"902730f8-9974-4f79-9e60-a4cca5d17df7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[123810, 2881, 602, 15, 203, "Input",ExpressionUUID->"4cac4362-5cf6-44e6-bd7a-5375c271d3b2",
+Cell[124510, 2902, 602, 15, 173, "Input",ExpressionUUID->"4cac4362-5cf6-44e6-bd7a-5375c271d3b2",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[124415, 2898, 2317, 45, 242, "Output",ExpressionUUID->"30c0f1cd-a396-4807-8861-c95acc677433",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[126769, 2948, 792, 22, 112, "Input",ExpressionUUID->"05d34f34-b280-4b0c-8573-e26a741da042",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[127564, 2972, 47787, 808, 107, "Output",ExpressionUUID->"08ee049d-5c63-4815-a6a2-9719421ebf6d"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[175388, 3785, 2353, 66, 352, "Input",ExpressionUUID->"1d516b66-8d1a-4bc9-8eea-8f923eb51c84",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[177744, 3853, 281, 8, 43, "Echo",ExpressionUUID->"e20376d2-b118-4fcc-aa71-57e7806aee98"],
-Cell[178028, 3863, 671, 13, 78, "Message",ExpressionUUID->"137b6c8c-34cf-4f2d-a222-e928a3e397d2"],
-Cell[178702, 3878, 671, 13, 78, "Message",ExpressionUUID->"16cee26b-cf30-4389-8419-4ef5772840c1"],
-Cell[179376, 3893, 672, 13, 78, "Message",ExpressionUUID->"59b94bbd-8130-4bf4-93a0-c3807b4cf6bc"],
-Cell[180051, 3908, 405, 9, 78, "Message",ExpressionUUID->"1b6c8f1a-4cb2-4406-b4a4-6d6f8d06abec"],
-Cell[180459, 3919, 497, 15, 45, "Echo",ExpressionUUID->"7ba0296c-d8a2-4a0c-9161-8adf9500c287"],
-Cell[180959, 3936, 653, 13, 78, "Message",ExpressionUUID->"ffeb2040-e4fb-41a5-add9-30c88e0a2a0c"],
-Cell[181615, 3951, 653, 13, 78, "Message",ExpressionUUID->"fed31c78-3841-465b-80df-316bf57d5127"],
-Cell[182271, 3966, 653, 13, 78, "Message",ExpressionUUID->"6863d8e6-4af1-4005-94d6-ac1585638e3f"],
-Cell[182927, 3981, 405, 9, 78, "Message",ExpressionUUID->"713182b0-87a1-4bdc-b829-f9c5d60cab91"],
-Cell[183335, 3992, 497, 15, 45, "Echo",ExpressionUUID->"025ecc58-43b7-431b-8575-bb7076b0f942"],
-Cell[183835, 4009, 424, 13, 43, "Echo",ExpressionUUID->"d6ad3983-feb0-4698-8f19-49529f711df0"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[184296, 4027, 186, 3, 51, "Input",ExpressionUUID->"6867041d-21f6-4c83-aea6-196377b34b9a",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[184485, 4032, 21389, 461, 503, "Output",ExpressionUUID->"6d35ba1c-5c41-4a6e-bf4f-dc172f846bb4"]
-}, Open  ]],
-Cell[205889, 4496, 160, 2, 51, "Input",ExpressionUUID->"de6711eb-bc7e-4406-b2be-9ef30fe02acd",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
-}, Open  ]],
-Cell[206064, 4501, 903, 24, 236, "Input",ExpressionUUID->"6c5599b4-1de6-4103-8547-0faae1d36943"],
-Cell[206970, 4527, 160, 2, 51, "Input",ExpressionUUID->"f74227f9-3dd1-4f27-9739-1e2ba11a9677",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[CellGroupData[{
-Cell[207155, 4533, 313, 8, 51, "Input",ExpressionUUID->"6a47ba90-41f2-4105-b18a-e810da31b9a7"],
-Cell[207471, 4543, 402, 9, 144, "Message",ExpressionUUID->"147c527a-6614-415c-8283-ff451671dddc"],
-Cell[207876, 4554, 402, 9, 144, "Message",ExpressionUUID->"6728e5cd-c2a0-46a0-851f-a89e96768ece"],
-Cell[208281, 4565, 22677, 391, 367, "Output",ExpressionUUID->"5da5b616-b93c-4a4e-a7ed-17f40db3cb6c"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[230995, 4961, 290, 5, 118, "Input",ExpressionUUID->"90b6ee8a-b972-4de2-89d6-eb83dd50bc6a",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[231288, 4968, 107, 1, 60, "Output",ExpressionUUID->"f16a9883-e2db-4e04-bbb6-e22513105f90"],
-Cell[231398, 4971, 107, 1, 60, "Output",ExpressionUUID->"106633fc-52ef-4c16-a5cf-cbc8ff79884f"]
-}, Open  ]],
-Cell[231520, 4975, 105, 1, 51, "Input",ExpressionUUID->"9e9748f2-853c-48c4-9ca5-a698f9a22957"],
-Cell[CellGroupData[{
-Cell[231650, 4980, 225, 5, 51, "Input",ExpressionUUID->"7e3e10bc-3513-4156-840f-f8f61b656f28"],
-Cell[231878, 4987, 393, 9, 78, "Message",ExpressionUUID->"5df74bcc-72ae-4e91-8eea-bcd7e046eff2"],
-Cell[232274, 4998, 166, 3, 60, "Output",ExpressionUUID->"0d7adf4f-d37c-4521-8dd7-d4c83270a59e"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[232477, 5006, 199, 3, 51, "Input",ExpressionUUID->"a4352dcd-5af9-420f-9c0f-8fc4a26ed511",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[232679, 5011, 242, 3, 94, "Output",ExpressionUUID->"106a5514-b751-4c67-b612-e7072d1a128b",
+Cell[125115, 2919, 2317, 45, 242, "Output",ExpressionUUID->"30c0f1cd-a396-4807-8861-c95acc677433",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[232958, 5019, 182, 2, 51, "Input",ExpressionUUID->"a9773d23-fd92-4395-9144-e8acafc08ab9",
+Cell[127469, 2969, 792, 22, 82, "Input",ExpressionUUID->"05d34f34-b280-4b0c-8573-e26a741da042",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[233143, 5023, 128, 1, 60, "Output",ExpressionUUID->"a4ad1417-43f2-4c6b-912c-19e1e86b6013"]
+Cell[128264, 2993, 47787, 808, 121, "Output",ExpressionUUID->"08ee049d-5c63-4815-a6a2-9719421ebf6d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[233308, 5029, 321, 7, 82, "Input",ExpressionUUID->"210a762f-1d6f-456c-9516-9516f8862861",
+Cell[176088, 3806, 2353, 66, 202, "Input",ExpressionUUID->"1d516b66-8d1a-4bc9-8eea-8f923eb51c84",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[233632, 5038, 147, 4, 41, InheritFromParent,ExpressionUUID->"e2a9222c-98a0-494b-a613-ee0846868128"]
+Cell[178444, 3874, 281, 8, 43, "Echo",ExpressionUUID->"e20376d2-b118-4fcc-aa71-57e7806aee98"],
+Cell[178728, 3884, 671, 13, 78, "Message",ExpressionUUID->"137b6c8c-34cf-4f2d-a222-e928a3e397d2"],
+Cell[179402, 3899, 671, 13, 78, "Message",ExpressionUUID->"16cee26b-cf30-4389-8419-4ef5772840c1"],
+Cell[180076, 3914, 672, 13, 45, "Message",ExpressionUUID->"59b94bbd-8130-4bf4-93a0-c3807b4cf6bc"],
+Cell[180751, 3929, 405, 9, 45, "Message",ExpressionUUID->"1b6c8f1a-4cb2-4406-b4a4-6d6f8d06abec"],
+Cell[181159, 3940, 497, 15, 45, "Echo",ExpressionUUID->"7ba0296c-d8a2-4a0c-9161-8adf9500c287"],
+Cell[181659, 3957, 653, 13, 45, "Message",ExpressionUUID->"ffeb2040-e4fb-41a5-add9-30c88e0a2a0c"],
+Cell[182315, 3972, 653, 13, 45, "Message",ExpressionUUID->"fed31c78-3841-465b-80df-316bf57d5127"],
+Cell[182971, 3987, 653, 13, 45, "Message",ExpressionUUID->"6863d8e6-4af1-4005-94d6-ac1585638e3f"],
+Cell[183627, 4002, 405, 9, 45, "Message",ExpressionUUID->"713182b0-87a1-4bdc-b829-f9c5d60cab91"],
+Cell[184035, 4013, 497, 15, 45, "Echo",ExpressionUUID->"025ecc58-43b7-431b-8575-bb7076b0f942"],
+Cell[184535, 4030, 424, 13, 43, "Echo",ExpressionUUID->"d6ad3983-feb0-4698-8f19-49529f711df0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[233816, 5047, 686, 22, 72, "Subsubsection",ExpressionUUID->"1bdb54dd-4a8d-4091-b14f-b5180c874ebc",
+Cell[184996, 4048, 186, 3, 51, "Input",ExpressionUUID->"6867041d-21f6-4c83-aea6-196377b34b9a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[185185, 4053, 21389, 461, 319, "Output",ExpressionUUID->"6d35ba1c-5c41-4a6e-bf4f-dc172f846bb4"]
+}, Open  ]],
+Cell[206589, 4517, 160, 2, 51, "Input",ExpressionUUID->"de6711eb-bc7e-4406-b2be-9ef30fe02acd",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
+}, Open  ]],
+Cell[206764, 4522, 903, 24, 206, "Input",ExpressionUUID->"6c5599b4-1de6-4103-8547-0faae1d36943"],
+Cell[207670, 4548, 160, 2, 51, "Input",ExpressionUUID->"f74227f9-3dd1-4f27-9739-1e2ba11a9677",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[CellGroupData[{
+Cell[207855, 4554, 313, 8, 51, "Input",ExpressionUUID->"6a47ba90-41f2-4105-b18a-e810da31b9a7"],
+Cell[208171, 4564, 402, 9, 78, "Message",ExpressionUUID->"147c527a-6614-415c-8283-ff451671dddc"],
+Cell[208576, 4575, 402, 9, 78, "Message",ExpressionUUID->"6728e5cd-c2a0-46a0-851f-a89e96768ece"],
+Cell[208981, 4586, 22677, 391, 460, "Output",ExpressionUUID->"5da5b616-b93c-4a4e-a7ed-17f40db3cb6c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[231695, 4982, 290, 5, 118, "Input",ExpressionUUID->"90b6ee8a-b972-4de2-89d6-eb83dd50bc6a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[231988, 4989, 107, 1, 60, "Output",ExpressionUUID->"f16a9883-e2db-4e04-bbb6-e22513105f90"],
+Cell[232098, 4992, 107, 1, 60, "Output",ExpressionUUID->"106633fc-52ef-4c16-a5cf-cbc8ff79884f"]
+}, Open  ]],
+Cell[232220, 4996, 105, 1, 51, "Input",ExpressionUUID->"9e9748f2-853c-48c4-9ca5-a698f9a22957"],
+Cell[CellGroupData[{
+Cell[232350, 5001, 225, 5, 51, "Input",ExpressionUUID->"7e3e10bc-3513-4156-840f-f8f61b656f28"],
+Cell[232578, 5008, 393, 9, 45, "Message",ExpressionUUID->"5df74bcc-72ae-4e91-8eea-bcd7e046eff2"],
+Cell[232974, 5019, 166, 3, 60, "Output",ExpressionUUID->"0d7adf4f-d37c-4521-8dd7-d4c83270a59e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[233177, 5027, 199, 3, 51, "Input",ExpressionUUID->"a4352dcd-5af9-420f-9c0f-8fc4a26ed511",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[233379, 5032, 242, 3, 60, "Output",ExpressionUUID->"106a5514-b751-4c67-b612-e7072d1a128b",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[233658, 5040, 182, 2, 51, "Input",ExpressionUUID->"a9773d23-fd92-4395-9144-e8acafc08ab9",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[233843, 5044, 128, 1, 60, "Output",ExpressionUUID->"a4ad1417-43f2-4c6b-912c-19e1e86b6013"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[234008, 5050, 321, 7, 51, "Input",ExpressionUUID->"210a762f-1d6f-456c-9516-9516f8862861",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[234332, 5059, 147, 4, 41, InheritFromParent,ExpressionUUID->"e2a9222c-98a0-494b-a613-ee0846868128"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[234516, 5068, 686, 22, 72, "Subsubsection",ExpressionUUID->"1bdb54dd-4a8d-4091-b14f-b5180c874ebc",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellTags->"ProofThetaTRange"],
 Cell[CellGroupData[{
-Cell[234527, 5073, 301, 7, 52, "Input",ExpressionUUID->"ce0ccabc-cc28-4b5b-aaf8-40fd262cb142",
+Cell[235227, 5094, 301, 7, 52, "Input",ExpressionUUID->"ce0ccabc-cc28-4b5b-aaf8-40fd262cb142",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
-Cell[234831, 5082, 276, 7, 60, "Output",ExpressionUUID->"c9ad94e9-2c83-433d-aab8-3062c536db2c"]
+Cell[235531, 5103, 276, 7, 60, "Output",ExpressionUUID->"c9ad94e9-2c83-433d-aab8-3062c536db2c"]
 }, Open  ]],
-Cell[235122, 5092, 914, 30, 126, "Input",ExpressionUUID->"04461289-fc69-4e89-936d-0f96519e2d2c",
+Cell[235822, 5113, 914, 30, 91, "Input",ExpressionUUID->"04461289-fc69-4e89-936d-0f96519e2d2c",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
-Cell[236039, 5124, 343, 9, 32, "Text",ExpressionUUID->"0a67aab9-5065-466e-989f-91876519e54d"],
+Cell[236739, 5145, 343, 9, 32, "Text",ExpressionUUID->"0a67aab9-5065-466e-989f-91876519e54d"],
 Cell[CellGroupData[{
-Cell[236407, 5137, 1014, 29, 142, "Input",ExpressionUUID->"eb7ba019-2e60-413b-913c-0ea1bd50befd",
+Cell[237107, 5158, 1014, 29, 82, "Input",ExpressionUUID->"eb7ba019-2e60-413b-913c-0ea1bd50befd",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
-Cell[237424, 5168, 17302, 310, 380, "Output",ExpressionUUID->"b2dc0fc9-8216-4c05-a773-6e3c8c554e5f",
+Cell[238124, 5189, 17302, 310, 477, "Output",ExpressionUUID->"b2dc0fc9-8216-4c05-a773-6e3c8c554e5f",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
 }, Open  ]]
 }, Open  ]],
-Cell[254753, 5482, 3191, 84, 756, "Text",ExpressionUUID->"325c7d8c-8e39-4c78-a553-b5a545200522"],
-Cell[257947, 5568, 407, 13, 35, "Text",ExpressionUUID->"7dd99e0c-e403-41b2-b25f-cf2c173c6a4a"],
-Cell[258357, 5583, 339, 9, 111, "Text",ExpressionUUID->"7a81a601-a5d1-4003-a556-c43b5ea77a0f"],
-Cell[258699, 5594, 6030, 128, 186, "Text",ExpressionUUID->"12237a15-405e-41e2-b076-3a596930ffb7"],
-Cell[264732, 5724, 81, 0, 51, "Input",ExpressionUUID->"6be3245c-7b65-4f58-b410-54eafd52ad51"],
-Cell[264816, 5726, 71, 0, 32, "Text",ExpressionUUID->"7513dd64-c82f-49f5-93ba-5909320554b0"],
-Cell[264890, 5728, 759, 22, 187, "Text",ExpressionUUID->"fca6cabf-5790-40cd-8955-ada9e8e6522b"],
-Cell[265652, 5752, 2829, 93, 40, "Text",ExpressionUUID->"7de2326e-7026-4647-8725-f1387e31a072"],
-Cell[268484, 5847, 128, 3, 70, "Text",ExpressionUUID->"b9197cdb-340a-45b2-becf-91bc5a1b2c9b"],
-Cell[268615, 5852, 3227, 105, 190, "Subsubsection",ExpressionUUID->"909c4bd3-d562-461f-a5fd-2901223aed95"],
+Cell[255453, 5503, 3191, 84, 490, "Text",ExpressionUUID->"325c7d8c-8e39-4c78-a553-b5a545200522"],
+Cell[258647, 5589, 407, 13, 35, "Text",ExpressionUUID->"7dd99e0c-e403-41b2-b25f-cf2c173c6a4a"],
+Cell[259057, 5604, 339, 9, 73, "Text",ExpressionUUID->"7a81a601-a5d1-4003-a556-c43b5ea77a0f"],
+Cell[259399, 5615, 6030, 128, 186, "Text",ExpressionUUID->"12237a15-405e-41e2-b076-3a596930ffb7"],
+Cell[265432, 5745, 81, 0, 51, "Input",ExpressionUUID->"6be3245c-7b65-4f58-b410-54eafd52ad51"],
+Cell[265516, 5747, 71, 0, 32, "Text",ExpressionUUID->"7513dd64-c82f-49f5-93ba-5909320554b0"],
+Cell[265590, 5749, 759, 22, 149, "Text",ExpressionUUID->"fca6cabf-5790-40cd-8955-ada9e8e6522b"],
+Cell[266352, 5773, 2829, 93, 40, "Text",ExpressionUUID->"7de2326e-7026-4647-8725-f1387e31a072"],
+Cell[269184, 5868, 128, 3, 70, "Text",ExpressionUUID->"b9197cdb-340a-45b2-becf-91bc5a1b2c9b"],
+Cell[269315, 5873, 3227, 105, 148, "Subsubsection",ExpressionUUID->"909c4bd3-d562-461f-a5fd-2901223aed95"],
 Cell[CellGroupData[{
-Cell[271867, 5961, 330, 9, 39, "Input",ExpressionUUID->"b49402c5-b376-4fe6-9bfa-e99693aedd57"],
-Cell[272200, 5972, 176, 3, 60, "Output",ExpressionUUID->"faf1a100-ad28-4529-853e-6d19431d169c"]
+Cell[272567, 5982, 330, 9, 39, "Input",ExpressionUUID->"b49402c5-b376-4fe6-9bfa-e99693aedd57"],
+Cell[272900, 5993, 176, 3, 60, "Output",ExpressionUUID->"faf1a100-ad28-4529-853e-6d19431d169c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[272413, 5980, 2609, 79, 463, "Input",ExpressionUUID->"3c59e997-6fab-4b94-9c49-a81c6fbe89fe"],
+Cell[273113, 6001, 2609, 79, 432, "Input",ExpressionUUID->"3c59e997-6fab-4b94-9c49-a81c6fbe89fe"],
 Cell[CellGroupData[{
-Cell[275047, 6063, 6055, 134, 276, "Input",ExpressionUUID->"cce5e912-9f5a-4e48-82e3-03a142830dbd"],
-Cell[281105, 6199, 19506, 580, 3225, "Output",ExpressionUUID->"96cd36cf-c3c5-4b7f-9fe4-a72920db715c"]
+Cell[275747, 6084, 6055, 134, 190, "Input",ExpressionUUID->"cce5e912-9f5a-4e48-82e3-03a142830dbd"],
+Cell[281805, 6220, 19506, 580, 1582, "Output",ExpressionUUID->"96cd36cf-c3c5-4b7f-9fe4-a72920db715c"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[300660, 6785, 464, 13, 82, "Input",ExpressionUUID->"ef755a13-05f4-46a7-b835-f26e74a729fa"],
-Cell[301127, 6800, 2026, 62, 266, "Output",ExpressionUUID->"45afcdd9-7022-4fa2-a5eb-b1c613e70f60"]
+Cell[301360, 6806, 464, 13, 51, "Input",ExpressionUUID->"ef755a13-05f4-46a7-b835-f26e74a729fa"],
+Cell[301827, 6821, 2026, 62, 174, "Output",ExpressionUUID->"45afcdd9-7022-4fa2-a5eb-b1c613e70f60"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[303190, 6867, 237, 6, 51, "Input",ExpressionUUID->"4b30348a-538e-4e8a-a314-2ddbae957ed4"],
-Cell[303430, 6875, 3945, 106, 561, "Output",ExpressionUUID->"70251fdf-daec-488f-9a91-cfb62385b8e9"]
+Cell[303890, 6888, 237, 6, 51, "Input",ExpressionUUID->"4b30348a-538e-4e8a-a314-2ddbae957ed4"],
+Cell[304130, 6896, 3945, 106, 211, "Output",ExpressionUUID->"70251fdf-daec-488f-9a91-cfb62385b8e9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[307412, 6986, 275, 8, 51, "Input",ExpressionUUID->"bc32c4ad-18b0-4760-a4f1-7cefe15a1dee"],
-Cell[307690, 6996, 437, 14, 60, "Output",ExpressionUUID->"0548c3a9-234b-480a-8c3d-526471a09cdd"],
+Cell[308112, 7007, 275, 8, 51, "Input",ExpressionUUID->"bc32c4ad-18b0-4760-a4f1-7cefe15a1dee"],
+Cell[308390, 7017, 437, 14, 60, "Output",ExpressionUUID->"0548c3a9-234b-480a-8c3d-526471a09cdd"],
 Cell[CellGroupData[{
-Cell[308152, 7014, 189, 5, 51, "Input",ExpressionUUID->"655f2d0f-1baa-4004-a0ff-f3bd112dc371"],
-Cell[308344, 7021, 724, 24, 115, "Output",ExpressionUUID->"fc2c03b6-05e6-4710-b6c1-536879623d0d"]
+Cell[308852, 7035, 189, 5, 51, "Input",ExpressionUUID->"655f2d0f-1baa-4004-a0ff-f3bd112dc371"],
+Cell[309044, 7042, 724, 24, 115, "Output",ExpressionUUID->"fc2c03b6-05e6-4710-b6c1-536879623d0d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[309105, 7050, 274, 8, 51, "Input",ExpressionUUID->"1a4a04aa-955d-4dae-83de-7963964dd01c"],
-Cell[309382, 7060, 880, 29, 204, "Output",ExpressionUUID->"4eac7e80-4b6b-4994-a464-44e84fa0816d"]
+Cell[309805, 7071, 274, 8, 51, "Input",ExpressionUUID->"1a4a04aa-955d-4dae-83de-7963964dd01c"],
+Cell[310082, 7081, 880, 29, 111, "Output",ExpressionUUID->"4eac7e80-4b6b-4994-a464-44e84fa0816d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[310299, 7094, 223, 6, 51, "Input",ExpressionUUID->"20139001-2824-4814-99af-8ebfc3a49774"],
-Cell[310525, 7102, 511, 18, 163, "Output",ExpressionUUID->"cf8ea4ed-a6a0-43b5-827f-5662eaa9253d"]
+Cell[310999, 7115, 223, 6, 51, "Input",ExpressionUUID->"20139001-2824-4814-99af-8ebfc3a49774"],
+Cell[311225, 7123, 511, 18, 163, "Output",ExpressionUUID->"cf8ea4ed-a6a0-43b5-827f-5662eaa9253d"]
 }, Open  ]],
-Cell[311051, 7123, 633, 20, 127, "Input",ExpressionUUID->"494042af-c161-4b66-ad44-18f4b1e65b24"],
+Cell[311751, 7144, 633, 20, 75, "Input",ExpressionUUID->"494042af-c161-4b66-ad44-18f4b1e65b24"],
 Cell[CellGroupData[{
-Cell[311709, 7147, 272, 8, 51, "Input",ExpressionUUID->"610ede4e-a44f-41f7-8c34-46ffddefaa8f"],
-Cell[311984, 7157, 430, 16, 110, "Output",ExpressionUUID->"89f89a10-f038-442f-bdb9-f1e398e11a72"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[312451, 7178, 394, 9, 82, "Input",ExpressionUUID->"bd403158-b3c8-4420-88db-c954122e0afe"],
-Cell[312848, 7189, 596, 21, 122, "Output",ExpressionUUID->"97b49a0c-80d3-4adb-a407-6068be1aca37"]
+Cell[312409, 7168, 272, 8, 51, "Input",ExpressionUUID->"610ede4e-a44f-41f7-8c34-46ffddefaa8f"],
+Cell[312684, 7178, 430, 16, 110, "Output",ExpressionUUID->"89f89a10-f038-442f-bdb9-f1e398e11a72"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[313481, 7215, 112, 2, 51, "Input",ExpressionUUID->"cb4a69f0-b34e-4161-96ff-1b2c0501eeba"],
+Cell[313151, 7199, 394, 9, 51, "Input",ExpressionUUID->"bd403158-b3c8-4420-88db-c954122e0afe"],
+Cell[313548, 7210, 596, 21, 86, "Output",ExpressionUUID->"97b49a0c-80d3-4adb-a407-6068be1aca37"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[313618, 7221, 82, 0, 51, "Input",ExpressionUUID->"21dbf4fc-2fe4-4e41-adf2-e7cc7a60ba3f"],
-Cell[313703, 7223, 526, 19, 86, "Output",ExpressionUUID->"ca5d39f2-a3f4-456d-a6fe-7660afb88f9e"]
+Cell[314181, 7236, 112, 2, 51, "Input",ExpressionUUID->"cb4a69f0-b34e-4161-96ff-1b2c0501eeba"],
+Cell[CellGroupData[{
+Cell[314318, 7242, 82, 0, 51, "Input",ExpressionUUID->"21dbf4fc-2fe4-4e41-adf2-e7cc7a60ba3f"],
+Cell[314403, 7244, 526, 19, 86, "Output",ExpressionUUID->"ca5d39f2-a3f4-456d-a6fe-7660afb88f9e"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[314278, 7248, 169, 4, 51, "Input",ExpressionUUID->"7e167075-4e8d-4787-91fe-be4c4ba7fbdf"],
-Cell[314450, 7254, 316, 12, 110, "Output",ExpressionUUID->"031c684d-546e-481d-b215-a5a87b52765a"]
+Cell[314978, 7269, 169, 4, 51, "Input",ExpressionUUID->"7e167075-4e8d-4787-91fe-be4c4ba7fbdf"],
+Cell[315150, 7275, 316, 12, 110, "Output",ExpressionUUID->"031c684d-546e-481d-b215-a5a87b52765a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[314803, 7271, 246, 7, 51, "Input",ExpressionUUID->"69df76cb-27d1-45d5-9b1b-1e9eb3c82c2e"],
-Cell[315052, 7280, 433, 13, 91, "Output",ExpressionUUID->"eb3e19cd-cecf-4f5e-8df6-cb81e5dc4fc8"]
+Cell[315503, 7292, 246, 7, 51, "Input",ExpressionUUID->"69df76cb-27d1-45d5-9b1b-1e9eb3c82c2e"],
+Cell[315752, 7301, 433, 13, 91, "Output",ExpressionUUID->"eb3e19cd-cecf-4f5e-8df6-cb81e5dc4fc8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[315522, 7298, 241, 7, 80, "Input",ExpressionUUID->"8f6d49a4-8658-4458-90b2-d325a2b18fbc"],
-Cell[315766, 7307, 164, 5, 51, "Input",ExpressionUUID->"235d9569-97b8-4697-8fb2-e69cfa452ed8"]
+Cell[316222, 7319, 241, 7, 80, "Input",ExpressionUUID->"8f6d49a4-8658-4458-90b2-d325a2b18fbc"],
+Cell[316466, 7328, 164, 5, 51, "Input",ExpressionUUID->"235d9569-97b8-4697-8fb2-e69cfa452ed8"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[315979, 7318, 445, 15, 51, "Input",ExpressionUUID->"acc8c63a-4b48-4f2e-87e2-ac929073c368"],
-Cell[316427, 7335, 1172, 45, 207, "Output",ExpressionUUID->"c3bdaad4-a2b9-4b48-9924-9d49825ec0ba"]
+Cell[316679, 7339, 445, 15, 51, "Input",ExpressionUUID->"acc8c63a-4b48-4f2e-87e2-ac929073c368"],
+Cell[317127, 7356, 1172, 45, 115, "Output",ExpressionUUID->"c3bdaad4-a2b9-4b48-9924-9d49825ec0ba"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[317636, 7385, 1414, 49, 298, "Input",ExpressionUUID->"686d4131-fcbf-4cbb-bf7f-577a04a6423b"],
-Cell[319053, 7436, 1409, 50, 305, "Output",ExpressionUUID->"95d01062-3aca-4ec8-8423-e1b71e580867"]
+Cell[318336, 7406, 1414, 49, 157, "Input",ExpressionUUID->"686d4131-fcbf-4cbb-bf7f-577a04a6423b"],
+Cell[319753, 7457, 1409, 50, 197, "Output",ExpressionUUID->"95d01062-3aca-4ec8-8423-e1b71e580867"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[320499, 7491, 554, 18, 112, "Input",ExpressionUUID->"81adeb88-eda4-4a3e-a3a4-e26bc1de50c2"],
-Cell[321056, 7511, 1548, 26, 229, "Message",ExpressionUUID->"3f83b892-9b0b-4643-b050-2e3d19f09eba"],
-Cell[322607, 7539, 1341, 48, 267, "Output",ExpressionUUID->"ac687805-158d-4ee7-83b3-f0c93a40eac6"]
+Cell[321199, 7512, 554, 18, 51, "Input",ExpressionUUID->"81adeb88-eda4-4a3e-a3a4-e26bc1de50c2"],
+Cell[321756, 7532, 1548, 26, 138, "Message",ExpressionUUID->"3f83b892-9b0b-4643-b050-2e3d19f09eba"],
+Cell[323307, 7560, 1341, 48, 207, "Output",ExpressionUUID->"ac687805-158d-4ee7-83b3-f0c93a40eac6"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[323985, 7592, 190, 5, 51, "Input",ExpressionUUID->"3dd6ac14-541d-4cd7-b8c2-b0dd5a6c04db"],
-Cell[324178, 7599, 735, 24, 99, "Output",ExpressionUUID->"77140a26-c59d-4b9a-96f9-cf1a89cd2550"]
+Cell[324685, 7613, 190, 5, 51, "Input",ExpressionUUID->"3dd6ac14-541d-4cd7-b8c2-b0dd5a6c04db"],
+Cell[324878, 7620, 735, 24, 99, "Output",ExpressionUUID->"77140a26-c59d-4b9a-96f9-cf1a89cd2550"]
 }, Open  ]],
-Cell[324928, 7626, 234, 6, 51, "Input",ExpressionUUID->"7c1ffe3e-3379-42b4-a924-10632732966a"],
-Cell[325165, 7634, 437, 14, 60, "Output",ExpressionUUID->"2199d76a-ff95-4992-bb8a-8b74cadaa783"],
-Cell[325605, 7650, 724, 24, 115, "Output",ExpressionUUID->"d3a9b421-13f0-4f86-a773-0f7c60e20381"],
-Cell[326332, 7676, 447, 15, 108, "Output",ExpressionUUID->"d76e08a8-a375-4878-9bd1-00b64b3df54a"],
-Cell[326782, 7693, 735, 24, 99, "Output",ExpressionUUID->"7760d626-848c-49c3-8e33-476d8d6dc02d"],
-Cell[327520, 7719, 1032, 34, 291, "Output",ExpressionUUID->"62881505-01f7-49f3-be13-32bda6f3b3f9"],
+Cell[325628, 7647, 234, 6, 51, "Input",ExpressionUUID->"7c1ffe3e-3379-42b4-a924-10632732966a"],
+Cell[325865, 7655, 437, 14, 60, "Output",ExpressionUUID->"2199d76a-ff95-4992-bb8a-8b74cadaa783"],
+Cell[326305, 7671, 724, 24, 115, "Output",ExpressionUUID->"d3a9b421-13f0-4f86-a773-0f7c60e20381"],
+Cell[327032, 7697, 447, 15, 108, "Output",ExpressionUUID->"d76e08a8-a375-4878-9bd1-00b64b3df54a"],
+Cell[327482, 7714, 735, 24, 99, "Output",ExpressionUUID->"7760d626-848c-49c3-8e33-476d8d6dc02d"],
+Cell[328220, 7740, 1032, 34, 176, "Output",ExpressionUUID->"62881505-01f7-49f3-be13-32bda6f3b3f9"],
 Cell[CellGroupData[{
-Cell[328577, 7757, 755, 24, 138, "Input",ExpressionUUID->"03621b6e-0613-46ff-ac5e-d89eb356600f"],
-Cell[329335, 7783, 1072, 34, 199, "Output",ExpressionUUID->"7505e060-4911-438a-9e70-8f97b69ccaf9"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[330444, 7822, 699, 21, 151, "Input",ExpressionUUID->"7b035ecd-9922-421a-aa48-091bbc2f0423"],
-Cell[331146, 7845, 1032, 34, 291, "Output",ExpressionUUID->"65f0d9a7-8e4a-48c9-8aaa-d14ad629d9d3"]
+Cell[329277, 7778, 755, 24, 85, "Input",ExpressionUUID->"03621b6e-0613-46ff-ac5e-d89eb356600f"],
+Cell[330035, 7804, 1072, 34, 109, "Output",ExpressionUUID->"7505e060-4911-438a-9e70-8f97b69ccaf9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[332215, 7884, 284, 8, 51, "Input",ExpressionUUID->"9757c6ff-39a4-43b4-90e6-0fcffe21111d"],
-Cell[332502, 7894, 3535, 55, 215, "Message",ExpressionUUID->"3f7f1457-a18d-40a2-9844-028890652ddb"],
-Cell[336040, 7951, 3535, 55, 215, "Message",ExpressionUUID->"fa051558-49c5-42f6-bfb1-ff254af47b77"],
-Cell[339578, 8008, 3521, 55, 215, "Message",ExpressionUUID->"e331b37d-9743-4e0f-9e4b-7c32cd2358db"],
-Cell[343102, 8065, 409, 9, 78, "Message",ExpressionUUID->"f7ac18d8-8645-47be-8d6c-815fce163f9a"],
-Cell[343514, 8076, 1654, 46, 388, "Output",ExpressionUUID->"249c09c6-4a3f-42e6-bd63-2e7bf1cb7303"]
+Cell[331144, 7843, 699, 21, 96, "Input",ExpressionUUID->"7b035ecd-9922-421a-aa48-091bbc2f0423"],
+Cell[331846, 7866, 1032, 34, 176, "Output",ExpressionUUID->"65f0d9a7-8e4a-48c9-8aaa-d14ad629d9d3"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[345205, 8127, 1338, 48, 206, "Input",ExpressionUUID->"36d03052-e769-4d05-bd6f-3a3343dbd413"],
-Cell[346546, 8177, 430, 16, 110, "Output",ExpressionUUID->"9fbc9e69-5715-44a3-b703-eb936c0b055c"],
-Cell[346979, 8195, 600, 21, 96, "Output",ExpressionUUID->"35e20854-8161-46fa-aa59-2853fafeb730"]
-}, Open  ]],
-Cell[347594, 8219, 146, 3, 51, "Input",ExpressionUUID->"86f64d96-968f-4253-abf2-ead833cc4257"],
-Cell[347743, 8224, 623, 23, 143, "Output",ExpressionUUID->"ad006d14-5f09-4ad3-840a-0c455eb5fce8"],
-Cell[348369, 8249, 137, 3, 51, "Input",ExpressionUUID->"b6f79b69-e9ce-45e0-adc5-a6a27038b8a1"],
-Cell[348509, 8254, 526, 19, 86, "Output",ExpressionUUID->"df494c61-05cf-47df-928e-257b46048337"],
-Cell[CellGroupData[{
-Cell[349060, 8277, 673, 23, 126, "Input",ExpressionUUID->"79c94b9c-8c82-4d73-9b14-08e2a86c7e8c"],
-Cell[349736, 8302, 497, 17, 65, "Output",ExpressionUUID->"3a286bba-e775-49ca-b849-be24420f798c"]
+Cell[332915, 7905, 284, 8, 51, "Input",ExpressionUUID->"9757c6ff-39a4-43b4-90e6-0fcffe21111d"],
+Cell[333202, 7915, 3535, 55, 182, "Message",ExpressionUUID->"3f7f1457-a18d-40a2-9844-028890652ddb"],
+Cell[336740, 7972, 3535, 55, 182, "Message",ExpressionUUID->"fa051558-49c5-42f6-bfb1-ff254af47b77"],
+Cell[340278, 8029, 3521, 55, 182, "Message",ExpressionUUID->"e331b37d-9743-4e0f-9e4b-7c32cd2358db"],
+Cell[343802, 8086, 409, 9, 45, "Message",ExpressionUUID->"f7ac18d8-8645-47be-8d6c-815fce163f9a"],
+Cell[344214, 8097, 1654, 46, 476, "Output",ExpressionUUID->"249c09c6-4a3f-42e6-bd63-2e7bf1cb7303"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[350270, 8324, 137, 3, 51, "Input",ExpressionUUID->"28745f16-0cb5-46ff-ac80-d07b04f63d18"],
-Cell[350410, 8329, 430, 16, 110, "Output",ExpressionUUID->"447e849f-7c13-4edd-a5aa-8cdb2332d43f"]
+Cell[345905, 8148, 1338, 48, 206, "Input",ExpressionUUID->"36d03052-e769-4d05-bd6f-3a3343dbd413"],
+Cell[347246, 8198, 430, 16, 110, "Output",ExpressionUUID->"9fbc9e69-5715-44a3-b703-eb936c0b055c"],
+Cell[347679, 8216, 600, 21, 96, "Output",ExpressionUUID->"35e20854-8161-46fa-aa59-2853fafeb730"]
 }, Open  ]],
-Cell[350855, 8348, 436, 9, 61, "Input",ExpressionUUID->"f5a24bef-1b6d-4894-8a68-110116cb80fa"],
+Cell[348294, 8240, 146, 3, 51, "Input",ExpressionUUID->"86f64d96-968f-4253-abf2-ead833cc4257"],
+Cell[348443, 8245, 623, 23, 89, "Output",ExpressionUUID->"ad006d14-5f09-4ad3-840a-0c455eb5fce8"],
+Cell[349069, 8270, 137, 3, 51, "Input",ExpressionUUID->"b6f79b69-e9ce-45e0-adc5-a6a27038b8a1"],
+Cell[349209, 8275, 526, 19, 86, "Output",ExpressionUUID->"df494c61-05cf-47df-928e-257b46048337"],
 Cell[CellGroupData[{
-Cell[351316, 8361, 174, 3, 51, "Input",ExpressionUUID->"a1108dd0-77e1-4296-bf6b-6b1cafb4408c"],
-Cell[351493, 8366, 81, 0, 51, "Input",ExpressionUUID->"8b630829-d5eb-40c4-9839-a5df6688dbb3"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[351611, 8371, 3743, 58, 63, "Input",ExpressionUUID->"abf2f20a-c57b-4101-b238-f9caea285fb7"],
-Cell[355357, 8431, 111, 2, 60, "Output",ExpressionUUID->"e2e0ab88-d182-42b5-9e33-e4ba3d6bec86"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[355505, 8438, 3744, 58, 63, "Input",ExpressionUUID->"044ebe6d-2524-482f-b29e-40f8169031cf"],
-Cell[359252, 8498, 111, 2, 60, "Output",ExpressionUUID->"2fa8b09a-1f3e-4b6f-9112-f1465b274fc5"]
+Cell[349760, 8298, 673, 23, 75, "Input",ExpressionUUID->"79c94b9c-8c82-4d73-9b14-08e2a86c7e8c"],
+Cell[350436, 8323, 497, 17, 65, "Output",ExpressionUUID->"3a286bba-e775-49ca-b849-be24420f798c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[359400, 8505, 835, 26, 99, "Input",ExpressionUUID->"26cf2338-8027-4548-a776-4841f4b0abf9"],
-Cell[360238, 8533, 556, 11, 105, "Message",ExpressionUUID->"53463401-f9a6-4060-a3f9-5a005c5852d4"],
+Cell[350970, 8345, 137, 3, 51, "Input",ExpressionUUID->"28745f16-0cb5-46ff-ac80-d07b04f63d18"],
+Cell[351110, 8350, 430, 16, 110, "Output",ExpressionUUID->"447e849f-7c13-4edd-a5aa-8cdb2332d43f"]
+}, Open  ]],
+Cell[351555, 8369, 436, 9, 61, "Input",ExpressionUUID->"f5a24bef-1b6d-4894-8a68-110116cb80fa"],
 Cell[CellGroupData[{
-Cell[360819, 8548, 883, 27, 124, "Input",ExpressionUUID->"c82c8706-c948-4aaf-ab7c-e48e2c3008c2"],
-Cell[361705, 8577, 556, 11, 105, "Message",ExpressionUUID->"935fc5ec-f48f-495b-b167-9e936a0b4e4b"],
-Cell[362264, 8590, 842, 26, 174, "Output",ExpressionUUID->"a29eae76-19ab-4100-aa91-4a774008adb8"]
+Cell[352016, 8382, 174, 3, 51, "Input",ExpressionUUID->"a1108dd0-77e1-4296-bf6b-6b1cafb4408c"],
+Cell[352193, 8387, 81, 0, 51, "Input",ExpressionUUID->"8b630829-d5eb-40c4-9839-a5df6688dbb3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[352311, 8392, 3743, 58, 63, "Input",ExpressionUUID->"abf2f20a-c57b-4101-b238-f9caea285fb7"],
+Cell[356057, 8452, 111, 2, 60, "Output",ExpressionUUID->"e2e0ab88-d182-42b5-9e33-e4ba3d6bec86"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[356205, 8459, 3744, 58, 63, "Input",ExpressionUUID->"044ebe6d-2524-482f-b29e-40f8169031cf"],
+Cell[359952, 8519, 111, 2, 60, "Output",ExpressionUUID->"2fa8b09a-1f3e-4b6f-9112-f1465b274fc5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[360100, 8526, 835, 26, 60, "Input",ExpressionUUID->"26cf2338-8027-4548-a776-4841f4b0abf9"],
+Cell[360938, 8554, 556, 11, 69, "Message",ExpressionUUID->"53463401-f9a6-4060-a3f9-5a005c5852d4"],
+Cell[CellGroupData[{
+Cell[361519, 8569, 883, 27, 72, "Input",ExpressionUUID->"c82c8706-c948-4aaf-ab7c-e48e2c3008c2"],
+Cell[362405, 8598, 556, 11, 69, "Message",ExpressionUUID->"935fc5ec-f48f-495b-b167-9e936a0b4e4b"],
+Cell[362964, 8611, 842, 26, 83, "Output",ExpressionUUID->"a29eae76-19ab-4100-aa91-4a774008adb8"]
 }, Open  ]]
 }, Open  ]],
-Cell[363133, 8620, 131, 2, 51, "Input",ExpressionUUID->"abeac375-a30d-424b-87e0-ecbcc0e2db88"],
-Cell[363267, 8624, 205, 4, 71, "Input",ExpressionUUID->"f274ede4-d0dc-48ae-be43-c8b757aefaa0"],
+Cell[363833, 8641, 131, 2, 51, "Input",ExpressionUUID->"abeac375-a30d-424b-87e0-ecbcc0e2db88"],
+Cell[363967, 8645, 205, 4, 71, "Input",ExpressionUUID->"f274ede4-d0dc-48ae-be43-c8b757aefaa0"],
 Cell[CellGroupData[{
-Cell[363497, 8632, 1081, 31, 175, "Input",ExpressionUUID->"0e0056fa-f32b-427e-949e-4d518a18ff29"],
-Cell[364581, 8665, 403, 11, 65, "Output",ExpressionUUID->"0c6f9d67-942b-4ab0-a8d5-47967d750527"]
+Cell[364197, 8653, 1081, 31, 175, "Input",ExpressionUUID->"0e0056fa-f32b-427e-949e-4d518a18ff29"],
+Cell[365281, 8686, 403, 11, 65, "Output",ExpressionUUID->"0c6f9d67-942b-4ab0-a8d5-47967d750527"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[365021, 8681, 806, 26, 139, "Input",ExpressionUUID->"1ef85247-f747-436a-b624-eacf749627b3"],
-Cell[365830, 8709, 714, 13, 116, "Message",ExpressionUUID->"461a63f7-714a-4756-b5d3-3e2418ead468"],
-Cell[366547, 8724, 754, 24, 101, "Output",ExpressionUUID->"ffaaf3e9-fee6-47ae-8fbf-f22d5191231a"]
+Cell[365721, 8702, 806, 26, 139, "Input",ExpressionUUID->"1ef85247-f747-436a-b624-eacf749627b3"],
+Cell[366530, 8730, 714, 13, 83, "Message",ExpressionUUID->"461a63f7-714a-4756-b5d3-3e2418ead468"],
+Cell[367247, 8745, 754, 24, 65, "Output",ExpressionUUID->"ffaaf3e9-fee6-47ae-8fbf-f22d5191231a"]
 }, Open  ]],
-Cell[367316, 8751, 156, 4, 52, "Input",ExpressionUUID->"53069005-4b6c-4e19-8cfe-9df1cedc3e7b"],
-Cell[367475, 8757, 242, 6, 60, "Output",ExpressionUUID->"e39efa42-5997-49ad-8d03-b5884b12066c"],
+Cell[368016, 8772, 156, 4, 52, "Input",ExpressionUUID->"53069005-4b6c-4e19-8cfe-9df1cedc3e7b"],
+Cell[368175, 8778, 242, 6, 60, "Output",ExpressionUUID->"e39efa42-5997-49ad-8d03-b5884b12066c"],
 Cell[CellGroupData[{
-Cell[367742, 8767, 130, 2, 51, "Input",ExpressionUUID->"1efc15ef-cb26-4e2a-b1b7-87a18df7f4c4"],
-Cell[367875, 8771, 21388, 461, 503, "Output",ExpressionUUID->"f3dada6a-e551-4d01-b331-403fb9749982"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[389300, 9237, 1212, 36, 207, "Input",ExpressionUUID->"97a0af93-3671-4ddd-90ba-e1f9796ebbca"],
-Cell[390515, 9275, 221, 6, 79, "Output",ExpressionUUID->"1353659f-5c6d-49c1-9159-a41dde0335ec"],
-Cell[390739, 9283, 1932, 53, 171, "Output",ExpressionUUID->"dbcb8e3c-3a01-4616-a1b0-8866b0b7fa12"]
+Cell[368442, 8788, 130, 2, 51, "Input",ExpressionUUID->"1efc15ef-cb26-4e2a-b1b7-87a18df7f4c4"],
+Cell[368575, 8792, 21388, 461, 319, "Output",ExpressionUUID->"f3dada6a-e551-4d01-b331-403fb9749982"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[392708, 9341, 3746, 57, 63, "Input",ExpressionUUID->"50ae63eb-13dc-4a50-ae45-22e0cab551ba"],
-Cell[396457, 9400, 3721, 56, 71, "Output",ExpressionUUID->"2d76f430-232e-49a4-9a05-f37a39b6f44b"]
+Cell[390000, 9258, 1212, 36, 168, "Input",ExpressionUUID->"97a0af93-3671-4ddd-90ba-e1f9796ebbca"],
+Cell[391215, 9296, 221, 6, 79, "Output",ExpressionUUID->"1353659f-5c6d-49c1-9159-a41dde0335ec"],
+Cell[391439, 9304, 1932, 53, 126, "Output",ExpressionUUID->"dbcb8e3c-3a01-4616-a1b0-8866b0b7fa12"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[400215, 9461, 7424, 114, 63, "Input",ExpressionUUID->"f2b910e5-8dbf-4b24-8956-4470eb1c7c69"],
-Cell[407642, 9577, 106, 1, 51, "Input",ExpressionUUID->"61b5f866-4d12-4de4-844d-40fac51e35fd"]
+Cell[393408, 9362, 3746, 57, 63, "Input",ExpressionUUID->"50ae63eb-13dc-4a50-ae45-22e0cab551ba"],
+Cell[397157, 9421, 3721, 56, 71, "Output",ExpressionUUID->"2d76f430-232e-49a4-9a05-f37a39b6f44b"]
 }, Open  ]],
-Cell[407763, 9581, 3712, 57, 63, "Input",ExpressionUUID->"40d4f8ce-e9dc-4852-b891-c17881d784ef"],
-Cell[411478, 9640, 8127, 205, 243, "Output",ExpressionUUID->"7314e2e3-e20e-4607-8e69-d37106a99a05"],
-Cell[419608, 9847, 136, 2, 51, "Input",ExpressionUUID->"53113129-83d7-443d-b41c-46a1561fbb7b"],
-Cell[419747, 9851, 8127, 205, 243, "Output",ExpressionUUID->"6d917e1f-4558-4d77-bc76-9d7eabd73850"],
 Cell[CellGroupData[{
-Cell[427899, 10060, 3817, 59, 63, "Input",ExpressionUUID->"8c85f701-1e90-4369-9f13-7406b3926cb4"],
-Cell[431719, 10121, 143, 2, 60, "Output",ExpressionUUID->"dd01e9b7-1aab-4919-bf9a-65b1b720d823"]
+Cell[400915, 9482, 7424, 114, 63, "Input",ExpressionUUID->"f2b910e5-8dbf-4b24-8956-4470eb1c7c69"],
+Cell[408342, 9598, 106, 1, 51, "Input",ExpressionUUID->"61b5f866-4d12-4de4-844d-40fac51e35fd"]
 }, Open  ]],
-Cell[431877, 10126, 3848, 61, 63, "Input",ExpressionUUID->"6a5f92a7-2c33-4fd3-b8ab-34163fb0ca4f"],
-Cell[435728, 10189, 208, 4, 70, "Output",ExpressionUUID->"05c7a563-11de-4468-9901-17a0038b3ac1"],
-Cell[435939, 10195, 383, 12, 83, "Input",ExpressionUUID->"cbb4d7dc-a0bb-4677-92b6-f6b5405e59dc"],
-Cell[436325, 10209, 612, 20, 111, "Output",ExpressionUUID->"26859647-328b-48e0-89ca-69fdded085a5"],
-Cell[436940, 10231, 245, 6, 106, "Subsubsection",ExpressionUUID->"c6369dc5-eb90-4ac6-b138-6852e57b8be5"],
+Cell[408463, 9602, 3712, 57, 63, "Input",ExpressionUUID->"40d4f8ce-e9dc-4852-b891-c17881d784ef"],
+Cell[412178, 9661, 8127, 205, 243, "Output",ExpressionUUID->"7314e2e3-e20e-4607-8e69-d37106a99a05"],
+Cell[420308, 9868, 136, 2, 51, "Input",ExpressionUUID->"53113129-83d7-443d-b41c-46a1561fbb7b"],
+Cell[420447, 9872, 8127, 205, 243, "Output",ExpressionUUID->"6d917e1f-4558-4d77-bc76-9d7eabd73850"],
 Cell[CellGroupData[{
-Cell[437210, 10241, 37857, 560, 51, "Input",ExpressionUUID->"f6db4407-9b51-4572-a582-f3e1fddb4b72"],
-Cell[475070, 10803, 107, 1, 82, "Output",ExpressionUUID->"72ea0f12-bdb7-40fe-9e18-1c2cc48d57b4"]
+Cell[428599, 10081, 3817, 59, 63, "Input",ExpressionUUID->"8c85f701-1e90-4369-9f13-7406b3926cb4"],
+Cell[432419, 10142, 143, 2, 60, "Output",ExpressionUUID->"dd01e9b7-1aab-4919-bf9a-65b1b720d823"]
 }, Open  ]],
-Cell[475192, 10807, 37874, 560, 38, "Text",ExpressionUUID->"60236a05-e178-4f18-8cce-6b89f1fe15f2"],
-Cell[513069, 11369, 8240, 125, 52, "Input",ExpressionUUID->"41a75afe-fd3a-40e0-885d-c7c364307d59"],
-Cell[521312, 11496, 9152, 136, 39, "Text",ExpressionUUID->"ca1a2410-7b54-4206-b1aa-8086e99d39c4"],
+Cell[432577, 10147, 3848, 61, 63, "Input",ExpressionUUID->"6a5f92a7-2c33-4fd3-b8ab-34163fb0ca4f"],
+Cell[436428, 10210, 208, 4, 70, "Output",ExpressionUUID->"05c7a563-11de-4468-9901-17a0038b3ac1"],
+Cell[436639, 10216, 383, 12, 52, "Input",ExpressionUUID->"cbb4d7dc-a0bb-4677-92b6-f6b5405e59dc"],
+Cell[437025, 10230, 612, 20, 111, "Output",ExpressionUUID->"26859647-328b-48e0-89ca-69fdded085a5"],
+Cell[437640, 10252, 245, 6, 106, "Subsubsection",ExpressionUUID->"c6369dc5-eb90-4ac6-b138-6852e57b8be5"],
 Cell[CellGroupData[{
-Cell[530489, 11636, 127, 3, 73, "Input",ExpressionUUID->"f3a2febb-4178-4304-ae5c-eb02010d5023"],
-Cell[530619, 11641, 21262, 423, 583, "Output",ExpressionUUID->"f586cee8-b0cd-460f-ac2b-3b18449f598c"]
+Cell[437910, 10262, 37857, 560, 51, "Input",ExpressionUUID->"f6db4407-9b51-4572-a582-f3e1fddb4b72"],
+Cell[475770, 10824, 107, 1, 60, "Output",ExpressionUUID->"72ea0f12-bdb7-40fe-9e18-1c2cc48d57b4"]
 }, Open  ]],
-Cell[551896, 12067, 294, 9, 73, "Input",ExpressionUUID->"fc5bc8d2-48c9-4237-a44b-69ae1d87eb94"],
-Cell[552193, 12078, 343, 12, 88, "Output",ExpressionUUID->"034722b2-e81d-40fb-8653-f87c1a557b98"]
+Cell[475892, 10828, 37874, 560, 38, "Text",ExpressionUUID->"60236a05-e178-4f18-8cce-6b89f1fe15f2"],
+Cell[513769, 11390, 8240, 125, 52, "Input",ExpressionUUID->"41a75afe-fd3a-40e0-885d-c7c364307d59"],
+Cell[522012, 11517, 9152, 136, 39, "Text",ExpressionUUID->"ca1a2410-7b54-4206-b1aa-8086e99d39c4"],
+Cell[CellGroupData[{
+Cell[531189, 11657, 127, 3, 51, "Input",ExpressionUUID->"f3a2febb-4178-4304-ae5c-eb02010d5023"],
+Cell[531319, 11662, 21262, 423, 561, "Output",ExpressionUUID->"f586cee8-b0cd-460f-ac2b-3b18449f598c"]
+}, Open  ]],
+Cell[552596, 12088, 294, 9, 51, "Input",ExpressionUUID->"fc5bc8d2-48c9-4237-a44b-69ae1d87eb94"],
+Cell[552893, 12099, 343, 12, 88, "Output",ExpressionUUID->"034722b2-e81d-40fb-8653-f87c1a557b98"],
+Cell[CellGroupData[{
+Cell[553261, 12115, 171, 3, 73, "Input",ExpressionUUID->"cb9a0c4a-2c1f-4623-b619-ec58b18ab4e9"],
+Cell[553435, 12120, 35670, 684, 442, "Output",ExpressionUUID->"3702e7c5-697d-4a04-a1b2-8191827aa572"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[589142, 12809, 198, 4, 73, "Input",ExpressionUUID->"195cf01a-8cea-48b8-ae26-284c46f84fce"],
+Cell[589343, 12815, 111, 2, 82, "Output",ExpressionUUID->"4f858dff-781f-487a-b7f7-bcf95a68a09d"]
+}, Open  ]],
+Cell[589469, 12820, 147, 2, 115, "ExternalLanguage",ExpressionUUID->"a6f63ff7-2f44-4295-b383-aed41fe9d451"],
+Cell[589619, 12824, 53593, 985, 144, "Output",ExpressionUUID->"4e8a5099-3898-4933-858e-d89801aa1619"],
+Cell[CellGroupData[{
+Cell[643237, 13813, 223, 5, 104, "Input",ExpressionUUID->"b2dff77c-314d-4748-badd-3b5c44586952"],
+Cell[643463, 13820, 249, 6, 82, "Output",ExpressionUUID->"5d8cfa62-b8bb-4cc0-9960-02f7830bbc79"]
+}, Open  ]],
+Cell[643727, 13829, 165, 6, 169, "ExternalLanguage",ExpressionUUID->"026857b8-a5ef-4441-8c10-e74fb4242148"],
+Cell[643895, 13837, 53593, 985, 144, "Output",ExpressionUUID->"165e919a-17b4-4727-b726-89fdf9dc9258"]
 }
 ]
 *)

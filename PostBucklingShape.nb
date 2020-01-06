@@ -1,0 +1,1494 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     58386,       1486]
+NotebookOptionsPosition[     38245,       1050]
+NotebookOutlinePosition[     56529,       1463]
+CellTagsIndexPosition[     56486,       1460]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Elastica solution",
+ FontSize->36]], "Title",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"46f6054d-de5a-4ab6-a6ec-2929e1927f7e"],
+
+Cell[CellGroupData[{
+
+Cell["Clearing Definitions", "Text",
+ Editable->True,
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"6bfff38c-a572-440d-a93c-e8db99d3ed72"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"Quiet", "[", 
+       RowBox[{"ClearAll", "[", "#", "]"}], " ", "]"}], "&"}], " ", "/@", " ", 
+     RowBox[{"{", "\"\<Global`*\>\"", "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"Quiet", "[", 
+       RowBox[{"Remove", "[", "#", "]"}], " ", "]"}], "&"}], " ", "/@", " ", 
+     RowBox[{"{", "\"\<Global`*\>\"", "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"<<", "MaTeX`"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"<<", "Notation`"}], "*)"}]}]}]], "Input",
+ Editable->True,
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"252dcb2d-61f8-4f65-b4e0-14cef6010747"],
+
+Cell[BoxData[{
+ RowBox[{"If", "[", 
+  RowBox[{
+   RowBox[{"ValueQ", "[", "Love`sympaltte", "]"}], ",", 
+   RowBox[{"NotebookClose", "[", "Love`sympaltte", "]"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"Quiet", "[", 
+     RowBox[{"Remove", "[", "#", "]"}], " ", "]"}], "&"}], " ", "/@", " ", 
+   RowBox[{"{", "\"\<Love`*\>\"", "}"}]}], ";"}]}], "Input",
+ CellGroupingRules->{
+  "GroupTogetherGrouping", 
+   10000.},ExpressionUUID->"3fbe2f6b-bc69-4f8d-8012-96914cf33156"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Begin", "[", "\"\<Love`\>\"", "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{"ValueQ", "[", "sympaltte", "]"}], ",", 
+     RowBox[{"NotebookClose", "[", "sympaltte", "]"}]}], "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"Quiet", "[", 
+       RowBox[{"ClearAll", "[", "#", "]"}], " ", "]"}], "&"}], " ", "/@", " ", 
+     RowBox[{"{", "\"\<Love`*\>\"", "}"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Get", "[", 
+     RowBox[{"URLDownload", "[", 
+      TagBox[
+       StyleBox[
+        "\"\<https://raw.githubusercontent.com/haneeshk/\
+ForBetterMMAExperience/master/ComplexSymbols.wl\>\"",
+        ShowSpecialCharacters->False,
+        ShowStringCharacters->True,
+        NumberMarks->True],
+       FullForm], "]"}], "]"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"syms", "=", 
+     RowBox[{"AssignLabels", "[", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\>\"", ",", 
+        "\"\<\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"'\",\
+FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\>\"", 
+        ",", "\"\<\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
+FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\>\"", 
+        ",", "\"\<\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\>\""}], "}"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"sympaltte", "=", 
+     RowBox[{"SymbolPalette", "[", 
+      RowBox[{"\"\<syms\>\"", ",", "syms", ",", "1"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"End", "[", "]"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"AppendTo", "[", 
+     RowBox[{"$ContextPath", ",", " ", "\"\<Love`\>\""}], "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"$ContextPath", "=", 
+    RowBox[{"DeleteDuplicates", "[", "$ContextPath", "]"}]}], 
+   "\[IndentingNewLine]"}]}]], "Input",
+ Editable->True,
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"5e623d39-21f3-4145-b16b-807e6dbd4c00"]
+}, Open  ]],
+
+Cell[TextData[{
+ StyleBox["\[Theta]\[CloseCurlyQuote]\[CloseCurlyQuote][s]+p \
+sin[\[Theta][s]]=0\nx\[CloseCurlyQuote][s]=cos[\[Theta][s]]\ny\
+\[CloseCurlyQuote][s]=sin[\[Theta][s]]\n\[Theta][s] = 2 ",
+  FontFamily->"Times New Roman",
+  FontSize->24,
+  FontWeight->"Regular"],
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    RowBox[{
+     SuperscriptBox["sin", 
+      RowBox[{"-", "1"}]], "[", 
+     RowBox[{
+      RowBox[{"\[Sqrt]", 
+       SubscriptBox["k", "n"]}], " ", 
+      RowBox[{"sn", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"s", " ", 
+          RowBox[{"\[Sqrt]", "p"}]}], "+", 
+         RowBox[{"K", "[", 
+          SubscriptBox["k", "n"], "]"}]}], ";", 
+        SubscriptBox["k", "n"]}], "]"}]}], "]"}],
+    FontSize->24], TraditionalForm]],
+  FontFamily->"Times New Roman",
+  FontSize->24,
+  FontWeight->"Regular",ExpressionUUID->
+  "40722b1e-6add-4bf2-a78b-a0bb25642c49"],
+ "\n",
+ Cell[BoxData[
+  RowBox[{
+   StyleBox[
+    RowBox[{
+     RowBox[{"K", "[", 
+      SubscriptBox["k", "n"], "]"}], "=", 
+     RowBox[{
+      RowBox[{"\[Sqrt]", "p"}], "/", "2"}]}],
+    FontSlant->"Italic"], ";"}]],
+  FontFamily->"Times New Roman",
+  FontSize->24,
+  FontWeight->"Regular",ExpressionUUID->"ae808f40-9fbc-4b91-8fb5-75cb493fc5c6"]
+}], "Text",
+ Editable->True,
+ TextAlignment->Center,
+ FontSize->18,
+ FontWeight->"Regular",
+ Background->GrayLevel[
+  0.85],ExpressionUUID->"2775962a-7eab-4a2f-9463-9ee1a0f390a6"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      TemplateBox[{
+       "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+       "complexSymbols",
+       Editable->False,
+       Selectable->False], "[", 
+      RowBox[{"s_", ",", "p_", ",", 
+       RowBox[{
+        TemplateBox[{
+         "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+         "complexSymbols",
+         Editable->False,
+         Selectable->False], ":", "_"}]}], "]"}], "=", 
+     RowBox[{"2", " ", 
+      RowBox[{"ArcSin", "[", 
+       RowBox[{
+        RowBox[{"Sqrt", "[", 
+         TemplateBox[{
+          "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+          "complexSymbols",
+          Editable->False,
+          Selectable->False], "]"}], " ", 
+        RowBox[{"JacobiSN", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"s", " ", 
+            RowBox[{"Sqrt", "[", "p", "]"}]}], "+", 
+           RowBox[{"EllipticK", "[", 
+            
+            TemplateBox[{
+             "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+             "complexSymbols",
+             Editable->False,
+             Selectable->False], "]"}]}], ",", 
+          
+          TemplateBox[{
+           "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New Roman\
+\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+           "complexSymbols",
+           Editable->False,
+           Selectable->False]}], "]"}]}], "]"}]}]}], " ", ";"}], "      ", 
+   "*)"}], 
+  RowBox[{"(*", 
+   RowBox[{"From", " ", 
+    RowBox[{"Love", "'"}], "s", " ", "book"}], "*)"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      TemplateBox[{
+       "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+       "complexSymbols",
+       Editable->False,
+       Selectable->False], "[", 
+      RowBox[{"s_", ",", "p_", ",", 
+       RowBox[{
+        TemplateBox[{
+         "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+         "complexSymbols",
+         Editable->False,
+         Selectable->False], ":", "_"}]}], "]"}], "=", 
+     RowBox[{"2", " ", 
+      RowBox[{"ArcSin", "[", 
+       RowBox[{
+        SqrtBox[
+         TemplateBox[{
+          "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+          "complexSymbols",
+          Editable->False,
+          Selectable->False]], " ", 
+        RowBox[{"JacobiCD", "[", 
+         RowBox[{
+          RowBox[{
+           SqrtBox["p"], " ", "s"}], ",", 
+          
+          TemplateBox[{
+           "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New Roman\
+\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+           "complexSymbols",
+           Editable->False,
+           Selectable->False]}], "]"}]}], "]"}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      TemplateBox[{
+       "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
+FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+       "complexSymbols",
+       Editable->False,
+       Selectable->False], "[", 
+      RowBox[{"s_", ",", "p_", ",", 
+       RowBox[{
+        TemplateBox[{
+         "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+         "complexSymbols",
+         Editable->False,
+         Selectable->False], ":", "_"}]}], "]"}], "=", 
+     RowBox[{"(", 
+      RowBox[{"D", "[", 
+       RowBox[{
+        RowBox[{
+         TemplateBox[{
+          "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+          "complexSymbols",
+          Editable->False,
+          Selectable->False], "[", 
+         RowBox[{"s", ",", "p", ",", 
+          
+          TemplateBox[{
+           "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New Roman\
+\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+           "complexSymbols",
+           Editable->False,
+           Selectable->False]}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"s", ",", "2"}], "}"}]}], "]"}], ")"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Labeled", "[", 
+      RowBox[{
+       RowBox[{
+        TemplateBox[{
+         "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+         "complexSymbols",
+         Editable->False,
+         Selectable->False], "[", 
+        RowBox[{"s", ",", "p", ",", 
+         TemplateBox[{
+          "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+          "complexSymbols",
+          Editable->False,
+          Selectable->False]}], "]"}], ",", 
+       RowBox[{"HoldForm", "[", 
+        RowBox[{
+         TemplateBox[{
+          "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+          "complexSymbols",
+          Editable->False,
+          Selectable->False], "[", 
+         RowBox[{"s", ",", "p", ",", 
+          
+          TemplateBox[{
+           "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New Roman\
+\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+           "complexSymbols",
+           Editable->False,
+           Selectable->False]}], "]"}], " ", "]"}], ",", "Left"}], "]"}], 
+     "\[IndentingNewLine]", 
+     RowBox[{"Labeled", "[", 
+      RowBox[{
+       RowBox[{
+        TemplateBox[{
+         "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
+FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+         "complexSymbols",
+         Editable->False,
+         Selectable->False], "[", 
+        RowBox[{"s", ",", "p", ",", 
+         TemplateBox[{
+          "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+          "complexSymbols",
+          Editable->False,
+          Selectable->False]}], "]"}], ",", 
+       RowBox[{"HoldForm", "[", 
+        RowBox[{
+         TemplateBox[{
+          "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
+FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+          "complexSymbols",
+          Editable->False,
+          Selectable->False], "[", 
+         RowBox[{"s", ",", "p", ",", 
+          
+          TemplateBox[{
+           "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New Roman\
+\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+           "complexSymbols",
+           Editable->False,
+           Selectable->False]}], "]"}], "]"}], ",", "Left"}], "]"}]}], 
+    "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"x", "[", 
+      RowBox[{"s_", ",", "p_", ",", 
+       RowBox[{
+        TemplateBox[{
+         "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+         "complexSymbols",
+         Editable->False,
+         Selectable->False], ":", "_"}]}], "]"}], "=", 
+     RowBox[{
+      RowBox[{"-", "s"}], "+", 
+      RowBox[{
+       FractionBox["2", 
+        RowBox[{"Sqrt", "[", "p", "]"}]], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"EllipticE", "[", 
+          RowBox[{
+           RowBox[{"JacobiAmplitude", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"s", " ", 
+               RowBox[{"Sqrt", "[", "p", "]"}]}], "+", 
+              RowBox[{"EllipticK", "[", 
+               
+               TemplateBox[{
+                "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+                "complexSymbols",
+                Editable->False,
+                Selectable->False], "]"}]}], ",", 
+             
+             TemplateBox[{
+              "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+              "complexSymbols",
+              Editable->False,
+              Selectable->False]}], "]"}], ",", 
+           
+           TemplateBox[{
+            "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+            "complexSymbols",
+            Editable->False,
+            Selectable->False]}], "]"}], "-", 
+         RowBox[{"EllipticE", "[", 
+          RowBox[{
+           RowBox[{"JacobiAmplitude", "[", 
+            RowBox[{
+             RowBox[{"EllipticK", "[", 
+              
+              TemplateBox[{
+               "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+               "complexSymbols",
+               Editable->False,
+               Selectable->False], "]"}], ",", 
+             
+             TemplateBox[{
+              "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+              "complexSymbols",
+              Editable->False,
+              Selectable->False]}], "]"}], ",", 
+           TemplateBox[{
+            "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+            "complexSymbols",
+            Editable->False,
+            Selectable->False]}], "]"}]}], ")"}]}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"y", "[", 
+      RowBox[{"s_", ",", "p_", ",", 
+       RowBox[{
+        TemplateBox[{
+         "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+         "complexSymbols",
+         Editable->False,
+         Selectable->False], ":", "_"}]}], "]"}], "=", 
+     RowBox[{
+      RowBox[{"-", "2"}], " ", 
+      FractionBox[
+       RowBox[{
+        RowBox[{"Sqrt", "[", 
+         TemplateBox[{
+          "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+          "complexSymbols",
+          Editable->False,
+          Selectable->False], "]"}], " "}], 
+       RowBox[{"Sqrt", "[", "p", "]"}]], 
+      RowBox[{"JacobiCN", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"s", " ", 
+          RowBox[{"Sqrt", "[", "p", "]"}]}], "+", 
+         RowBox[{"EllipticK", "[", 
+          
+          TemplateBox[{
+           "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New Roman\
+\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+           "complexSymbols",
+           Editable->False,
+           Selectable->False], "]"}]}], ",", 
+        TemplateBox[{
+         "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+         "complexSymbols",
+         Editable->False,
+         Selectable->False]}], "]"}]}]}], ";"}]}]}]], "Input",
+ Editable->True,
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"06b046e0-4064-4164-9724-4821b7b41253"],
+
+Cell[BoxData[{
+ RowBox[{"ClearAll", "[", 
+  TemplateBox[{
+   "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+   "complexSymbols",
+   Editable->False,
+   Selectable->False], "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{
+    "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+    "complexSymbols",
+    Editable->False,
+    Selectable->False], "[", "p_", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "solk", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"x", "/.", 
+     RowBox[{"FindRoot", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"EllipticK", "[", "x", "]"}], " ", "-", " ", 
+        RowBox[{
+         RowBox[{"Sqrt", "[", "p", "]"}], "/", "2"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", "0.1"}], "}"}]}], "]"}]}]}], "\[IndentingNewLine]", 
+   "]"}]}]}], "Input",
+ Editable->True,
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"99125f90-cf86-4dc4-8fa7-751c2a9cf474"],
+
+Cell[BoxData[
+ RowBox[{"Module", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"p", "=", " ", 
+     RowBox[{
+      SuperscriptBox["\[Pi]", "2"], "+", "0.2"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       TemplateBox[{
+        "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
+FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+        "complexSymbols",
+        Editable->False,
+        Selectable->False], "[", 
+       RowBox[{"s", ",", "p", ",", 
+        RowBox[{
+         TemplateBox[{
+          "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+          "complexSymbols",
+          Editable->False,
+          Selectable->False], "[", "p", "]"}]}], "]"}], "+", 
+      RowBox[{"p", " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{
+         TemplateBox[{
+          "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+          "complexSymbols",
+          Editable->False,
+          Selectable->False], "[", 
+         RowBox[{"s", ",", "p", ",", 
+          RowBox[{
+           
+           TemplateBox[{
+            "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+            "complexSymbols",
+            Editable->False,
+            Selectable->False], "[", "p", "]"}]}], "]"}], "]"}]}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"s", ",", "0", ",", ".1"}], "}"}], ",", 
+     RowBox[{"PlotLabel", "\[Rule]", 
+      RowBox[{"Grid", "[", 
+       RowBox[{"{", 
+        RowBox[{"{", 
+         RowBox[{
+         "\"\<\!\(\*TemplateBox[{\"\\\"\!\(\*SubscriptBox[StyleBox[\\\"k\\\",\
+FontFamily->\\\"Times New \
+Roman\\\",FontSize->18,FontWeight->\\\"Regular\\\",FontSlant->\\\"Italic\\\"],\
+ StyleBox[\\\"n\\\",FontFamily->\\\"Times New \
+Roman\\\",FontSize->14,FontWeight->\\\"Regular\\\"]]\)\\\"\"},\"\
+complexSymbols\",Editable->False,Selectable->False]\) =\>\"", ",", 
+          RowBox[{
+           
+           TemplateBox[{
+            "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+            "complexSymbols",
+            Editable->False,
+            Selectable->False], "[", "p", "]"}]}], "}"}], "}"}], "]"}]}]}], 
+    "]"}]}], "\[IndentingNewLine]", "]"}]], "Input",
+ Editable->True,
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"be5030a6-f2b2-453a-85d6-3269cad8d0b6"],
+
+Cell[BoxData[{
+ RowBox[{"ClearAll", "[", "ColumnShapeFromLove\[Theta]", "]"}], "\n", 
+ RowBox[{
+  RowBox[{"ColumnShapeFromLove\[Theta]", "[", "p_", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"soly", ",", "solx", ",", "x", ",", "y", ",", "\[Delta]"}], 
+     "}"}], ",", 
+    RowBox[{
+     RowBox[{"solx", "=", 
+      RowBox[{"NDSolve", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["x", "\[Prime]",
+             MultilineFunction->None], "[", "s", "]"}], "\[Equal]", 
+           RowBox[{"Cos", "[", 
+            RowBox[{
+             
+             TemplateBox[{
+              "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+              "complexSymbols",
+              Editable->False,
+              Selectable->False], "[", 
+             RowBox[{"s", ",", "p", ",", 
+              RowBox[{
+               
+               TemplateBox[{
+                "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+                "complexSymbols",
+                Editable->False,
+                Selectable->False], "[", "p", "]"}]}], "]"}], "]"}]}], ",", 
+          RowBox[{
+           RowBox[{"x", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+        RowBox[{"x", "[", "s", "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
+     RowBox[{"soly", "=", 
+      RowBox[{"NDSolve", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["y", "\[Prime]",
+             MultilineFunction->None], "[", "s", "]"}], "\[Equal]", 
+           RowBox[{"Sin", "[", 
+            RowBox[{
+             
+             TemplateBox[{
+              "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+              "complexSymbols",
+              Editable->False,
+              Selectable->False], "[", 
+             RowBox[{"s", ",", "p", ",", 
+              RowBox[{
+               
+               TemplateBox[{
+                "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+                "complexSymbols",
+                Editable->False,
+                Selectable->False], "[", "p", "]"}]}], "]"}], "]"}]}], ",", 
+          RowBox[{
+           RowBox[{"y", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+        RowBox[{"y", "[", "s", "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
+     RowBox[{"\[Delta]", "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"y", "[", "s", "]"}], "/.", "\[VeryThinSpace]", 
+        RowBox[{
+        "soly", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], "/.",
+        "\[VeryThinSpace]", 
+       RowBox[{"s", "\[Rule]", 
+        FractionBox["1", "2"]}]}]}], ";", 
+     RowBox[{"ParametricPlot", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"x", "[", "s", "]"}], "/.", "\[VeryThinSpace]", 
+          RowBox[{
+          "solx", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], 
+         ",", 
+         RowBox[{
+          RowBox[{"y", "[", "s", "]"}], "/.", "\[VeryThinSpace]", 
+          RowBox[{
+          "soly", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}]}], 
+        "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"s", ",", "0", ",", "1"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", "Black", "}"}]}], ",", 
+       RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", 
+       RowBox[{"PlotLabel", "\[Rule]", 
+        RowBox[{"Grid", "[", 
+         RowBox[{"{", 
+          RowBox[{"{", 
+           RowBox[{"\"\<\[Delta] =\>\"", ",", "\[Delta]"}], "}"}], "}"}], 
+         "]"}]}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"-", "0.5"}], ",", "1.5"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0.5"}], "}"}]}], "}"}]}]}], "]"}]}]}], 
+   "]"}]}]}], "Input",
+ Editable->True,
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"1319a9b2-614e-4ebf-9c65-9601c6ad315d"],
+
+Cell[BoxData[
+ RowBox[{"If", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"DownValues", "[", 
+      TemplateBox[{
+       "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""},
+       "complexSymbols",
+       Editable->False,
+       Selectable->False], "]"}], "\[NotEqual]", " ", 
+     RowBox[{"{", "}"}]}], " ", "&&", " ", 
+    RowBox[{
+     RowBox[{"DownValues", "[", 
+      TemplateBox[{
+       "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+       "complexSymbols",
+       Editable->False,
+       Selectable->False], "]"}], "\[NotEqual]", " ", 
+     RowBox[{"{", "}"}]}]}], ",", 
+   RowBox[{"Manipulate", "[", 
+    RowBox[{
+     RowBox[{"ColumnShapeFromLove\[Theta]", "[", "p", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"p", ",", 
+       RowBox[{
+        SuperscriptBox["\[Pi]", "2"], "+", "0.1"}], ",", 
+       RowBox[{"5", 
+        SuperscriptBox["\[Pi]", "2"]}]}], "}"}]}], "]"}]}], "]"}]], "Input",
+ Editable->True,
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"6347902f-36d0-4802-9150-f29f8d8bf9b3"],
+
+Cell[BoxData[""], "Input",
+ Editable->True,
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"be8e509e-efcb-47a8-9d52-f16b45faab2f"],
+
+Cell[BoxData[{
+ RowBox[{"ClearAll", "[", "ColumnShapeFromLovexy", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ColumnShapeFromLovexy", "[", "p_", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"ParametricPlot", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Chop", "[", 
+         RowBox[{
+          RowBox[{"x", "[", 
+           RowBox[{"s", ",", "p", ",", 
+            RowBox[{
+             
+             TemplateBox[{
+              "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+              "complexSymbols",
+              Editable->False,
+              Selectable->False], "[", "p", "]"}]}], "]"}], ",", 
+          SuperscriptBox["10", 
+           RowBox[{"-", "6"}]]}], "]"}], ",", 
+        RowBox[{"y", "[", 
+         RowBox[{"s", ",", "p", ",", 
+          RowBox[{
+           
+           TemplateBox[{
+            "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""},
+            "complexSymbols",
+            Editable->False,
+            Selectable->False], "[", "p", "]"}]}], "]"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"s", ",", "0", ",", "1"}], "}"}], ",", 
+      RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
+      RowBox[{"PlotStyle", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"Green", ",", "Dashed"}], "}"}]}], ",", 
+      RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}]}], 
+   "\[IndentingNewLine]", "]"}]}]}], "Input",
+ Editable->True,
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"53c57faa-7361-4aa9-8602-e3020cebd8b4"],
+
+Cell[BoxData[
+ RowBox[{"ColumnShapeFromLovexy", "[", "13", "]"}]], "Input",
+ Editable->True,
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"8175582d-05b8-403d-930e-2fad441a10f2"],
+
+Cell[BoxData[""], "Input",
+ Editable->True,
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"d844674e-9174-4fa5-8373-888a3156b615"],
+
+Cell[BoxData[{
+ RowBox[{"ClearAll", "[", "ColumnShapeFromMMA", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ColumnShapeFromMMA", "[", "p_", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "solMM", ",", "MM\[Theta]2", ",", "solx", ",", "soly", ",", "dflection", 
+      ",", "x", ",", "y", ",", "\[Theta]"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"solMM", "=", 
+      RowBox[{"NDSolve", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{
+             RowBox[{"\[Theta]", "''"}], "[", "s", "]"}], "+", 
+            RowBox[{"p", " ", 
+             RowBox[{"Sin", "[", 
+              RowBox[{"\[Theta]", "[", "s", "]"}], "]"}]}]}], "\[Equal]", 
+           "0"}], ",", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"\[Theta]", "'"}], "[", "0", "]"}], "\[Equal]", "0"}], 
+          ",", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"\[Theta]", "'"}], "[", "1", "]"}], "\[Equal]", "0"}]}], 
+         "}"}], ",", 
+        RowBox[{"\[Theta]", "[", "s", "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"solx", " ", "=", 
+      RowBox[{"NDSolve", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"x", "'"}], "[", "s", "]"}], "==", 
+           RowBox[{"Cos", "[", 
+            RowBox[{
+             RowBox[{"\[Theta]", "[", "s", "]"}], "/.", 
+             RowBox[{"solMM", "[", 
+              RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], ",", 
+          RowBox[{
+           RowBox[{"x", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+        RowBox[{"x", "[", "s", "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"soly", "=", " ", 
+      RowBox[{"NDSolve", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"y", "'"}], "[", "s", "]"}], "\[Equal]", 
+           RowBox[{"Sin", "[", 
+            RowBox[{
+             RowBox[{"\[Theta]", "[", "s", "]"}], "/.", 
+             RowBox[{"solMM", "[", 
+              RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], ",", 
+          RowBox[{
+           RowBox[{"y", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}], ",", 
+        RowBox[{"y", "[", "s", "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"s", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"dflection", " ", "=", " ", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"y", "[", "s", "]"}], "/.", 
+        RowBox[{"soly", "[", 
+         RowBox[{"[", "1", "]"}], "]"}]}], "/.", 
+       RowBox[{"s", "\[Rule]", 
+        RowBox[{"1", "/", "2"}]}]}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"ParametricPlot", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"x", "[", "s", "]"}], "/.", 
+          RowBox[{"solx", "[", 
+           RowBox[{"[", "1", "]"}], "]"}]}], ",", 
+         RowBox[{"Abs", "[", 
+          RowBox[{
+           RowBox[{"y", "[", "s", "]"}], "/.", 
+           RowBox[{"soly", "[", 
+            RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"s", ",", "0", ",", "1"}], "}"}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Opacity", "[", "0.5", "]"}], ",", 
+          RowBox[{"Thickness", "[", "0.02", "]"}], ",", 
+          RowBox[{
+           RowBox[{"ColorData", "[", "2", "]"}], "[", "1", "]"}]}], "}"}]}], 
+       ",", 
+       RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}]}]}], 
+   "\[IndentingNewLine]", "]"}]}]}], "Input",
+ Editable->True,
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"95d78800-c73d-4019-9ece-36e42112ea01"],
+
+Cell[BoxData[
+ RowBox[{"Show", "[", 
+  RowBox[{
+   RowBox[{"ColumnShapeFromMMA", "[", "15", "]"}], ",", 
+   RowBox[{"ColumnShapeFromLove\[Theta]", "[", "15", "]"}], ",", 
+   RowBox[{"ColumnShapeFromLovexy", "[", "15", "]"}]}], "]"}]], "Input",
+ Editable->True,
+ FontFamily->"Source Sans Pro",
+ FontSize->18,
+ FontWeight->"Regular",ExpressionUUID->"488630b2-a50c-4016-9778-ad862b80de56"],
+
+Cell["\<\
+Log:
+1. All equations from Love\[CloseCurlyQuote]s book are correct. They have \
+been validated using Direct numerical calculations\
+\>", "Text",ExpressionUUID->"ddd6a263-1c42-4c9a-858f-dfc9af5176b8"]
+}, Open  ]]
+},
+Editable->True,
+WindowSize->{1018, 1002},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+CellLabelAutoDelete->True,
+InputAliases->{"intt" -> RowBox[{"\[Integral]", 
+     RowBox[{"\[SelectionPlaceholder]", 
+       RowBox[{"\[DifferentialD]", "\[Placeholder]"}]}]}], "dintt" -> 
+  RowBox[{
+     SubsuperscriptBox[
+     "\[Integral]", "\[SelectionPlaceholder]", "\[Placeholder]"], 
+     RowBox[{"\[Placeholder]", 
+       RowBox[{"\[DifferentialD]", "\[Placeholder]"}]}]}], "rintt" -> 
+  RowBox[{
+     UnderscriptBox["\[Integral]", 
+      RowBox[{"\[SelectionPlaceholder]", "\[Element]", "\[Placeholder]"}]], 
+     "\[Placeholder]"}], "sumt" -> RowBox[{
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"\[SelectionPlaceholder]", "=", "\[Placeholder]"}], 
+      "\[Placeholder]"], "\[Placeholder]"}], "prodt" -> RowBox[{
+     UnderoverscriptBox["\[Product]", 
+      RowBox[{"\[SelectionPlaceholder]", "=", "\[Placeholder]"}], 
+      "\[Placeholder]"], "\[Placeholder]"}], "dt" -> RowBox[{
+     SubscriptBox["\[PartialD]", "\[Placeholder]"], " ", 
+     "\[SelectionPlaceholder]"}], "cbrt" -> 
+  RadicalBox[
+   "\[SelectionPlaceholder]", "3", SurdForm -> True, MultilineFunction -> 
+    None], "surd" -> 
+  RadicalBox[
+   "\[SelectionPlaceholder]", "\[Placeholder]", SurdForm -> True, 
+    MultilineFunction -> None], "ket" -> 
+  TemplateBox[{"\[SelectionPlaceholder]"}, "Ket"], "bra" -> 
+  TemplateBox[{"\[SelectionPlaceholder]"}, "Bra"], "braket" -> 
+  TemplateBox[{"\[SelectionPlaceholder]", "\[Placeholder]"}, "BraKet"], 
+  "delay" -> TemplateBox[{"\[SelectionPlaceholder]"}, "SystemsModelDelay"], 
+  "grad" -> RowBox[{
+     SubscriptBox["\[Del]", "\[SelectionPlaceholder]"], "\[Placeholder]"}], 
+  "del." -> RowBox[{
+     SubscriptBox["\[Del]", "\[SelectionPlaceholder]"], ".", 
+     "\[Placeholder]"}], "delx" -> RowBox[{
+     SubscriptBox["\[Del]", "\[SelectionPlaceholder]"], "\[Cross]", 
+     "\[Placeholder]"}], "del2" -> RowBox[{
+     SubsuperscriptBox["\[Del]", "\[SelectionPlaceholder]", 2], 
+     "\[Placeholder]"}], "kd" -> 
+  TemplateBox[{"\[SelectionPlaceholder]"}, "KroneckerDeltaSeq"], "algs" -> 
+  TemplateBox[{}, "Algebraics"], "bools" -> TemplateBox[{}, "Booleans"], 
+  "comps" -> TemplateBox[{}, "Complexes"], "ints" -> 
+  TemplateBox[{}, "Integers"], "pris" -> TemplateBox[{}, "Primes"], "rats" -> 
+  TemplateBox[{}, "Rationals"], "reals" -> TemplateBox[{}, "Reals"], "dlim" -> 
+  RowBox[{
+     UnderscriptBox["\[Limit]", 
+      RowBox[{"\[SelectionPlaceholder]", 
+        UnderscriptBox["\[Rule]", 
+         TemplateBox[{}, "Integers"]], "\[Infinity]"}]], "\[Placeholder]"}], 
+  "dMlim" -> RowBox[{
+     UnderscriptBox["\[MaxLimit]", 
+      RowBox[{"\[SelectionPlaceholder]", 
+        UnderscriptBox["\[Rule]", 
+         TemplateBox[{}, "Integers"]], "\[Infinity]"}]], "\[Placeholder]"}], 
+  "dmlim" -> RowBox[{
+     UnderscriptBox["\[MinLimit]", 
+      RowBox[{"\[SelectionPlaceholder]", 
+        UnderscriptBox["\[Rule]", 
+         TemplateBox[{}, "Integers"]], "\[Infinity]"}]], "\[Placeholder]"}], 
+  "notation" -> RowBox[{"Notation", "[", 
+     RowBox[{
+       TemplateBox[{"\[SelectionPlaceholder]"}, "NotationTemplateTag"], " ", 
+       "\[DoubleLongLeftRightArrow]", " ", 
+       TemplateBox[{"\[Placeholder]"}, "NotationTemplateTag"]}], "]"}], 
+  "notation>" -> RowBox[{"Notation", "[", 
+     RowBox[{
+       TemplateBox[{"\[SelectionPlaceholder]"}, "NotationTemplateTag"], " ", 
+       "\[DoubleLongRightArrow]", " ", 
+       TemplateBox[{"\[Placeholder]"}, "NotationTemplateTag"]}], "]"}], 
+  "notation<" -> RowBox[{"Notation", "[", 
+     RowBox[{
+       TemplateBox[{"\[SelectionPlaceholder]"}, "NotationTemplateTag"], " ", 
+       "\[DoubleLongLeftArrow]", " ", 
+       TemplateBox[{"\[Placeholder]"}, "NotationTemplateTag"]}], "]"}], 
+  "symb" -> RowBox[{"Symbolize", "[", 
+     TemplateBox[{"\[SelectionPlaceholder]"}, "NotationTemplateTag"], "]"}], 
+  "infixnotation" -> RowBox[{"InfixNotation", "[", 
+     RowBox[{
+       TemplateBox[{"\[SelectionPlaceholder]"}, "NotationTemplateTag"], ",", 
+       "\[Placeholder]"}], "]"}], "addia" -> RowBox[{"AddInputAlias", "[", 
+     RowBox[{"\"\[SelectionPlaceholder]\"", "\[Rule]", 
+       TemplateBox[{"\[Placeholder]"}, "NotationTemplateTag"]}], "]"}], 
+  "pattwraper" -> 
+  TemplateBox[{"\[SelectionPlaceholder]"}, "NotationPatternTag"], 
+  "madeboxeswraper" -> 
+  TemplateBox[{"\[SelectionPlaceholder]"}, "NotationMadeBoxesTag"], "love" -> 
+  DynamicBox[
+    FEPrivate`If[
+     FrontEnd`SameQ[
+      FrontEnd`EvaluationCell[], $Failed], 
+     PanelBox[
+     "Love", Appearance -> {
+       "Default" -> 
+        FrontEnd`FileName[{"Popups", "CodeCompletion"}, "top_left.9.png"]}], 
+     PanelBox[
+      GridBox[{{
+         TagBox[
+          PanelBox[
+           PaneBox["\"Love\""], 
+           Appearance -> {
+            "Default" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "CARectBG.9.png"]}], 
+          EventHandlerTag[{"DownArrowKeyDown" :> FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[1, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "UpArrowKeyDown" :> FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[4, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "RightArrowKeyDown" :> 
+            FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[1, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "LeftArrowKeyDown" :> FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[4, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], Method -> "Preemptive", PassEventsDown -> 
+            False, PassEventsUp -> False}]]}, {
+         TagBox[
+          PanelBox[
+           PaneBox[
+            
+            TemplateBox[{
+             "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""}, "complexSymbols", 
+             Editable -> False, Selectable -> False]], 
+           Appearance -> {
+            "Default" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "CARectBG.9.png"], "Hover" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "row_hover.9.png"], "Pressed" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "row_hover.9.png"], 
+             FEPrivate`If[
+              FEPrivate`SameQ[
+               FrontEnd`CurrentValue[
+                FrontEnd`EvaluationBox[], "SelectionOver"], True], "Pressed", 
+              Automatic]}, BoxID -> "Love_1"], 
+          EventHandlerTag[{"ReturnKeyDown" :> (NotebookWrite[
+              Nest[ParentBox, 
+               EvaluationBox[], 3], #]& )[
+              ToBoxes[Love`complexsymbol1]], 
+            "MouseClicked" :> (NotebookWrite[
+              Nest[ParentBox, 
+               EvaluationBox[], 3], #]& )[
+              ToBoxes[Love`complexsymbol1]], "DownArrowKeyDown" :> 
+            FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[2, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "UpArrowKeyDown" :> FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[0, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "RightArrowKeyDown" :> 
+            FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[2, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "LeftArrowKeyDown" :> FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[0, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], Method -> "Preemptive", PassEventsDown -> 
+            False, PassEventsUp -> False}]]}, {
+         TagBox[
+          PanelBox[
+           PaneBox[
+            
+            TemplateBox[{
+             "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"'\",\
+FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""}, 
+             "complexSymbols", Editable -> False, Selectable -> False]], 
+           Appearance -> {
+            "Default" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "CARectBG.9.png"], "Hover" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "row_hover.9.png"], "Pressed" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "row_hover.9.png"], 
+             FEPrivate`If[
+              FEPrivate`SameQ[
+               FrontEnd`CurrentValue[
+                FrontEnd`EvaluationBox[], "SelectionOver"], True], "Pressed", 
+              Automatic]}, BoxID -> "Love_2"], 
+          EventHandlerTag[{"ReturnKeyDown" :> (NotebookWrite[
+              Nest[ParentBox, 
+               EvaluationBox[], 3], #]& )[
+              ToBoxes[Love`complexsymbol2]], 
+            "MouseClicked" :> (NotebookWrite[
+              Nest[ParentBox, 
+               EvaluationBox[], 3], #]& )[
+              ToBoxes[Love`complexsymbol2]], "DownArrowKeyDown" :> 
+            FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[3, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "UpArrowKeyDown" :> FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[1, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "RightArrowKeyDown" :> 
+            FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[3, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "LeftArrowKeyDown" :> FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[1, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], Method -> "Preemptive", PassEventsDown -> 
+            False, PassEventsUp -> False}]]}, {
+         TagBox[
+          PanelBox[
+           PaneBox[
+            
+            TemplateBox[{
+             "\"\!\(\*StyleBox[\"\[Theta]\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\"]\)\!\(\*StyleBox[\"''\",\
+FontFamily->\"Times New Roman\",FontSize->18,FontWeight->\"Regular\"]\)\""}, 
+             "complexSymbols", Editable -> False, Selectable -> False]], 
+           Appearance -> {
+            "Default" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "CARectBG.9.png"], "Hover" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "row_hover.9.png"], "Pressed" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "row_hover.9.png"], 
+             FEPrivate`If[
+              FEPrivate`SameQ[
+               FrontEnd`CurrentValue[
+                FrontEnd`EvaluationBox[], "SelectionOver"], True], "Pressed", 
+              Automatic]}, BoxID -> "Love_3"], 
+          EventHandlerTag[{"ReturnKeyDown" :> (NotebookWrite[
+              Nest[ParentBox, 
+               EvaluationBox[], 3], #]& )[
+              ToBoxes[Love`complexsymbol3]], 
+            "MouseClicked" :> (NotebookWrite[
+              Nest[ParentBox, 
+               EvaluationBox[], 3], #]& )[
+              ToBoxes[Love`complexsymbol3]], "DownArrowKeyDown" :> 
+            FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[4, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "UpArrowKeyDown" :> FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[2, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "RightArrowKeyDown" :> 
+            FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[4, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "LeftArrowKeyDown" :> FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[2, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], Method -> "Preemptive", PassEventsDown -> 
+            False, PassEventsUp -> False}]]}, {
+         TagBox[
+          PanelBox[
+           PaneBox[
+            
+            TemplateBox[{
+             "\"\!\(\*SubscriptBox[StyleBox[\"k\",FontFamily->\"Times New \
+Roman\",FontSize->18,FontWeight->\"Regular\",FontSlant->\"Italic\"], \
+StyleBox[\"n\",FontFamily->\"Times New \
+Roman\",FontSize->14,FontWeight->\"Regular\"]]\)\""}, "complexSymbols", 
+             Editable -> False, Selectable -> False]], 
+           Appearance -> {
+            "Default" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "CARectBG.9.png"], "Hover" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "row_hover.9.png"], "Pressed" -> 
+             FrontEnd`FileName[{"Popups", "CodeCompletion"}, 
+               "row_hover.9.png"], 
+             FEPrivate`If[
+              FEPrivate`SameQ[
+               FrontEnd`CurrentValue[
+                FrontEnd`EvaluationBox[], "SelectionOver"], True], "Pressed", 
+              Automatic]}, BoxID -> "Love_4"], 
+          EventHandlerTag[{"ReturnKeyDown" :> (NotebookWrite[
+              Nest[ParentBox, 
+               EvaluationBox[], 3], #]& )[
+              ToBoxes[Love`complexsymbol4]], 
+            "MouseClicked" :> (NotebookWrite[
+              Nest[ParentBox, 
+               EvaluationBox[], 3], #]& )[
+              ToBoxes[Love`complexsymbol4]], "DownArrowKeyDown" :> 
+            FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[5, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "UpArrowKeyDown" :> FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[3, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "RightArrowKeyDown" :> 
+            FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[5, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], "LeftArrowKeyDown" :> FrontEndExecute[
+              (FrontEnd`BoxReferenceFind[
+               FE`BoxReference[#, {
+                 StringJoin["Love", "_", 
+                  ToString[
+                   Mod[3, 4, 1]]]}, FE`SearchStart -> 
+                "StartFromBeginning"]]& )[
+               EvaluationNotebook[]]], Method -> "Preemptive", PassEventsDown -> 
+            False, PassEventsUp -> False}]]}}, 
+       GridBoxSpacings -> {"Rows" -> {{0}}}], 
+      Appearance -> {
+       "Default" -> 
+        FrontEnd`FileName[{"Popups", "CodeCompletion"}, "top_left.9.png"]}, 
+      BoxID -> "Love"]]]},
+TrackCellChangeTimes->False,
+Magnification:>1.5 Inherited,
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData["complexSymbols"], ShowAutoStyles -> False, 
+    ShowStringCharacters -> False, ZeroWidthTimes -> True, StyleMenuListing -> 
+    None, FontFamily -> "Times", FontWeight -> Plain, 
+    TagBoxOptions -> {SyntaxForm -> "symbol"}, 
+    TemplateBoxOptions -> {
+     DisplayFunction -> (RowBox[{#}]& ), SyntaxForm -> "symbol"}]}, Visible -> 
+  False, FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
+  StyleDefinitions -> "Default.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 163, 3, 129, "Title",ExpressionUUID->"46f6054d-de5a-4ab6-a6ec-2929e1927f7e"],
+Cell[CellGroupData[{
+Cell[768, 29, 202, 4, 58, "Text",ExpressionUUID->"6bfff38c-a572-440d-a93c-e8db99d3ed72",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[973, 35, 854, 22, 274, "Input",ExpressionUUID->"252dcb2d-61f8-4f65-b4e0-14cef6010747",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[1830, 59, 511, 14, 67, "Input",ExpressionUUID->"3fbe2f6b-bc69-4f8d-8012-96914cf33156",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[2344, 75, 2639, 64, 536, "Input",ExpressionUUID->"5e623d39-21f3-4145-b16b-807e6dbd4c00",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
+}, Open  ]],
+Cell[4998, 142, 1426, 48, 283, "Text",ExpressionUUID->"2775962a-7eab-4a2f-9463-9ee1a0f390a6"],
+Cell[6427, 192, 14338, 371, 746, "Input",ExpressionUUID->"06b046e0-4064-4164-9724-4821b7b41253"],
+Cell[20768, 565, 1339, 36, 184, "Input",ExpressionUUID->"99125f90-cf86-4dc4-8fa7-751c2a9cf474"],
+Cell[22110, 603, 2990, 76, 189, "Input",ExpressionUUID->"be5030a6-f2b2-453a-85d6-3269cad8d0b6"],
+Cell[25103, 681, 4647, 124, 446, "Input",ExpressionUUID->"1319a9b2-614e-4ebf-9c65-9601c6ad315d"],
+Cell[29753, 807, 1299, 36, 102, "Input",ExpressionUUID->"6347902f-36d0-4802-9150-f29f8d8bf9b3"],
+Cell[31055, 845, 169, 4, 54, "Input",ExpressionUUID->"be8e509e-efcb-47a8-9d52-f16b45faab2f"],
+Cell[31227, 851, 1965, 51, 236, "Input",ExpressionUUID->"53c57faa-7361-4aa9-8602-e3020cebd8b4"],
+Cell[33195, 904, 218, 5, 54, "Input",ExpressionUUID->"8175582d-05b8-403d-930e-2fad441a10f2"],
+Cell[33416, 911, 169, 4, 54, "Input",ExpressionUUID->"d844674e-9174-4fa5-8373-888a3156b615"],
+Cell[33588, 917, 4039, 113, 571, "Input",ExpressionUUID->"95d78800-c73d-4019-9ece-36e42112ea01"],
+Cell[37630, 1032, 386, 9, 98, "Input",ExpressionUUID->"488630b2-a50c-4016-9778-ad862b80de56"],
+Cell[38019, 1043, 210, 4, 122, "Text",ExpressionUUID->"ddd6a263-1c42-4c9a-858f-dfc9af5176b8"]
+}, Open  ]]
+}
+]
+*)
+
